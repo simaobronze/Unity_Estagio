@@ -15,6 +15,10 @@ public class NinjaController : MonoBehaviour
     private Rigidbody _rigidbody;
     private bool _jumpTriggered;
     private bool _isGrounded;
+    private float Health, MaxHealth = 100f;
+
+    [SerializeField]
+    private HealthBar _healthBar;
 
     private void Awake()
     {
@@ -22,6 +26,10 @@ public class NinjaController : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
 
         _inputController.OnJumpButtonPressed += JumpButtonPressed;
+
+        _healthBar.SetMaxHealth(MaxHealth);
+        _healthBar.SetHealth(MaxHealth);
+
     }
 
     private void FixedUpdate()
@@ -51,6 +59,16 @@ public class NinjaController : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
         }
+
+        if (Input.GetKeyDown("p"))
+        {
+            TakeDamage(10f);
+        }
+
+        if (Input.GetKeyDown("l"))
+        {
+            TakeDamage(-10f);
+        }
     }
 
     private void JumpButtonPressed()
@@ -61,5 +79,13 @@ public class NinjaController : MonoBehaviour
     private void CheckGroundedStatus()
     {
         _isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f, _groundLayer);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Health -= damage;
+        Health = Mathf.Clamp(Health, 0, MaxHealth);
+
+        _healthBar.SetHealth(Health);
     }
 }

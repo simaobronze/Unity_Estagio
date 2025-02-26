@@ -27,15 +27,12 @@ Faz com que, ao colidir, o objeto seja destruído (usando Destroy(gameObject)). 
 Dia 3 – Implementação da UI: Contador de Pontos e Barra de Vida
 Contador de Pontos:
 
-Cria um Canvas e adiciona um elemento de texto (preferencialmente usando TextMeshPro).
-Desenvolve um script que incremente a pontuação cada vez que o player recolhe um objeto, atualizando o texto na UI.
+Cria um Canvas e adiciona um elemento de texto (preferencialmente usando TextMeshPro). ✓
+Desenvolve um script que incremente a pontuação cada vez que o player recolhe um objeto, atualizando o texto na UI. ✓
 Barra de Vida:
 
 Adiciona um UI Slider ou imagem que represente a saúde do player.
-Integra o sistema de vida no player, de forma que colisões com objetos perigosos (a serem criados no dia seguinte) diminuam o valor da barra.
-
-
-
+Integra o sistema de vida no player, de forma que colisões com objetos perigosos (a serem criados no dia seguinte) diminuam o valor da barra. ✓
 
 
 Dia 4 – Objetos Perigosos, Movimento e Sistema de Dano
