@@ -20,10 +20,13 @@ public class NinjaController : MonoBehaviour
     [SerializeField]
     private HealthBar _healthBar;
 
+    private Animator _animator;
+
     private void Awake()
     {
         _inputController = GetComponent<NinjaInputController>();
         _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
 
         _inputController.OnJumpButtonPressed += JumpButtonPressed;
 
@@ -59,6 +62,10 @@ public class NinjaController : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
         }
+
+        _animator.SetFloat("Speed", moveDirection.magnitude);
+        _animator.SetBool("IsGrounded", _isGrounded);
+        _animator.SetFloat("VerticalSpeed", _rigidbody.linearVelocity.y);
 
         if (Input.GetKeyDown("p"))
         {
