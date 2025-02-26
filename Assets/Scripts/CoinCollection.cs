@@ -1,16 +1,20 @@
+using TMPro;
 using UnityEngine;
 
 public class CoinCollection : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private int Coin = 0;
 
-    // Update is called once per frame
-    void Update()
+    public TextMeshProUGUI coinText;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.transform.tag == "Coin")
+        {
+            Coin++;
+            coinText.text = "Coins Collected: " + Coin.ToString();
+            Debug.Log("Coin collected: " + Coin);
+            Destroy(other.gameObject);
+        }
     }
 }

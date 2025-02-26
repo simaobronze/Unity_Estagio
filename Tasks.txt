@@ -15,12 +15,12 @@ Dica importante: Certifica-te de verificar se o player está no chão antes de p
 Dia 2 – Spawn e Colisões com Objetos Coletáveis
 Objetos Coletáveis (Ex.: Moedas):
 
-Cria um prefab para a moeda (ou objeto similar) com um Collider marcado como "Trigger".
+Cria um prefab para a moeda (ou objeto similar) com um Collider marcado como "Trigger". ✓
 Desenvolve um script para dar spawn destes objetos em coordenadas aleatórias, utilizando o método Instantiate().
 Colisões:
 
-Implementa um método (como OnTriggerEnter2D/3D) no script do player ou na moeda para detectar a colisão.
-Faz com que, ao colidir, o objeto seja destruído (usando Destroy(gameObject)).
+Implementa um método (como OnTriggerEnter2D/3D) no script do player ou na moeda para detectar a colisão. ✓
+Faz com que, ao colidir, o objeto seja destruído (usando Destroy(gameObject)). ✓
 
 
 
