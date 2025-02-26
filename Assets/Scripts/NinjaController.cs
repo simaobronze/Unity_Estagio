@@ -28,13 +28,13 @@ public class NinjaController : MonoBehaviour
     {
         CheckGroundedStatus();
 
-        Vector3 velocity = new Vector3(
+        Vector3 moveDirection = new Vector3(
             _inputController.MoveInputVector.x,
             0,
             _inputController.MoveInputVector.y
-            ) 
-            *_speed;
+        );
 
+        Vector3 velocity = moveDirection * _speed;
         velocity.y = _rigidbody.linearVelocity.y;
 
         if (_jumpTriggered && _isGrounded)
@@ -44,6 +44,13 @@ public class NinjaController : MonoBehaviour
         }
 
         _rigidbody.linearVelocity = velocity;
+
+        // Rotaciona o personagem na dire��o do movimento
+        if (moveDirection != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
+        }
     }
 
     private void JumpButtonPressed()
@@ -54,6 +61,5 @@ public class NinjaController : MonoBehaviour
     private void CheckGroundedStatus()
     {
         _isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f, _groundLayer);
-
     }
 }

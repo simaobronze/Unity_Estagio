@@ -12,7 +12,7 @@ Dica importante: Certifica-te de verificar se o player está no chão antes de p
 
 
 
-Dia 2 – Spawn e Colisões com Objetos Coletáveis
+Dia 2 – Spawn e Colisões com Objetos Coletáveis ✓
 Objetos Coletáveis (Ex.: Moedas):
 
 Cria um prefab para a moeda (ou objeto similar) com um Collider marcado como "Trigger". ✓
