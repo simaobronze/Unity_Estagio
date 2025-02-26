@@ -6,7 +6,7 @@ Organiza as pastas (Scripts, Prefabs, UI, etc.) para manter o projeto limpo. ✓
 Player:
 
 Adiciona o objeto do player com um componente Rigidbody (2D/3D) e um Collider. ✓
-Desenvolve um script para implementar o movimento (horizontal e vertical) e o salto. 
+Desenvolve um script para implementar o movimento (horizontal e vertical) e o salto.  ✓
 Dica importante: Certifica-te de verificar se o player está no chão antes de permitir o salto, para evitar saltos múltiplos.
 
 
