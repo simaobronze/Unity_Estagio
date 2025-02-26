@@ -1,0 +1,67 @@
+Dia 1 – Configuração Inicial e Controlo do Personagem
+Projeto e Cena:
+
+Cria um novo projeto no Unity (2D ou 3D, conforme o estilo pretendido).  ✓
+Organiza as pastas (Scripts, Prefabs, UI, etc.) para manter o projeto limpo. ✓
+Player:
+
+Adiciona o objeto do player com um componente Rigidbody (2D/3D) e um Collider.
+Desenvolve um script para implementar o movimento (horizontal e vertical) e o salto.
+Dica importante: Certifica-te de verificar se o player está no chão antes de permitir o salto, para evitar saltos múltiplos.
+
+
+
+
+Dia 2 – Spawn e Colisões com Objetos Coletáveis
+Objetos Coletáveis (Ex.: Moedas):
+
+Cria um prefab para a moeda (ou objeto similar) com um Collider marcado como "Trigger".
+Desenvolve um script para dar spawn destes objetos em coordenadas aleatórias, utilizando o método Instantiate().
+Colisões:
+
+Implementa um método (como OnTriggerEnter2D/3D) no script do player ou na moeda para detectar a colisão.
+Faz com que, ao colidir, o objeto seja destruído (usando Destroy(gameObject)).
+
+
+
+Dia 3 – Implementação da UI: Contador de Pontos e Barra de Vida
+Contador de Pontos:
+
+Cria um Canvas e adiciona um elemento de texto (preferencialmente usando TextMeshPro).
+Desenvolve um script que incremente a pontuação cada vez que o player recolhe um objeto, atualizando o texto na UI.
+Barra de Vida:
+
+Adiciona um UI Slider ou imagem que represente a saúde do player.
+Integra o sistema de vida no player, de forma que colisões com objetos perigosos (a serem criados no dia seguinte) diminuam o valor da barra.
+
+
+
+
+
+Dia 4 – Objetos Perigosos, Movimento e Sistema de Dano
+Objetos Perigosos:
+
+Cria um prefab para os inimigos ou obstáculos que se movem.
+Desenvolve um script para que estes objetos se movimentem pelo cenário (p.ex.: movimento simples com transform.position += direção * velocidade * Time.deltaTime).
+Sistema de Dano:
+
+Configura colisões entre o player e esses objetos perigosos para que, ao colidir, o player perca pontos de vida.
+Dica importante: Define claramente o valor do dano e integra a redução de vida no script da barra de vida.
+Respawn dos Objetos Coletáveis:
+
+Ajusta o script de spawn para que os objetos coletáveis (moedas) sejam re-gerados em posições aleatórias após serem recolhidos.
+
+
+
+Dia 5 – Menu Inicial, Reinício do Jogo e Polimentos Finais
+Menu Inicial:
+
+Cria uma nova cena para o menu com botões “Start” e “Exit”.
+Nos botões, implementa a transição para a cena do jogo (SceneManager.LoadScene("GameScene")) e a função para fechar a aplicação (Application.Quit()).
+Reinício do Jogo:
+
+No script do player, verifica se a vida chega a 0. Se sim, reinicia a cena (por exemplo, usando SceneManager.LoadScene(SceneManager.GetActiveScene().name)).
+Testes e Ajustes:
+
+Realiza testes para identificar e corrigir bugs.
+Ajusta os parâmetros (velocidade do player, taxa de spawn, dificuldade dos inimigos) para um equilíbrio adequado do jogo.
