@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NinjaController : MonoBehaviour
 {
@@ -69,15 +70,10 @@ public class NinjaController : MonoBehaviour
         _animator.SetBool("IsGrounded", _isGrounded);
         _animator.SetFloat("VerticalSpeed", _rigidbody.linearVelocity.y);
 
-        /*if (Input.GetKeyDown("p"))
+        if (Health <= 0)
         {
-            TakeDamage(10f);
+            SceneManager.LoadSceneAsync("Main Game");
         }
-
-        if (Input.GetKeyDown("l"))
-        {
-            TakeDamage(-10f);
-        } */
     }
 
     private void JumpButtonPressed()

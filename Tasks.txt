@@ -42,10 +42,10 @@ Ajusta o script de spawn para que os objetos coletáveis (moedas) sejam re-gerad
 
 Dia 5 – Menu Inicial, Reinício do Jogo e Polimentos Finais
 
-Cria uma nova cena para o menu com botões “Start” e “Exit”.
-Nos botões, implementa a transição para a cena do jogo (SceneManager.LoadScene("GameScene")) e a função para fechar a aplicação (Application.Quit()).
+Cria uma nova cena para o menu com botões “Start” e “Exit”. ✓
+Nos botões, implementa a transição para a cena do jogo (SceneManager.LoadScene("GameScene")) e a função para fechar a aplicação (Application.Quit()). ✓
 
-No script do player, verifica se a vida chega a 0. Se sim, reinicia a cena (por exemplo, usando SceneManager.LoadScene(SceneManager.GetActiveScene().name)).
+No script do player, verifica se a vida chega a 0. Se sim, reinicia a cena ✓
 Testes e Ajustes:
 
 Realiza testes para identificar e corrigir bugs.
