@@ -30,8 +30,10 @@ public class NinjaController : MonoBehaviour
 
         _inputController.OnJumpButtonPressed += JumpButtonPressed;
 
+        Health = MaxHealth;
+
         _healthBar.SetMaxHealth(MaxHealth);
-        _healthBar.SetHealth(MaxHealth);
+        _healthBar.SetHealth(Health);
 
     }
 
@@ -67,7 +69,7 @@ public class NinjaController : MonoBehaviour
         _animator.SetBool("IsGrounded", _isGrounded);
         _animator.SetFloat("VerticalSpeed", _rigidbody.linearVelocity.y);
 
-        if (Input.GetKeyDown("p"))
+        /*if (Input.GetKeyDown("p"))
         {
             TakeDamage(10f);
         }
@@ -75,7 +77,7 @@ public class NinjaController : MonoBehaviour
         if (Input.GetKeyDown("l"))
         {
             TakeDamage(-10f);
-        }
+        } */
     }
 
     private void JumpButtonPressed()
@@ -94,5 +96,13 @@ public class NinjaController : MonoBehaviour
         Health = Mathf.Clamp(Health, 0, MaxHealth);
 
         _healthBar.SetHealth(Health);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Luchador"))
+        {
+            TakeDamage(10f);
+        }
     }
 }
