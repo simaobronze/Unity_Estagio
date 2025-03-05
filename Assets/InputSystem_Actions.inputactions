@@ -177,7 +177,7 @@
                 {
                     "name": "",
                     "id": "718ee02d-9ba8-4915-b0f5-a12691fc68fb",
-                    "path": "<Keyboard>/enter",
+                    "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",

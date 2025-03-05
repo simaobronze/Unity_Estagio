@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -5,28 +7,29 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public static PauseMenu instance;
 
-    [SerializeField]
-    GameObject _pauseMenu;
+    public bool MenuOpenCloseInput { get; private set; }
 
-    private void Start()
+    private PlayerInput _playerInput;
+
+    private InputAction _pauseAction;
+
+    private void Awake()
     {
-        _pauseMenu.SetActive(false);
+        if (instance == null)
+        {
+            instance = this;
+        }
+
+        _playerInput = GetComponent<PlayerInput>();
+        _pauseAction = _playerInput.actions["Pause"];
     }
 
-    public void Resume()
+    private void Update()
     {
-        _pauseMenu.SetActive(false);
+        MenuOpenCloseInput = _pauseAction.WasPressedThisFrame();
     }
 
-    public void Home()
-    {
-        SceneManager.LoadScene("Menu");
-    }
 
-    public void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        _pauseMenu.SetActive(false);
-    }
 }
