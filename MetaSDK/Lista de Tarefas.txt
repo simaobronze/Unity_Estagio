@@ -1,0 +1,92 @@
+Dia 1: Configuração do Ambiente e Setup Inicial
+Instalação e Configuração:
+
+Instale a versão recomendada do Unity para projetos VR (sugestão: Unity 2021 LTS ou superior).
+Baixe e importe o Meta SDK (ou Oculus Integration, conforme a plataforma Meta) através do Package Manager ou importando o pacote .unitypackage.
+Certifique-se de que todas as dependências estão atualizadas e compatíveis.
+Configuração do Projeto para VR:
+
+Acesse Edit > Project Settings > XR Plugin Management e habilite o plugin correspondente (ex.: Oculus XR Plugin).
+Ajuste as configurações de Player Settings para otimizar a performance em VR.
+Criação da Cena Inicial:
+
+Crie uma nova cena e configure a hierarquia básica com um Environment simples para testes.
+Importe ou crie os prefabs iniciais do player e do sistema de interação que acompanham o Meta SDK.
+Dicas:
+
+Consulte a documentação oficial do Meta SDK para verificar requisitos e configurações específicas.
+Verifique se o headset está devidamente conectado e reconhecido pelo Unity para testes de preview.
+Dia 2: Desenvolvimento do Player e Sistema de Movimento
+Criação do Player:
+
+Utilize os prefabs do Meta SDK (ou do Oculus Integration) para criar o player ou Camera Rig.
+Garanta que a câmera e os controladores estejam configurados corretamente para VR.
+Implementação do Movimento:
+
+Implemente um script de movimentação (locomotion) que permita ao usuário se mover dentro do ambiente.
+Configure os inputs do controle (joystick ou touchpad) para permitir deslocamento e rotação.
+Testes Iniciais:
+
+Rode a cena e teste a movimentação utilizando o headset ou o emulador do Unity.
+Verifique se há atrasos ou problemas de tracking.
+Dicas:
+
+Consulte exemplos e tutoriais específicos sobre locomotion em VR; muitos frameworks do Meta SDK já possuem métodos prontos.
+Mantenha a experiência confortável, evitando movimentos que possam causar enjoo.
+Dia 3: Implementação do Objeto Interativo com as Mãos
+Criação do Objeto Interativo:
+
+Adicione um objeto 3D simples (por exemplo, um cubo ou esfera) na cena.
+Configure o objeto com colliders e, se necessário, um Rigidbody para interação física.
+Configuração da Interação:
+
+Utilize os scripts e componentes do Meta SDK para permitir a interação com as mãos (hand tracking ou via controladores).
+Implemente funções para detectar “grabbing” (pegar, soltar) e possíveis interações (arrastar, girar).
+Testes de Interação:
+
+Valide a interação com as mãos, garantindo que o objeto responde conforme o esperado.
+Ajuste a escala e a sensibilidade dos colliders, se necessário.
+Dicas:
+
+Verifique se a escala do objeto está em proporção com o ambiente VR.
+Utilize debug logs para rastrear eventos de interação e facilitar a resolução de possíveis problemas.
+Dia 4: Criação do Canvas com Ray Interactables e Botões de Cores
+Configuração do Canvas:
+
+Crie um Canvas configurado em World Space para facilitar a interação em VR.
+Ajuste a posição, rotação e escala do Canvas para que seja facilmente alcançável e visível no ambiente.
+Implementação dos Botões:
+
+Adicione vários botões no Canvas, cada um com uma cor diferente.
+Para cada botão, configure um Event Trigger ou utilize os componentes de ray interactable do Meta SDK para detectar interações via raycasting.
+Programação da Lógica de Cores:
+
+Crie um script que, ao clicar em um botão, altere a cor de um objeto específico na cena.
+Utilize o sistema de eventos do Unity para associar cada botão a uma função de mudança de cor.
+Testes e Ajustes:
+
+Execute a cena e valide se o raycasting está funcionando corretamente com o Canvas.
+Teste cada botão e confirme que a cor do objeto muda conforme o esperado.
+Dicas:
+
+Verifique a configuração do EventSystem e certifique-se de que não há conflitos com outros sistemas de input.
+Considere utilizar feedback visual (ex.: highlights) e sonoro para confirmar a interação do usuário.
+Dia 5: Integração Final, Testes e Polimento
+Integração de Componentes:
+
+Una todos os elementos criados: player, objeto interativo e Canvas com botões.
+Garanta que as interações não se sobreponham e que o fluxo entre elas seja intuitivo.
+Testes Abrangentes:
+
+Realize testes extensivos com o headset para identificar possíveis bugs, problemas de performance ou inconsistências nas interações.
+Verifique a estabilidade do movimento, tracking das mãos e resposta dos botões.
+Aprimoramento e Polimento:
+
+Adicione feedback visual e sonoro para interações (ex.: mudança de brilho, efeitos de som ao clicar).
+Otimize os scripts e ajuste configurações de qualidade para garantir uma experiência suave em VR.
+Revise a documentação e anote pontos de melhoria para futuras versões.
+Dicas:
+
+Realize backups regulares do projeto para evitar perda de progresso.
+Consulte fóruns, a documentação do Meta SDK e comunidades de VR para solucionar dúvidas e melhorar a aplicação.
+Reserve um tempo para testar a experiência do usuário e ajustar a interface conforme necessário.
