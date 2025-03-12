@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1017812009, guid: 1c1a21e1309d25de02b27da979cbb376, type: 3}
+  m_Name: MAGES Bundle
+  m_EditorClassIdentifier: 
+  sceneGraphData: {fileID: 11400000, guid: 3d72c4f7ffc5e2d47a1b8b7b7c21c6a3, type: 2}
+  userAuthenticationModule: {fileID: 11400000, guid: 74fa22b895608324c9dd83629db6c8a9, type: 2}
+  dataContainerModule: {fileID: 11400000, guid: 85ac572620ebd8647bbeedb360a89178, type: 2}
+  interactionSystemModule: {fileID: 11400000, guid: 1d8047257abfa3f46b38838fdc68cb95, type: 2}
+  networkingModule: {fileID: 11400000, guid: e818f88801f3f424ebc9c1e5c9b99a28, type: 2}
+  analyticsModule: {fileID: 11400000, guid: df2faab6d75f1764692478a19679a2ea, type: 2}
+  deviceManagerModule: {fileID: 11400000, guid: 7c0e1cc99fd10554a8f3e339727ae3cf, type: 2}
+  sceneGraphModule: {fileID: 11400000, guid: a9ca08bdca5b2314982a3fadccc98b1b, type: 2}
+  extraModules:
+  - {fileID: 11400000, guid: f61c6bbccb0fb0a4c8f0a4f15849fca3, type: 2}
+  theme: {fileID: 11400000, guid: 42e9d7758ef86894e8ee0d333dc5f7d9, type: 2}

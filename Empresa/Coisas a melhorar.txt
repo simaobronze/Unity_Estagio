@@ -1,0 +1,11 @@
+Coisas a melhorar: 
+
+
+✅Transição para a mais recente versão do Unity 
+
+Substituir todos os pacotes que estão deprecated
+
+✅Update dos packages que estão desatualizados
+
+Correção dos erros de safe-zone (Falta um ficheiro DissectedGameObject, investigar sobre o que é) 
+
