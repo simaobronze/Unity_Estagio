@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a6d534c15775f4c815522d2b995216, type: 3}
+  m_Name: NeuroAgent
+  m_EditorClassIdentifier: 
+  agentID: '41f70aa3-3397-4297-88f6-8ec1526228a8 '
+  embodimentCharacterPrefab: {fileID: 0}
+  embodimentCharacterScene: Embodiment Pharmacist
+  sceneCharacter: 1
+  interactionComponent: {fileID: 386611320603512278, guid: 6d9aef72570a0754c86ee69e9b3e88e0,
+    type: 3}
+  agentOutputComponet: {fileID: 9004627945310949098, guid: 8020e62fd55e5e546809f3b2cc669591,
+    type: 3}
+  textspeechHandlerRegion: 
+  textHandlerKey: 
+  speechHandlerKey: 
+  voiceID: 
+  customEndpoint: 
+  languadeID: 

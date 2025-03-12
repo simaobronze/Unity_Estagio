@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 970764676, guid: 207089db17bfa0d183618047d0b13300, type: 3}
+  m_Name: OperationObjectives
+  m_EditorClassIdentifier: 
+  <ActionsScore>k__BackingField: NaN
+  <AllObjects>k__BackingField:
+    serializedData:
+    - Key: Electrode Collision Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+ErrorCollider,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.ErrorColliderUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Electrode Collision Objective
+        <Label>k__BackingField: Collision
+        <Info>k__BackingField: Do not let the electrode fall on the floor during
+          its insertion step
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Operation Small Time Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+TimeLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.TimeLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Operation Small Time Limit Objective
+        <Label>k__BackingField: Time limit
+        <Info>k__BackingField: Complete the entire operation in under 1 minute
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Operation Large Time Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+TimeLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.TimeLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Operation Large Time Limit Objective
+        <Label>k__BackingField: Time limit
+        <Info>k__BackingField: Complete the entire operation in under 2 minutes
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Operation Score Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+ScoreLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.ScoreLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 2
+        <Name>k__BackingField: Operation Score Limit Objective
+        <Label>k__BackingField: Score limit
+        <Info>k__BackingField: Score more than 80% in the entire operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Bipolar Rotation Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+RotationRestriction,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.RotationRestrictionUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Bipolar Rotation Objective
+        <Label>k__BackingField: Rotation limit
+        <Info>k__BackingField: Do not rotate the bipolar during the operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Scalpel Range Of Motion Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+RangeOfMotionLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.RangeOfMotionLimitUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Scalpel Range Of Motion Objective
+        <Label>k__BackingField: Range of motion limit
+        <Info>k__BackingField: Do not move the scalpel more than 5 meters away from
+          its original position
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+    - Key: Monopolar Interaction Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+InteractionRestriction,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.InteractionRestrictionUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Monopolar Interaction Objective
+        <Label>k__BackingField: Interaction
+        <Info>k__BackingField: Do not interact with the monopolar using your left
+          hand during the operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+  <TimeLimitObjects>k__BackingField:
+    serializedData:
+    - Key: Operation Small Time Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+TimeLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.TimeLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Operation Small Time Limit Objective
+        <Label>k__BackingField: Time limit
+        <Info>k__BackingField: Complete the entire operation in under 1 minute
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <Time>k__BackingField: 60
+        <Action>k__BackingField: Entire Operation
+        <Bound>k__BackingField: Upper bound
+    - Key: Operation Large Time Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+TimeLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.TimeLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Operation Large Time Limit Objective
+        <Label>k__BackingField: Time limit
+        <Info>k__BackingField: Complete the entire operation in under 2 minutes
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <Time>k__BackingField: 120
+        <Action>k__BackingField: Entire Operation
+        <Bound>k__BackingField: Upper bound
+  <ScoreLimitObjects>k__BackingField:
+    serializedData:
+    - Key: Operation Score Limit Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+ScoreLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.ScoreLimitUI, MAGES.Analytics.Editor,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 2
+        <Name>k__BackingField: Operation Score Limit Objective
+        <Label>k__BackingField: Score limit
+        <Info>k__BackingField: Score more than 80% in the entire operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <Score>k__BackingField: 80
+        <Action>k__BackingField: Entire Operation
+  <ErrorColliderObjects>k__BackingField:
+    serializedData:
+    - Key: Electrode Collision Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+ErrorCollider,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.ErrorColliderUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Electrode Collision Objective
+        <Label>k__BackingField: Collision
+        <Info>k__BackingField: Do not let the electrode fall on the floor during
+          its insertion step
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <CollisionType>k__BackingField: Enter
+        <Prefab>k__BackingField: {fileID: 1558369533434093067, guid: 93b7d3417dfa3714cb4ba02e191d4b54,
+          type: 3}
+        <Collider>k__BackingField: {fileID: 3894055870524528594, guid: 2e3ac003cbb9f624bbf6b8c9a7721402,
+          type: 3}
+        <Action>k__BackingField: Insert electrode
+  <InteractionRestrictionObjects>k__BackingField:
+    serializedData:
+    - Key: Monopolar Interaction Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+InteractionRestriction,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.InteractionRestrictionUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Monopolar Interaction Objective
+        <Label>k__BackingField: Interaction
+        <Info>k__BackingField: Do not interact with the monopolar using your left
+          hand during the operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <Interactable>k__BackingField: {fileID: 3120486536624300502, guid: e8e991cf6f525a5449b85243a93db29e,
+          type: 3}
+        <Interactor>k__BackingField: {fileID: 3286612160006147312, guid: 51a4baae548b0464baa0f1129277aded,
+          type: 3}
+        <Action>k__BackingField: Entire Operation
+  <RotationRestrictionObjects>k__BackingField:
+    serializedData:
+    - Key: Bipolar Rotation Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+RotationRestriction,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.RotationRestrictionUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Bipolar Rotation Objective
+        <Label>k__BackingField: Rotation limit
+        <Info>k__BackingField: Do not rotate the bipolar during the operation
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <TargetPrefab>k__BackingField: {fileID: 5119610509586384834, guid: be8cefe75aeda504483e2f1bde4d3836,
+          type: 3}
+        <MaxRotation>k__BackingField: {x: 0, y: 90, z: 0}
+        <Threshold>k__BackingField: 5
+        <Action>k__BackingField: Entire Operation
+  <RangeOfMotionLimitObjects>k__BackingField:
+    serializedData:
+    - Key: Scalpel Range Of Motion Objective
+      Value:
+        <Type>k__BackingField: 0
+        <InternalType>k__BackingField: MAGES.Analytics.AnalyticsTypes+RangeOfMotionLimit,
+          MAGES.Analytics.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <InternalTypeUI>k__BackingField: MAGES.Analytics.Editor.RangeOfMotionLimitUI,
+          MAGES.Analytics.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        <Category>k__BackingField: 3
+        <Name>k__BackingField: Scalpel Range Of Motion Objective
+        <Label>k__BackingField: Range of motion limit
+        <Info>k__BackingField: Do not move the scalpel more than 5 meters away from
+          its original position
+        <Penalty>k__BackingField: 0
+        <TypeOfError>k__BackingField: 
+        <TargetPrefab>k__BackingField: {fileID: 1745903936454484607, guid: 0847f0a2152a9be44bbf70c624e3f71a,
+          type: 3}
+        <MaxDistance>k__BackingField: 5
+        <Threshold>k__BackingField: 0.25
+        <Action>k__BackingField: Entire Operation
+  <ErrorAngleObjects>k__BackingField:
+    serializedData: []
+  <PerformedWrongActionObjects>k__BackingField:
+    serializedData: []
+  <DidNotPerformRequiredActionObjects>k__BackingField:
+    serializedData: []
+  <CustomTypeObjects>k__BackingField:
+    serializedData: []
+  <WrongAnswerObjects>k__BackingField:
+    serializedData: []

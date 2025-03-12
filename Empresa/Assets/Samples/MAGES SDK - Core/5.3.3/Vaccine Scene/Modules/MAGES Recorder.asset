@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1955324865, guid: 98eef02f1b23f352960d428c59969337, type: 3}
+  m_Name: MAGES Recorder
+  m_EditorClassIdentifier: 
+  frameSkip: 10
+  getRecordingsDataURL: https://login.oramavr.com/api/recordings/getrecordingsdata
+  putRecordingsDataURL: https://login.oramavr.com/api/recordings/putrecordingsdata
+  downloadRecordingURL: https://login.oramavr.com/api/recordings/downloadrecording
+  playerSelectionUIObject: {fileID: 3037877771287912141, guid: 4cd6f56b9d0ee74419f0a18c50343d16,
+    type: 3}
+  audioCodec: WAVE

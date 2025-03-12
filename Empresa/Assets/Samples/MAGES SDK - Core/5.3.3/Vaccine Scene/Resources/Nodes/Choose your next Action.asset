@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 821063887, guid: dca32fbd7bbe2c25afda7577ebc7ea20, type: 3}
+  m_Name: Choose your next Action
+  m_EditorClassIdentifier: 
+  actionName: Choose your next Action
+  advancedMode: 0
+  id: c801f298-c282-4a22-8936-a7d51ae8a7ad
+  nodePosition: {x: 311.2, y: 567.60004}
+  nextActions: []
+  prevActions:
+  - {fileID: 11400000, guid: be96869ef8961b34b980251ceb76deba, type: 2}
+  attachedScripts: []
+  steps:
+    beforeInitializeSteps: []
+    afterInitializeSteps: []
+    beforePerformSteps: []
+    afterPerformSteps: []
+    beforeUndoSteps: []
+    afterUndoSteps: []
+  effects:
+    effects: []
+  choiceActions:
+  - actions:
+    - {fileID: 11400000, guid: 0c1e35bb0dc5bbf49a0d977d269a4128, type: 2}
+  - actions:
+    - {fileID: 11400000, guid: 78e04307f4c3eaa4999cc665ba1bfb6b, type: 2}
+  decisionObject:
+    destroyOnPerform: 1
+    parentType: 0
+    parentPath: 
+    parentReference:
+      serializedGuid: 00000000000000000000000000000000
+      cachedName: 
+    parentPrefab: {fileID: 0}
+    actionGameObjectLabel: 
+    actionGameObjectTooltip: 
+    advancedMode: 0
+    actionObject: {fileID: 5029598878369790566, guid: 67ea4c8f7702408468661a1781998541,
+      type: 3}
+  references:
+    version: 2
+    RefIds: []

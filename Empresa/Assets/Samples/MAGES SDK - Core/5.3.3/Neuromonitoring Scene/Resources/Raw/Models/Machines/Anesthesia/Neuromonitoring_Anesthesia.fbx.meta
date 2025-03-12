@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 2c4c24379cb075b48924a4cf1bd75734
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anesthesia_Machine_Glass1
+    second: {fileID: 2100000, guid: 74425e49b587ae349ab46fcd6473b09d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anesthesia_Machine_Plastic_Black1
+    second: {fileID: 2100000, guid: 37145b7d1d6e56f4aa4d5c8408f0aa1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Anesthesia_Machine_Plastic_White1
+    second: {fileID: 2100000, guid: cd7f38036f9eafc459bf6b68683ec2a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackPlastic_wheels
+    second: {fileID: 2100000, guid: b33edea609142dd4a8083022d4dfd0f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display
+    second: {fileID: 2100000, guid: 94c3b3120f38b6246b4cfb56b3af3d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display1
+    second: {fileID: 2100000, guid: 147a3205426fd854c9dad5e549dcb27d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display_1
+    second: {fileID: 2100000, guid: 95aa1c2897dc4c240852be45471a30a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Display_2
+    second: {fileID: 2100000, guid: 1f5f6e609a6e05743980563b59c2173e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlowMeter
+    second: {fileID: 2100000, guid: 0fd96c88cd4af9f48b716d5850614b63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FlowMeter1
+    second: {fileID: 2100000, guid: 1f5f6e609a6e05743980563b59c2173e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 0bd8272c75712a54a933922acf300d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenPlastic
+    second: {fileID: 2100000, guid: aa12e900b0796134f9bc477620d62b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GreenPlastic1
+    second: {fileID: 2100000, guid: 49cad98bc3cdc0945b903b8fb2c53c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Manometer
+    second: {fileID: 2100000, guid: 49f466c33a844334f906684a02e9d76c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal1
+    second: {fileID: 2100000, guid: 2de214bcd2addee4d9a70c80464428f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe
+    second: {fileID: 2100000, guid: 0bd8272c75712a54a933922acf300d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe1
+    second: {fileID: 2100000, guid: fceeef385ba8fc645bac3c09c92bd509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticWhite
+    second: {fileID: 2100000, guid: 604ff6b83ea2c8649a30392cbd49f2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PowerLoss_Display
+    second: {fileID: 2100000, guid: 557136fd4b3cf4347b32cf70bb5d6f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer
+    second: {fileID: 2100000, guid: 7a821682aa2cec846b9438bca0eafbaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer1
+    second: {fileID: 2100000, guid: 113b8156ecfe37644941a402b779c47b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer_topBlue
+    second: {fileID: 2100000, guid: 94f3c22a2304a1d41bd3d63d05f08207, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer_topBlue1
+    second: {fileID: 2100000, guid: 0f52364c782a28a49bc09c6a24e7c6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer_topYellow
+    second: {fileID: 2100000, guid: 205d214fc7a4dc145ac8d0156c4a5ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vaporizer_topYellow1
+    second: {fileID: 2100000, guid: b84f2acbaed68c44196df77d8dffe102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhitePlastic
+    second: {fileID: 2100000, guid: d7cd42d27c03acc438798c9a62f0a6e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: manometre1
+    second: {fileID: 2100000, guid: ecd67d5360bd177458377569ad70df48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 2de214bcd2addee4d9a70c80464428f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface2
+    second: {fileID: 2100000, guid: 2de214bcd2addee4d9a70c80464428f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface3
+    second: {fileID: 2100000, guid: d60e5415c5ba11f449a634a0be27a37c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

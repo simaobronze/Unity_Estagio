@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fcc3be0eafd804db60c58e9387f6af, type: 3}
+  m_Name: MAGESEmbodimentJARIA
+  m_EditorClassIdentifier: 
+  subsUI: {fileID: 8998203555960311489, guid: d156902881002144a994ca66357e759b, type: 3}
+  agents:
+  - {fileID: 11400000, guid: 445c22ecf6529ec4b8d6de1221472101, type: 2}

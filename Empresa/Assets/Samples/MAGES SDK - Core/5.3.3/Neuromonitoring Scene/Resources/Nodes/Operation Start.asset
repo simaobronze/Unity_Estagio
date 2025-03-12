@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1743869373, guid: dca32fbd7bbe2c25afda7577ebc7ea20, type: 3}
+  m_Name: Operation Start
+  m_EditorClassIdentifier: 
+  actionName: Operation Start
+  advancedMode: 0
+  id: a31e3c34-77e1-4a7b-8848-16c38a87b831
+  nodePosition: {x: -196.65002, y: 10.349989}
+  nextActions:
+  - {fileID: 11400000, guid: 428d5753a6c190f48bfd93a7d80615da, type: 2}
+  prevActions: []
+  attachedScripts: []
+  steps:
+    beforeInitializeSteps: []
+    afterInitializeSteps:
+    - rid: 3430898025169158155
+    - rid: 3430898025169158156
+    - rid: 3430898025169158157
+    beforePerformSteps: []
+    afterPerformSteps:
+    - rid: 2080373913746931734
+    - rid: 2080373913746931735
+    - rid: 2080373913746931736
+    - rid: 2080373913746931737
+    - rid: 2080373913746931738
+    - rid: 2080373913746931739
+    - rid: 2080373913746931740
+    - rid: 2080373913746931741
+    beforeUndoSteps: []
+    afterUndoSteps: []
+  effects:
+    effects: []
+  isReplicated: 1
+  operationStartUI: {fileID: 4492104066286569169, guid: 2557b43d804fea24f8d54b92e3d6fb4e,
+    type: 3}
+  avatarCustomizationUI: {fileID: 4785021017601545401, guid: 38e178a7031c87449b1f13f0ba2a628f,
+    type: 3}
+  startObjects: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 2080373913746931734
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 3758902012534190580, guid: 1c55a6dc4dfb0d347a38fed103ea3456,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931735
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 5119610509586384834, guid: be8cefe75aeda504483e2f1bde4d3836,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931736
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 8478563564662122156, guid: 6411a072fafe3154e972d66a9ddb84e6,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931737
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 4290284821930743728, guid: a076bc9d56e640547be1635667d0bf13,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931738
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 7094279836168780611, guid: def8247e8eaab254483c076ad43a46e7,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931739
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 3120486536624300502, guid: e8e991cf6f525a5449b85243a93db29e,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931740
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 1745903936454484607, guid: 0847f0a2152a9be44bbf70c624e3f71a,
+            type: 3}
+        isUnique: 1
+    - rid: 2080373913746931741
+      type: {class: SpawnActionObjectStep, ns: MAGES.SceneGraph, asm: MAGES.SceneGraph.Runtime}
+      data:
+        description: Spawn Action Object
+        objectToSpawn:
+          destroyOnPerform: 0
+          isDestroyOnPerformAvailable: 1
+          parentType: 0
+          parentPath: 
+          parentReference:
+            serializedGuid: 00000000000000000000000000000000
+            cachedName: 
+          parentPrefab: {fileID: 0}
+          actionGameObjectLabel: 
+          actionGameObjectTooltip: 
+          advancedMode: 0
+          actionObject: {fileID: 2696498493535581949, guid: 1e0284041cb858c4a86b1e6681bf3f54,
+            type: 3}
+        isUnique: 1
+    - rid: 3430898025169158155
+      type: {class: MonitorController/SetMonitorControllerNextActionStep, ns: MAGES.NeuromonitoringScene,
+        asm: Assembly-CSharp}
+      data:
+        description: Set Monitor Controller Next Action
+        actionName: Operation Start
+    - rid: 3430898025169158156
+      type: {class: MonitorController/SetMonitorControllerToolsStep, ns: MAGES.NeuromonitoringScene,
+        asm: Assembly-CSharp}
+      data:
+        description: Set Monitor Controller Tools
+        toolsText: 
+    - rid: 3430898025169158157
+      type: {class: MonitorController/SetMonitorCompletionCountStep, ns: MAGES.NeuromonitoringScene,
+        asm: Assembly-CSharp}
+      data:
+        description: Set Monitor Completion Count
+        completed: 0
+        total: 8

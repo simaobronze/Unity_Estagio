@@ -7,5 +7,6 @@ Substituir todos os pacotes que estão deprecated
 
 ✅Update dos packages que estão desatualizados
 
-Correção dos erros de safe-zone (Falta um ficheiro DissectedGameObject, investigar sobre o que é) 
+✅Correção dos erros de safe-mone 
 
+Não se entende bem o que é suposto fazer

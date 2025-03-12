@@ -19,6 +19,7 @@
     "com.github.asus4.mqtt-unity": "https://github.com/asus4/mqtt-unity.git#upm",
     "com.meta.xr.sdk.all": "72.0.0",
     "com.meta.xr.sdk.interaction.ovr": "62.0.0",
+    "com.oramavr.fidal-ghost": "file:C:/Users/xbbro/Downloads/com.oramavr.fidal-ghost-1.0.0/package",
     "com.oramavr.mages.core": "5.3.3",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.6",

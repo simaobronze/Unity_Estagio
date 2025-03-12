@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dd1452c8004fb98b075c14ba801f81, type: 3}
+  m_Name: MAGESDeviceManager
+  m_EditorClassIdentifier: 
+  <DriverOverride>k__BackingField:
+    rid: -2
+  <OnDriverChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  <OnDriverEvent>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  currentMode: 2
+  camHeight: 1.5
+  mobileNavigationUI: {fileID: 0}
+  inputActions: {fileID: 11400000, guid: 15f6c88ad8a7f2945b94815d20dd470f, type: 2}
+  <XRLoaderOffsets>k__BackingField:
+  - Loader: OculusLoader
+    HeadOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+    LeftControllerOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+    RightControllerOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+  - Loader: OpenXRLoader
+    HeadOffset:
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+    LeftControllerOffset:
+      position: {x: 0, y: -0.04, z: 0.07}
+      rotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+    RightControllerOffset:
+      position: {x: 0, y: -0.04, z: 0.07}
+      rotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  <LeftHandOffset>k__BackingField:
+    position: {x: -0.17071865, y: 1.0766002, z: 0.24772687}
+    rotation: {x: 0.003608793, y: 0.09997085, z: -0.08530581, w: -0.99132025}
+  <RightHandOffset>k__BackingField:
+    position: {x: 0.17071865, y: 1.0766002, z: 0.24772687}
+    rotation: {x: 0.004012586, y: 0.053676717, z: -0.08042481, w: 0.9953063}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

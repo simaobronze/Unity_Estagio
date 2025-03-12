@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1244520665, guid: 82be76b84a6abcb3b15d046192f6d634, type: 3}
+  m_Name: ForcepsIdlePose
+  m_EditorClassIdentifier: 
+  fingerPoseMap:
+    serializedData:
+    - Key: 0
+      Value:
+        <FingerIndex>k__BackingField: 0
+        <BonePoses>k__BackingField:
+        - position: {x: -0.017744746, y: -0.000020121264, z: -2.1731046e-18}
+          rotation: {x: 0, y: -0, z: -0, w: 1}
+    - Key: 1
+      Value:
+        <FingerIndex>k__BackingField: 1
+        <BonePoses>k__BackingField:
+        - position: {x: -0.017735355, y: -0.00055738393, z: -2.1719546e-18}
+          rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+  <HandIndex>k__BackingField: 3
+  <LocalPose>k__BackingField:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}

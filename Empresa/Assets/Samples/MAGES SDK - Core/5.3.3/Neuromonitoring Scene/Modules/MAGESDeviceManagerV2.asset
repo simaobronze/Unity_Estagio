@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafa62b2eba69a74a937e5f527cc09c9, type: 3}
+  m_Name: MAGESDeviceManagerV2
+  m_EditorClassIdentifier: 
+  <DriverOverride>k__BackingField:
+    rid: -2
+  <OnDriverChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  <OnDriverEvent>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  currentMode: 2
+  camHeight: 1.5
+  mobileNavigationUI: {fileID: 0}
+  <Drivers>k__BackingField:
+  - rid: 3092008289569079296
+  - rid: 3092008289569079297
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3092008289569079296
+      type: {class: XRDriver, ns: MAGES.Drivers.XR, asm: MAGES.Drivers.XR.Runtime}
+      data:
+        <XRLoaderOffsets>k__BackingField:
+        - Loader: OculusLoader
+          HeadOffset:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+          LeftControllerOffset:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+          RightControllerOffset:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+        - Loader: OpenXRLoader
+          HeadOffset:
+            position: {x: 0, y: 0, z: 0}
+            rotation: {x: 0, y: 0, z: 0, w: 1}
+          LeftControllerOffset:
+            position: {x: 0, y: -0.04, z: 0.07}
+            rotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+          RightControllerOffset:
+            position: {x: 0, y: -0.04, z: 0.07}
+            rotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+    - rid: 3092008289569079297
+      type: {class: MobileDriver, ns: MAGES.Drivers.Mobile, asm: MAGES.Drivers.Mobile.Runtime}
+      data:
+        screenSticksUIPrefab: {fileID: 0}
+        <CameraRotationSpeed>k__BackingField: 100
+        <HeadHeight>k__BackingField: 1.75
+        <LeftHandOffset>k__BackingField:
+          position: {x: -0.17071865, y: 1.0766002, z: 0.24772687}
+          rotation: {x: 0.003608793, y: 0.09997085, z: -0.08530581, w: -0.99132025}
+        <RightHandOffset>k__BackingField:
+          position: {x: 0.17071865, y: 1.0766002, z: 0.24772687}
+          rotation: {x: 0.004012586, y: 0.053676717, z: -0.08042481, w: 0.9953063}
