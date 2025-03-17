@@ -29,6 +29,7 @@ MonoBehaviour:
     afterUndoSteps: []
   effects:
     effects: []
+  isReplicated: 1
   operationEndUI: {fileID: 4109372207747810125, guid: 83eb887314b6afa42ac27d8d3c079735, type: 3}
   gameObjects: []
   references:

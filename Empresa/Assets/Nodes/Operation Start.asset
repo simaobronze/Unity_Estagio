@@ -29,6 +29,7 @@ MonoBehaviour:
     afterUndoSteps: []
   effects:
     effects: []
+  isReplicated: 1
   operationStartUI: {fileID: 7536069314546168663, guid: a3f8676805defc146b499ac64903174d, type: 3}
   avatarCustomizationUI: {fileID: 0}
   startObjects: []
