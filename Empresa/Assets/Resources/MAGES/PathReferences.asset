@@ -444,6 +444,104 @@ MonoBehaviour:
       Value: Assets/Resources/Actions/New Action 1/New Action 1_FinalPosition.prefab
     - Key: {fileID: 782560471550383855, guid: 4d1868a0533010a4e86b380deea7263f, type: 3}
       Value: Assets/Resources/Actions/testeAction/testeAction_FinalPosition.prefab
+    - Key: {fileID: 919132149155446097, guid: b1bbfa0dc812c4d499097b7a27ebfc6f, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholBottle/Alcohol_Bottle.fbx
+    - Key: {fileID: 919132149155446097, guid: b79456b1fb1947f43bcb2c418d790e2a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholSpray/Alcohol_Spray.fbx
+    - Key: {fileID: 919132149155446097, guid: 04e6a83d04aa752468e30eb5ba96285e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball.fbx
+    - Key: {fileID: 919132149155446097, guid: 8361a23a08a53204e8ce95478d7251e5, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball_Grabbed.fbx
+    - Key: {fileID: 919132149155446097, guid: c2ae6c92be4bc054e9f596ba2ccc512a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/HolographicArea/TeleportMarker.fbx
+    - Key: {fileID: 6293979293209514197, guid: 970b33ad8600c4649be04b135c85fdcd, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/ORamaVR_Logo_Wall.prefab
+    - Key: {fileID: 4837517209671876475, guid: 5933741e7d5cb3c49a29e4af1e99771c, type: 3}
+      Value: "Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/\u039FRamaVR_Pictogram_Screen.prefab"
+    - Key: {fileID: 919132149155446097, guid: 910095a07e8a2884c90fa2fedf4a885d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/MedicineBottle/Medicine_Bottle.fbx
+    - Key: {fileID: 919132149155446097, guid: 55ae78829a5c95f439ff9b54ddf7bc0d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/Models/NXT_Patient_Vol2.fbx
+    - Key: {fileID: 899712481968497923, guid: 9f1ee2d918d77a446bca8063d2c44c05, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/NXT_Patient_Vol2.prefab
+    - Key: {fileID: 919132149155446097, guid: ab90dc131063c8b499ca5ab885b35462, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/PliersCotton/PliersCotton.fbx
+    - Key: {fileID: 919132149155446097, guid: 6f272ee06d8525a46b5af979f2e5f90a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/ReticleRotating/Recticle_rotating_01.FBX
+    - Key: {fileID: 919132149155446097, guid: 0a1c3b302c1ce4f4b99f291ee21e4114, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Room/NXT_Room.fbx
+    - Key: {fileID: 919132149155446097, guid: c5caf3921e332a8468ed999715c56e89, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Scalpel/Scalpel.FBX
+    - Key: {fileID: 919132149155446097, guid: a775d2b87d6bb614caf0cf40a8ac96ae, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/SkinBox/skin
+        box.fbx
+    - Key: {fileID: 919132149155446097, guid: a25a29f2773b3f445b45392566394677, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Syringe/Syringe.fbx
+    - Key: {fileID: 919132149155446097, guid: 9314361da54ca714494d3c5f5b4cbe02, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Tray/Tray.fbx
+    - Key: {fileID: 919132149155446097, guid: f06941910241fd447b7076ca2bcaea99, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/TV/TV_stand.fbx
+    - Key: {fileID: 1050945768559797074, guid: b2718303e696afb4a9b79fd28da2d2a8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+    - Key: {fileID: 4461789498622482572, guid: 214f32cebf2941a45be83ac5ea8160ef, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+    - Key: {fileID: 2663334325131598747, guid: 128bc55980bc2644a97fe5bc205ea02e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+    - Key: {fileID: 8151967033735030569, guid: b7c6043b6b1aa0d43ac7c3329ef5b890, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+    - Key: {fileID: 5029598878369790566, guid: 67ea4c8f7702408468661a1781998541, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+    - Key: {fileID: 2703683730839687794, guid: 50c425b866ac9f2449e7c24720181685, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+    - Key: {fileID: 2647042785146455674, guid: be56c30b28a6f9b4ab5118912d77f46e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+    - Key: {fileID: 1443599125608375782, guid: 0d1928f900b789c45a0cf275ea50444a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+    - Key: {fileID: 7288135389853464270, guid: 8ce959eeb23c9de4aa83a0789159fa88, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+    - Key: {fileID: 6811890992725081840, guid: 2d19969147df51a499fe3cd13ddb040b, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+    - Key: {fileID: 4675479889605947690, guid: f59dabde098374045b184073686ff8e6, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+    - Key: {fileID: 5334127861141958002, guid: 668f16e2d3bf3d143a296dbd56bc6b76, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+    - Key: {fileID: 8039857778618746083, guid: e1765c35a92cf464c9959d7ba1498552, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+    - Key: {fileID: 7833148477243739317, guid: 5f882da6271bad54784a066ead6e34e4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+    - Key: {fileID: 3765945099689444981, guid: 5d363e2a0bab66f4584722d7efd02201, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+    - Key: {fileID: 4177023108984992685, guid: ceac3ce2e2eb35745bfa7298cb49236a, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+    - Key: {fileID: 7585984475247021264, guid: 2a59910a6dfe4684eaff94009a5f4620, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+    - Key: {fileID: 8492081981966568934, guid: 80be6f865405a3c4ab211bd19c26cdd8, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+    - Key: {fileID: 6806514524355455648, guid: 212eb4c57a8af914c8c64d215ad64056, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+    - Key: {fileID: 3037877771287912141, guid: 4cd6f56b9d0ee74419f0a18c50343d16, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+    - Key: {fileID: 3690071554826833225, guid: d3da0a1c18b1aaa4996425660f6dc663, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+    - Key: {fileID: 1061030109764770952, guid: 6b78343f46d576e44ae174a3c020e61e, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+    - Key: {fileID: 3887150759044816649, guid: 5ff7919668ec3594b9bf11d50ad992b4, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+    - Key: {fileID: 4607341748483080585, guid: bd177487123c5e84bbb9c3df6e71421d, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+    - Key: {fileID: 8348530338071273550, guid: fcfc76b1b36f2c9449beb531b560a314, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+    - Key: {fileID: 8919781291093236745, guid: 80a4e740ebf83d848a3e11920a919a1c, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+    - Key: {fileID: 8782387715358882742, guid: 6f9e4579a9c818346ae420b92a5061cf, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+    - Key: {fileID: 4821283478671805728, guid: 435aa8ea7776f7d4fa1f9a9d9ab3f116, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+    - Key: {fileID: 4044804350837727676, guid: ccc56b4a32cb1a94196d31d41638fd36, type: 3}
+      Value: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
     - Key: {fileID: -927199367670048503, guid: 03f0313d06795894e85c89bfc12f42e9, type: 3}
       Value: Assets/ScifiOfficeLite/Meshes/Lights/Ceiling Lights Lo.FBX
     - Key: {fileID: -927199367670048503, guid: 3815c0f68c7c19f4c9f6edb1bc4f41f1, type: 3}
@@ -2378,6 +2476,104 @@ MonoBehaviour:
       Value: {fileID: 3411539283886030505, guid: 15e16899c9887134faf909a8a912332e, type: 3}
     - Key: Assets/Resources/Actions/testeAction/testeAction_FinalPosition.prefab
       Value: {fileID: 782560471550383855, guid: 4d1868a0533010a4e86b380deea7263f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholBottle/Alcohol_Bottle.fbx
+      Value: {fileID: 919132149155446097, guid: b1bbfa0dc812c4d499097b7a27ebfc6f, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholSpray/Alcohol_Spray.fbx
+      Value: {fileID: 919132149155446097, guid: b79456b1fb1947f43bcb2c418d790e2a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball.fbx
+      Value: {fileID: 919132149155446097, guid: 04e6a83d04aa752468e30eb5ba96285e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball_Grabbed.fbx
+      Value: {fileID: 919132149155446097, guid: 8361a23a08a53204e8ce95478d7251e5, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/HolographicArea/TeleportMarker.fbx
+      Value: {fileID: 919132149155446097, guid: c2ae6c92be4bc054e9f596ba2ccc512a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/ORamaVR_Logo_Wall.prefab
+      Value: {fileID: 6293979293209514197, guid: 970b33ad8600c4649be04b135c85fdcd, type: 3}
+    - Key: "Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/\u039FRamaVR_Pictogram_Screen.prefab"
+      Value: {fileID: 4837517209671876475, guid: 5933741e7d5cb3c49a29e4af1e99771c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/MedicineBottle/Medicine_Bottle.fbx
+      Value: {fileID: 919132149155446097, guid: 910095a07e8a2884c90fa2fedf4a885d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/Models/NXT_Patient_Vol2.fbx
+      Value: {fileID: 919132149155446097, guid: 55ae78829a5c95f439ff9b54ddf7bc0d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/NXT_Patient_Vol2.prefab
+      Value: {fileID: 899712481968497923, guid: 9f1ee2d918d77a446bca8063d2c44c05, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/PliersCotton/PliersCotton.fbx
+      Value: {fileID: 919132149155446097, guid: ab90dc131063c8b499ca5ab885b35462, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/ReticleRotating/Recticle_rotating_01.FBX
+      Value: {fileID: 919132149155446097, guid: 6f272ee06d8525a46b5af979f2e5f90a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Room/NXT_Room.fbx
+      Value: {fileID: 919132149155446097, guid: 0a1c3b302c1ce4f4b99f291ee21e4114, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Scalpel/Scalpel.FBX
+      Value: {fileID: 919132149155446097, guid: c5caf3921e332a8468ed999715c56e89, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/SkinBox/skin
+        box.fbx
+      Value: {fileID: 919132149155446097, guid: a775d2b87d6bb614caf0cf40a8ac96ae, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Syringe/Syringe.fbx
+      Value: {fileID: 919132149155446097, guid: a25a29f2773b3f445b45392566394677, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Tray/Tray.fbx
+      Value: {fileID: 919132149155446097, guid: 9314361da54ca714494d3c5f5b4cbe02, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/TV/TV_stand.fbx
+      Value: {fileID: 919132149155446097, guid: f06941910241fd447b7076ca2bcaea99, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: {fileID: 1050945768559797074, guid: b2718303e696afb4a9b79fd28da2d2a8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+      Value: {fileID: 4461789498622482572, guid: 214f32cebf2941a45be83ac5ea8160ef, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+      Value: {fileID: 2663334325131598747, guid: 128bc55980bc2644a97fe5bc205ea02e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+      Value: {fileID: 8151967033735030569, guid: b7c6043b6b1aa0d43ac7c3329ef5b890, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+      Value: {fileID: 5029598878369790566, guid: 67ea4c8f7702408468661a1781998541, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+      Value: {fileID: 2703683730839687794, guid: 50c425b866ac9f2449e7c24720181685, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+      Value: {fileID: 2647042785146455674, guid: be56c30b28a6f9b4ab5118912d77f46e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+      Value: {fileID: 1443599125608375782, guid: 0d1928f900b789c45a0cf275ea50444a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+      Value: {fileID: 7288135389853464270, guid: 8ce959eeb23c9de4aa83a0789159fa88, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+      Value: {fileID: 6811890992725081840, guid: 2d19969147df51a499fe3cd13ddb040b, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+      Value: {fileID: 4675479889605947690, guid: f59dabde098374045b184073686ff8e6, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+      Value: {fileID: 5334127861141958002, guid: 668f16e2d3bf3d143a296dbd56bc6b76, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+      Value: {fileID: 8039857778618746083, guid: e1765c35a92cf464c9959d7ba1498552, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+      Value: {fileID: 7833148477243739317, guid: 5f882da6271bad54784a066ead6e34e4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+      Value: {fileID: 3765945099689444981, guid: 5d363e2a0bab66f4584722d7efd02201, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+      Value: {fileID: 4177023108984992685, guid: ceac3ce2e2eb35745bfa7298cb49236a, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+      Value: {fileID: 7585984475247021264, guid: 2a59910a6dfe4684eaff94009a5f4620, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+      Value: {fileID: 8492081981966568934, guid: 80be6f865405a3c4ab211bd19c26cdd8, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+      Value: {fileID: 6806514524355455648, guid: 212eb4c57a8af914c8c64d215ad64056, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+      Value: {fileID: 3037877771287912141, guid: 4cd6f56b9d0ee74419f0a18c50343d16, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+      Value: {fileID: 3690071554826833225, guid: d3da0a1c18b1aaa4996425660f6dc663, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+      Value: {fileID: 1061030109764770952, guid: 6b78343f46d576e44ae174a3c020e61e, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+      Value: {fileID: 3887150759044816649, guid: 5ff7919668ec3594b9bf11d50ad992b4, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+      Value: {fileID: 4607341748483080585, guid: bd177487123c5e84bbb9c3df6e71421d, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+      Value: {fileID: 8348530338071273550, guid: fcfc76b1b36f2c9449beb531b560a314, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+      Value: {fileID: 8919781291093236745, guid: 80a4e740ebf83d848a3e11920a919a1c, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+      Value: {fileID: 8782387715358882742, guid: 6f9e4579a9c818346ae420b92a5061cf, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+      Value: {fileID: 4821283478671805728, guid: 435aa8ea7776f7d4fa1f9a9d9ab3f116, type: 3}
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
+      Value: {fileID: 4044804350837727676, guid: ccc56b4a32cb1a94196d31d41638fd36, type: 3}
     - Key: Assets/ScifiOfficeLite/Meshes/Lights/Ceiling Lights Lo.FBX
       Value: {fileID: -927199367670048503, guid: 03f0313d06795894e85c89bfc12f42e9, type: 3}
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 5.FBX
@@ -3884,1934 +4080,2032 @@ MonoBehaviour:
   pathToPrefabID:
     serializedData:
     - Key: Assets/Ambulance/Model/Ambulance.FBX
-      Value: 75126
+      Value: 74802
     - Key: Assets/Ambulance/Prefab/Ambulance_damage.prefab
-      Value: 75460
+      Value: 75136
     - Key: Assets/Ambulance/Prefab/Ambulance_no_damage.prefab
-      Value: 55498
+      Value: 61162
     - Key: Assets/FreeModels/desk/desk.blend
-      Value: 75794
+      Value: 75470
     - Key: Assets/FreeModels/Firefighter/Firefighter.fbx
-      Value: 75844
+      Value: 75520
     - Key: Assets/FreeModels/sci-fi_table/table.blend
-      Value: 75852
+      Value: 75528
     - Key: Assets/FreeModels/wall-television/source/end01/TV-Baked.obj
-      Value: 41720
+      Value: 41712
     - Key: Assets/FreeModels/WhiteBoard.obj
-      Value: 41770
+      Value: 41762
     - Key: Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab
-      Value: 75880
+      Value: 75556
     - Key: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab
-      Value: 75908
+      Value: 75584
     - Key: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab
-      Value: 75928
+      Value: 75604
     - Key: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab
-      Value: 75956
+      Value: 75632
     - Key: Assets/Mapbox/Core/Plugins/Android/UniAndroidPermission/UniAndroidPermission.prefab
-      Value: 75984
+      Value: 75660
     - Key: Assets/Mapbox/Examples/1_DataExplorer/Modules/MotorwayJunctionLayer/PointPrefab.prefab
-      Value: 75992
+      Value: 75668
     - Key: Assets/Mapbox/Examples/1_DataExplorer/Modules/Resources/LabelPrefab.prefab
-      Value: 49128
+      Value: 49120
     - Key: Assets/Mapbox/Examples/1_DataExplorer/Traffic/DirectionSlice.prefab
-      Value: 76022
+      Value: 75698
     - Key: Assets/Mapbox/Examples/1_DataExplorer/Traffic/Traffic.prefab
-      Value: 76068
+      Value: 75744
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Astronaut/Astro@idle.fbx
-      Value: 76154
+      Value: 75830
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Astronaut/Astro@walk.fbx
-      Value: 76264
+      Value: 75940
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Astronaut/MapboxAstronaut.fbx
-      Value: 76374
+      Value: 76050
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Astronaut/MapboxAstronaut.prefab
-      Value: 76482
+      Value: 76158
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Park/cone.FBX
-      Value: 76596
+      Value: 76272
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Park/cone.prefab
-      Value: 76608
+      Value: 76284
     - Key: Assets/Mapbox/Examples/2_AstronautGame/AstronautGame/Road/RoadSlice.prefab
-      Value: 76618
+      Value: 76294
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/ArtsPoiLabelPrefab.prefab
-      Value: 46110
+      Value: 46102
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/DefaultPoiLabelPrefab.prefab
-      Value: 46132
+      Value: 46124
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/FoodPoiLabelPrefab.prefab
-      Value: 46142
+      Value: 46134
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/NightlifePoiLabelPrefab.prefab
-      Value: 46120
+      Value: 46112
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/OutdoorPoiLabelPrefab.prefab
-      Value: 46096
+      Value: 46088
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/ServicePoiLabelPrefab.prefab
-      Value: 46106
+      Value: 46098
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/ShopPoiLabelPrefab.prefab
-      Value: 46122
+      Value: 46114
     - Key: Assets/Mapbox/Examples/3_POIPlacement/Resources/TransportationPoiLabelPrefab.prefab
-      Value: 46108
+      Value: 46100
     - Key: Assets/Mapbox/Examples/4_ReplaceFeatures/Models/Building.fbx
-      Value: 76998
+      Value: 76674
     - Key: Assets/Mapbox/Examples/4_ReplaceFeatures/Prefabs/Building Pivot.prefab
-      Value: 77010
+      Value: 76686
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Bricks.fbx
-      Value: 77032
+      Value: 76708
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Bush.fbx
-      Value: 77044
+      Value: 76720
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Grey Stone.fbx
-      Value: 77056
+      Value: 76732
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Ground Brown.fbx
-      Value: 77068
+      Value: 76744
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Ground Green.fbx
-      Value: 77080
+      Value: 76756
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Sand.fbx
-      Value: 77092
+      Value: 76768
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Models/Water.fbx
-      Value: 77104
+      Value: 76780
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Bricks.prefab
-      Value: 77116
+      Value: 76792
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Bush.prefab
-      Value: 51312
+      Value: 56976
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Grass.prefab
-      Value: 51310
+      Value: 56974
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Ground.prefab
-      Value: 51318
+      Value: 56982
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Sand.prefab
-      Value: 51314
+      Value: 56978
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Snow.prefab
-      Value: 51320
+      Value: 56984
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Stone.prefab
-      Value: 51316
+      Value: 56980
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/Voxels/Water.prefab
-      Value: 51322
+      Value: 56986
     - Key: Assets/Mapbox/Examples/8_VoxelMap/Prefabs/VoxelTile.prefab
-      Value: 77132
+      Value: 76808
     - Key: Assets/Mapbox/Examples/Prefabs/CustomMarkerPrefab.prefab
-      Value: 77142
+      Value: 76818
     - Key: Assets/Mapbox/Examples/Prefabs/ExampleDirectionsQuery.prefab
-      Value: 77170
+      Value: 76846
     - Key: Assets/Mapbox/Examples/Prefabs/ForwardGeocoderCanvas.prefab
-      Value: 77190
+      Value: 76866
     - Key: Assets/Mapbox/Examples/Prefabs/InfoCanvas.prefab
-      Value: 77252
+      Value: 76928
     - Key: Assets/Mapbox/Examples/Prefabs/LoadingScreenCanvas.prefab
-      Value: 77348
+      Value: 77024
     - Key: Assets/Mapbox/Examples/Prefabs/ReloadMapCanvas.prefab
-      Value: 77374
+      Value: 77050
     - Key: Assets/Mapbox/Examples/Prefabs/ReloadMapIconicBuildingCanvas.prefab
-      Value: 77488
+      Value: 77164
     - Key: Assets/Mapbox/Examples/Resources/3DPoiMarker.prefab
-      Value: 49038
+      Value: 49030
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxCombinedPin.fbx
-      Value: 48734
+      Value: 48726
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxFloatingHollowPin.fbx
-      Value: 48828
+      Value: 48820
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxFloatingPin.fbx
-      Value: 48764
+      Value: 48756
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxFloatingPinNoBase.fbx
-      Value: 48638
+      Value: 48630
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxHollowPin.fbx
-      Value: 48902
+      Value: 48894
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxHollowUprightPin.fbx
-      Value: 48492
+      Value: 48484
     - Key: Assets/Mapbox/Examples/Resources/Assets/MapboxPin.fbx
-      Value: 49004
+      Value: 48996
     - Key: Assets/Mapbox/Examples/Resources/BuildingWallSlice.prefab
-      Value: 48916
+      Value: 48908
     - Key: Assets/Mapbox/Examples/Resources/Bush.prefab
-      Value: 48504
+      Value: 48496
     - Key: Assets/Mapbox/Examples/Resources/Bush2.prefab
-      Value: 48826
+      Value: 48818
     - Key: Assets/Mapbox/Examples/Resources/MakiPrefab.prefab
-      Value: 48888
+      Value: 48880
     - Key: Assets/Mapbox/Examples/Resources/MakiUiPrefab.prefab
-      Value: 48926
+      Value: 48918
     - Key: Assets/Mapbox/Examples/Resources/MapboxPin.prefab
-      Value: 48550
+      Value: 48542
     - Key: Assets/Mapbox/Examples/Resources/Pin.prefab
-      Value: 48430
+      Value: 48422
     - Key: Assets/Mapbox/Examples/Resources/rotatedPin.prefab
-      Value: 48672
+      Value: 48664
     - Key: Assets/Mapbox/Examples/Resources/Selector.prefab
-      Value: 48572
+      Value: 48564
     - Key: Assets/Mapbox/Prefabs/Attribution.prefab
-      Value: 78044
+      Value: 77720
     - Key: Assets/Mapbox/Prefabs/CitySimulatorMap.prefab
-      Value: 41786
+      Value: 41778
     - Key: Assets/Mapbox/Prefabs/IconicBuildingMap.prefab
-      Value: 78334
+      Value: 78010
     - Key: Assets/Mapbox/Prefabs/LocationBasedGame.prefab
-      Value: 78342
+      Value: 78018
     - Key: Assets/Mapbox/Prefabs/LocationProviderFactory.prefab
-      Value: 78456
+      Value: 78132
     - Key: Assets/Mapbox/Prefabs/Map.prefab
-      Value: 78530
+      Value: 78206
     - Key: Assets/Mapbox/Prefabs/Player.prefab
-      Value: 78538
+      Value: 78214
     - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/ChryslerBuilding.fbx
-      Value: 48356
+      Value: 48348
     - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/CoitTower.fbx
-      Value: 48328
-    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/EmpireStateBuilding.fbx
-      Value: 48396
-    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/OneWorldTradeCenter.fbx
-      Value: 48382
-    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/SalesForceTower.fbx
-      Value: 48374
-    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/StatueofLiberty.fbx
-      Value: 48336
-    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/TransamericaPyramid.fbx
-      Value: 48366
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/ChryslerBuilding.prefab
-      Value: 48394
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/CoitTower.prefab
-      Value: 48406
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/EmpireStateBuilding.prefab
-      Value: 48408
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/OneWorldTradeCenter.prefab
-      Value: 48344
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/SalesForceTower.prefab
-      Value: 48404
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/StatueofLiberty.prefab
-      Value: 48326
-    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/TransamericaPyramid.prefab
-      Value: 48354
-    - Key: Assets/Mapbox/Resources/MapboxPin.prefab
-      Value: 48410
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx
-      Value: 78662
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx
-      Value: 78672
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx
-      Value: 78682
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Spaceship.fbx
-      Value: 78692
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/Bullet.prefab
-      Value: 53274
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab
-      Value: 78706
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab
-      Value: 78774
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/RoomListEntry.prefab
-      Value: 78784
-    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/BigAsteroid.prefab
       Value: 48320
+    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/EmpireStateBuilding.fbx
+      Value: 48388
+    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/OneWorldTradeCenter.fbx
+      Value: 48374
+    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/SalesForceTower.fbx
+      Value: 48366
+    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/StatueofLiberty.fbx
+      Value: 48328
+    - Key: Assets/Mapbox/Resources/HeroStructures/Meshes/TransamericaPyramid.fbx
+      Value: 48358
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/ChryslerBuilding.prefab
+      Value: 48386
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/CoitTower.prefab
+      Value: 48398
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/EmpireStateBuilding.prefab
+      Value: 48400
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/OneWorldTradeCenter.prefab
+      Value: 48336
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/SalesForceTower.prefab
+      Value: 48396
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/StatueofLiberty.prefab
+      Value: 48318
+    - Key: Assets/Mapbox/Resources/HeroStructures/Prefabs/TransamericaPyramid.prefab
+      Value: 48346
+    - Key: Assets/Mapbox/Resources/MapboxPin.prefab
+      Value: 48402
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx
+      Value: 78338
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/FlyerAsteroidB.fbx
+      Value: 78348
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/LaserBolt.fbx
+      Value: 78358
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Spaceship.fbx
+      Value: 78368
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/Bullet.prefab
+      Value: 58938
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerListEntry.prefab
+      Value: 78382
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/PlayerOverviewEntry.prefab
+      Value: 78450
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Prefabs/RoomListEntry.prefab
+      Value: 78460
+    - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/BigAsteroid.prefab
+      Value: 48312
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/SmallAsteroid.prefab
-      Value: 48322
+      Value: 48314
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/Spaceship.prefab
-      Value: 48324
+      Value: 48316
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/billboardLower.fbx
-      Value: 78912
+      Value: 78588
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/flagGreen.fbx
-      Value: 78924
+      Value: 78600
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/rail.fbx
-      Value: 78936
+      Value: 78612
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadCornerSmall.fbx
-      Value: 78948
+      Value: 78624
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadCornerSmallBorder.fbx
-      Value: 78960
+      Value: 78636
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadRampLongCurvedWall.fbx
-      Value: 78972
+      Value: 78648
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadStart.fbx
-      Value: 78984
+      Value: 78660
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadStartPositions.fbx
-      Value: 78996
+      Value: 78672
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadStraight.fbx
-      Value: 79008
+      Value: 78684
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing
         Kit/Models/roadStraightBridgeStart.fbx
-      Value: 79020
+      Value: 78696
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/bush1.FBX
-      Value: 79032
+      Value: 78708
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/car_1.FBX
-      Value: 79058
+      Value: 78734
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/car_3.FBX
-      Value: 79236
+      Value: 78912
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/car_4.FBX
-      Value: 79370
+      Value: 79046
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/hamvee.FBX
-      Value: 79496
+      Value: 79172
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/tree_1.FBX
-      Value: 79562
+      Value: 79238
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized
         city/Models/tree_6.FBX
-      Value: 79608
+      Value: 79284
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_A.prefab
-      Value: 53914
+      Value: 59578
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_B.prefab
-      Value: 53916
+      Value: 59580
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_C.prefab
-      Value: 53918
+      Value: 59582
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_D.prefab
-      Value: 53920
+      Value: 59584
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Resources/Player
         Controller.prefab
-      Value: 48294
+      Value: 48286
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Demo
         Intro UI.prefab
-      Value: 79664
+      Value: 79340
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Game
         Manager.prefab
-      Value: 79698
+      Value: 79374
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player
         UI.prefab
-      Value: 54496
+      Value: 60160
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Quit
         Room Button.prefab
-      Value: 79706
+      Value: 79382
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Resources/My
         Robot Kyle -done-.prefab
-      Value: 48300
+      Value: 48292
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Help Button.prefab
-      Value: 79726
+      Value: 79402
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Prefabs/Tab Toggle.prefab
-      Value: 79752
+      Value: 79428
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidCrouch.fbx
-      Value: 79808
+      Value: 79484
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdle.fbx
-      Value: 80132
+      Value: 79808
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidIdleJumpUp.fbx
-      Value: 80442
+      Value: 80118
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidJumpAndFall.fbx
-      Value: 80802
+      Value: 80478
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidMidAir.fbx
-      Value: 81120
+      Value: 80796
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRun.fbx
-      Value: 81486
+      Value: 81162
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurn.fbx
-      Value: 81796
+      Value: 81472
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidRunTurnSharp.fbx
-      Value: 82158
+      Value: 81834
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidStandTurn.fbx
-      Value: 82472
+      Value: 82148
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalk.fbx
-      Value: 82790
+      Value: 82466
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalkTurn.fbx
-      Value: 83102
+      Value: 82778
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/HumanoidWalkTurnSharp.fbx
-      Value: 83416
+      Value: 83092
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Pointer.fbx
-      Value: 83730
+      Value: 83406
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Models/Robot Kyle.fbx
-      Value: 83744
+      Value: 83420
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/PointerPrefab.prefab
-      Value: 83954
+      Value: 83630
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Button
         Regular.prefab
-      Value: 83964
+      Value: 83640
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Toggle
         Regular.prefab
-      Value: 83990
+      Value: 83666
     - Key: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Tooltip.prefab
-      Value: 84024
+      Value: 83700
     - Key: Assets/Prefabs/3dModel/Model.prefab
-      Value: 41742
-    - Key: Assets/Prefabs/Drone/ButtonPrefab.prefab
-      Value: 45294
-    - Key: Assets/Prefabs/Drone/DroneStreamList.prefab
-      Value: 41838
-    - Key: Assets/Prefabs/JoyStick/JoyStick.prefab
-      Value: 41806
-    - Key: Assets/Prefabs/JoyStick/Joystick_joined_centered.fbx
-      Value: 41712
-    - Key: Assets/Prefabs/JoyStick/Table.prefab
-      Value: 84040
-    - Key: Assets/Prefabs/Map/Ambulance.prefab
-      Value: 84062
-    - Key: Assets/Prefabs/Map/Camera.prefab
-      Value: 84414
-    - Key: Assets/Prefabs/Map/Drone.prefab
-      Value: 84470
-    - Key: Assets/Prefabs/Map/Firefighter.prefab
-      Value: 92726
-    - Key: Assets/Prefabs/Map/Firefighter_w_Label.prefab
-      Value: 92766
-    - Key: Assets/Prefabs/Map/Firetruck.prefab
-      Value: 92810
-    - Key: Assets/Prefabs/Map/Map.prefab
-      Value: 92838
-    - Key: Assets/Prefabs/Map/Police Car.prefab
-      Value: 92854
-    - Key: Assets/Prefabs/Map/Policeman.prefab
-      Value: 93298
-    - Key: Assets/Prefabs/Map/ZoomWindow.prefab
-      Value: 93698
-    - Key: Assets/Prefabs/Menu/HandMenu.prefab
-      Value: 93782
-    - Key: Assets/Prefabs/Menu/IconMenu.prefab
-      Value: 93806
-    - Key: Assets/Prefabs/Missions/EmptyListPrefab.prefab
       Value: 41734
+    - Key: Assets/Prefabs/Drone/ButtonPrefab.prefab
+      Value: 45254
+    - Key: Assets/Prefabs/Drone/DroneStreamList.prefab
+      Value: 41830
+    - Key: Assets/Prefabs/JoyStick/JoyStick.prefab
+      Value: 41798
+    - Key: Assets/Prefabs/JoyStick/Joystick_joined_centered.fbx
+      Value: 41704
+    - Key: Assets/Prefabs/JoyStick/Table.prefab
+      Value: 83716
+    - Key: Assets/Prefabs/Map/Ambulance.prefab
+      Value: 83738
+    - Key: Assets/Prefabs/Map/Camera.prefab
+      Value: 84090
+    - Key: Assets/Prefabs/Map/Drone.prefab
+      Value: 84146
+    - Key: Assets/Prefabs/Map/Firefighter.prefab
+      Value: 92402
+    - Key: Assets/Prefabs/Map/Firefighter_w_Label.prefab
+      Value: 92442
+    - Key: Assets/Prefabs/Map/Firetruck.prefab
+      Value: 92486
+    - Key: Assets/Prefabs/Map/Map.prefab
+      Value: 92514
+    - Key: Assets/Prefabs/Map/Police Car.prefab
+      Value: 92530
+    - Key: Assets/Prefabs/Map/Policeman.prefab
+      Value: 92974
+    - Key: Assets/Prefabs/Map/ZoomWindow.prefab
+      Value: 93374
+    - Key: Assets/Prefabs/Menu/HandMenu.prefab
+      Value: 93458
+    - Key: Assets/Prefabs/Menu/IconMenu.prefab
+      Value: 93482
+    - Key: Assets/Prefabs/Missions/EmptyListPrefab.prefab
+      Value: 41726
     - Key: Assets/Prefabs/Missions/MissionFlightPlanItem.prefab
-      Value: 41810
+      Value: 41802
     - Key: Assets/Prefabs/Missions/MissionLayerItem.prefab
-      Value: 41732
+      Value: 41724
     - Key: Assets/Prefabs/Missions/MissionListItem.prefab
-      Value: 41658
+      Value: 41650
     - Key: Assets/Prefabs/OptionsMenu.prefab
-      Value: 93816
+      Value: 93492
     - Key: Assets/Prefabs/PhyS/HandPhyS.prefab
       Value: 20312
     - Key: Assets/Prefabs/SessionManager.prefab
-      Value: 41848
+      Value: 41840
     - Key: Assets/Prefabs/Streams/ChooseDroneStreamMenu.prefab
-      Value: 94462
+      Value: 94138
     - Key: Assets/Prefabs/Streams/DetachableStream.prefab
-      Value: 42366
+      Value: 42358
     - Key: Assets/Prefabs/Streams/StreamPlane.prefab
-      Value: 44194
+      Value: 44186
     - Key: Assets/Prefabs/Streams/StreamPlaneDroneUI.prefab
-      Value: 42060
+      Value: 42052
     - Key: Assets/Prefabs/Streams/StreamPlaneUI.prefab
-      Value: 42038
+      Value: 42030
     - Key: Assets/Prefabs/Streams/StreamsGrid.prefab
-      Value: 41682
+      Value: 41674
     - Key: Assets/Prefabs/Streams/StreamsGridDrone.prefab
-      Value: 41784
+      Value: 41776
     - Key: Assets/Prefabs/Streams/testeMesa.fbx
-      Value: 41670
+      Value: 41662
     - Key: Assets/Prefabs/Streams/UserStreamListItem.prefab
-      Value: 41814
+      Value: 41806
     - Key: Assets/Prefabs/Users/SensorPrefab.prefab
-      Value: 42088
+      Value: 42080
     - Key: Assets/Prefabs/Users/UserDeviceDriverPrefab.prefab
-      Value: 41824
+      Value: 41816
     - Key: Assets/Prefabs/Users/UserListItem.prefab
-      Value: 41698
+      Value: 41690
     - Key: Assets/Resources/3DModels/3dmodel.glb
-      Value: 46296
+      Value: 46288
     - Key: Assets/Resources/3DModels/cctv-freepoly.org.glb
-      Value: 46408
+      Value: 46400
     - Key: Assets/Resources/3DModels/dji_3_mini_pro.glb
-      Value: 46526
+      Value: 46518
     - Key: Assets/Resources/3DModels/LowPolyFiretruck.fbx
-      Value: 46482
+      Value: 46474
     - Key: Assets/Resources/3DModels/police_car.glb
-      Value: 47892
+      Value: 47884
     - Key: Assets/Resources/3DModels/policeman.glb
-      Value: 46430
+      Value: 46422
     - Key: Assets/Resources/3DModels/Rua-Porto-do-Meio-23-01-2024-textured_model.glb
-      Value: 41818
+      Value: 41810
     - Key: Assets/Resources/Actions/New Action/New Action_FinalPosition.prefab
-      Value: 47952
+      Value: 47944
     - Key: Assets/Resources/Actions/New Action/New Action_InsertObject.prefab
-      Value: 46524
+      Value: 46516
     - Key: Assets/Resources/Actions/New Action 1/New Action 1_FinalPosition.prefab
-      Value: 47954
+      Value: 47946
     - Key: Assets/Resources/Actions/testeAction/testeAction_FinalPosition.prefab
-      Value: 46294
+      Value: 46286
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholBottle/Alcohol_Bottle.fbx
+      Value: 198810
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/AlcoholSpray/Alcohol_Spray.fbx
+      Value: 198822
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball.fbx
+      Value: 198814
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/CottonBall/Cotton_Ball_Grabbed.fbx
+      Value: 198802
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/HolographicArea/TeleportMarker.fbx
+      Value: 196288
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/ORamaVR_Logo_Wall.prefab
+      Value: 198896
+    - Key: "Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Logos/\u039FRamaVR_Pictogram_Screen.prefab"
+      Value: 198942
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/MedicineBottle/Medicine_Bottle.fbx
+      Value: 198794
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/Models/NXT_Patient_Vol2.fbx
+      Value: 198806
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/NXT_Patient/NXT_Patient_Vol2.prefab
+      Value: 198870
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/PliersCotton/PliersCotton.fbx
+      Value: 198800
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/ReticleRotating/Recticle_rotating_01.FBX
+      Value: 198820
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Room/NXT_Room.fbx
+      Value: 198816
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Scalpel/Scalpel.FBX
+      Value: 198570
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/SkinBox/skin
+        box.fbx
+      Value: 198798
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Syringe/Syringe.fbx
+      Value: 198808
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/Tray/Tray.fbx
+      Value: 198812
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Models/TV/TV_stand.fbx
+      Value: 197990
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Networking/MessageHandler
+        Variant.prefab
+      Value: 193652
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Bottle/Alcohol_Bottle.prefab
+      Value: 193434
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Alcohol_Spray/Alcohol_Spray.prefab
+      Value: 199068
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/BinArea/BinArea.prefab
+      Value: 193442
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ChoiceUI.prefab
+      Value: 193410
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/PliersCotton.prefab
+      Value: 193418
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelFinal.prefab
+      Value: 193422
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/ScalpelGhost.prefab
+      Value: 193424
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/ChoiceUI/SterilizeAreaCollider.prefab
+      Value: 193420
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cotton_Ball/Cotton_Ball.prefab
+      Value: 193384
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Cupboards/HandPoses/Cupboard.prefab
+      Value: 199060
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/DisinfectArea/DisinfectArmColldier.prefab
+      Value: 193438
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/CutLine.prefab
+      Value: 193416
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FakeSkinIncision/Scalpel.prefab
+      Value: 193414
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/FloorCollider.prefab
+      Value: 193386
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/CharacterCustomizationCanvasMedical.prefab
+      Value: 102872
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/NetworkingUIMedical.prefab
+      Value: 194876
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationExitMedical.prefab
+      Value: 193458
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/OperationStartMedical.prefab
+      Value: 193428
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/PlayerSelectionUI
+        Variant.prefab
+      Value: 193476
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/SessionOverviewMedical.prefab
+      Value: 193584
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UICreateSessionMedical.prefab
+      Value: 196990
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/General/UILicenseRequestMedical
+        Variant.prefab
+      Value: 193650
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Medicine_Bottle/Medicine_Bottle.prefab
+      Value: 199050
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/SmallTray/Tray.prefab
+      Value: 198884
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeAdminister.prefab
+      Value: 193452
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeFinal.prefab
+      Value: 193448
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/Syringe/SyringeInteractable.prefab
+      Value: 193446
+    - Key: Assets/Samples/MAGES SDK - Core/5.2.6/Vaccine Scene/Resources/Prefabs/TV_Stand.prefab
+      Value: 198916
     - Key: Assets/ScifiOfficeLite/Meshes/Lights/Ceiling Lights Lo.FBX
-      Value: 67102
+      Value: 72766
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 5.FBX
-      Value: 94584
+      Value: 94260
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 8.FBX
-      Value: 94594
+      Value: 94270
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 9.FBX
-      Value: 94604
+      Value: 94280
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 10.FBX
-      Value: 94614
+      Value: 94290
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 11.FBX
-      Value: 94624
+      Value: 94300
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 12.FBX
-      Value: 94634
+      Value: 94310
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Carpet/Carpet 13.FBX
-      Value: 94644
+      Value: 94320
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Chairs/office chair.FBX
-      Value: 94654
+      Value: 94330
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Chairs/Stool.FBX
-      Value: 94666
+      Value: 94342
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Computers/PC 2.FBX
-      Value: 94678
+      Value: 94354
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Drawer 2.FBX
-      Value: 94688
+      Value: 94364
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Radio.FBX
-      Value: 67766
+      Value: 73430
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf with Crates.FBX
-      Value: 94734
+      Value: 94410
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Shelf Without Crates.FBX
-      Value: 94794
+      Value: 94470
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Tables/Table 1.FBX
-      Value: 94804
+      Value: 94480
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Tables/Table 6.FBX
-      Value: 94814
+      Value: 94490
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Tables/Table Set 1.FBX
-      Value: 94868
+      Value: 94544
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Tray.FBX
-      Value: 95012
+      Value: 94688
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Tv/Tv 32 Inch.FBX
-      Value: 95022
+      Value: 94698
     - Key: Assets/ScifiOfficeLite/Meshes/Office Interior/Vase.fbx
-      Value: 95044
+      Value: 94720
     - Key: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Arm 1.FBX
-      Value: 68514
+      Value: 74178
     - Key: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Mechanical Claw.fbx
-      Value: 67964
+      Value: 73628
     - Key: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/SciFiDoor.FBX
-      Value: 95054
+      Value: 94730
     - Key: Assets/ScifiOfficeLite/Meshes/Sci-Fi Environment/Server Rack.FBX
-      Value: 95086
+      Value: 94762
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall 2 Half.FBX
-      Value: 95156
+      Value: 94832
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall 2.FBX
-      Value: 95166
+      Value: 94842
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall 4.FBX
-      Value: 68874
+      Value: 74538
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 1.FBX
-      Value: 95176
+      Value: 94852
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall Pillar 3.FBX
-      Value: 95186
+      Value: 94862
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 1.FBX
-      Value: 95196
+      Value: 94872
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall Top Piece 3.FBX
-      Value: 95206
+      Value: 94882
     - Key: Assets/ScifiOfficeLite/Meshes/Walls/Wall With Windows Set 10.FBX
-      Value: 95216
+      Value: 94892
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/20m Epoxy Ground.prefab
-      Value: 41736
+      Value: 41728
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 5.prefab
-      Value: 95254
+      Value: 94930
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 8.prefab
-      Value: 95266
+      Value: 94942
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 9.prefab
-      Value: 95278
+      Value: 94954
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 10.prefab
-      Value: 95290
+      Value: 94966
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 11.prefab
-      Value: 95302
+      Value: 94978
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 12.prefab
-      Value: 95314
+      Value: 94990
     - Key: Assets/ScifiOfficeLite/Prefabs/Carpets and Floors/Carpet 13.prefab
-      Value: 95326
+      Value: 95002
     - Key: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair Variant.prefab
-      Value: 95338
+      Value: 95014
     - Key: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Office Chair.prefab
-      Value: 66842
+      Value: 72506
     - Key: Assets/ScifiOfficeLite/Prefabs/Chairs and Stools/Stool.prefab
-      Value: 95352
+      Value: 95028
     - Key: Assets/ScifiOfficeLite/Prefabs/Doors/Broken Door.prefab
-      Value: 95364
+      Value: 95040
     - Key: Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2 Oak Variant.prefab
-      Value: 95418
+      Value: 95094
     - Key: Assets/ScifiOfficeLite/Prefabs/Drawers/Drawer 2.prefab
-      Value: 66946
+      Value: 72610
     - Key: Assets/ScifiOfficeLite/Prefabs/Drawers/Vase.prefab
-      Value: 95476
+      Value: 95152
     - Key: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light
         Bright.prefab
-      Value: 41704
+      Value: 41696
     - Key: Assets/ScifiOfficeLite/Prefabs/Lighting/Ceiling Lights/2D/Ceiling Light.prefab
-      Value: 45072
+      Value: 45832
     - Key: Assets/ScifiOfficeLite/Prefabs/Shelf with Crates.prefab
-      Value: 95488
+      Value: 95164
     - Key: Assets/ScifiOfficeLite/Prefabs/Shelf without Crates.prefab
-      Value: 95564
+      Value: 95240
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Blue Plastic/Drawer Table Long Blue
         Plastic Variant.prefab
-      Value: 95576
+      Value: 95252
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Drawer Table Long Dark
         Oak.prefab
-      Value: 67526
+      Value: 73190
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Dark Oak/Table Dark Oak.prefab
-      Value: 67602
+      Value: 73266
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Drawer Table Long Grey
         Wood Variant.prefab
-      Value: 67276
+      Value: 72940
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Grey Wood/Table Grey Wood Variant.prefab
-      Value: 67634
+      Value: 73298
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Metal/Table Metal Variant.prefab
-      Value: 95654
+      Value: 95330
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Dark Oak.prefab
-      Value: 67820
+      Value: 73484
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/Table Set 1 Grey Wood Variant.prefab
-      Value: 95678
+      Value: 95354
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Drawer Table Long White
         Wood Variant.prefab
-      Value: 67268
+      Value: 72932
     - Key: Assets/ScifiOfficeLite/Prefabs/Tables/White Wood/Table White Wood Variant.prefab
-      Value: 67628
+      Value: 73292
     - Key: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1 Variant.prefab
-      Value: 95792
+      Value: 95468
     - Key: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 1.prefab
-      Value: 67976
+      Value: 73640
     - Key: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Mechanical arm 2.prefab
-      Value: 96050
+      Value: 95726
     - Key: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/PC 2.prefab
-      Value: 96266
+      Value: 95942
     - Key: Assets/ScifiOfficeLite/Prefabs/Tech Accessories/Server Rack.prefab
-      Value: 96278
+      Value: 95954
     - Key: Assets/ScifiOfficeLite/Prefabs/Tray.prefab
-      Value: 96352
+      Value: 96028
     - Key: Assets/ScifiOfficeLite/Prefabs/TVs/Tv 32 Inch.prefab
-      Value: 67778
+      Value: 73442
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Door Wall Opaque.prefab
-      Value: 96364
+      Value: 96040
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half Variant.prefab
-      Value: 96410
+      Value: 96086
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Half.prefab
-      Value: 68900
+      Value: 74564
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2 Variant.prefab
-      Value: 41688
+      Value: 41680
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall 2.prefab
-      Value: 45206
+      Value: 45884
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar 3.prefab
-      Value: 96436
+      Value: 96112
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Pillar.prefab
-      Value: 96450
+      Value: 96126
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece Half.prefab
-      Value: 68892
+      Value: 74556
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Top Piece.prefab
-      Value: 45234
+      Value: 45912
     - Key: Assets/ScifiOfficeLite/Prefabs/Wall/Wall Window Set 10.prefab
-      Value: 96462
+      Value: 96138
     - Key: Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
-      Value: 47960
+      Value: 47952
     - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
-      Value: 48296
+      Value: 48288
     - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUIPersistentCanvas.prefab
-      Value: 48298
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab
-      Value: 96706
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab
-      Value: 96644
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIColor.prefab
-      Value: 96658
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
-      Value: 96636
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab
-      Value: 96722
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
-      Value: 96628
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab
-      Value: 96650
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab
-      Value: 96698
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab
-      Value: 96694
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab
-      Value: 96612
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab
-      Value: 96738
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObject.prefab
-      Value: 96760
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab
-      Value: 96768
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab
-      Value: 96776
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab
-      Value: 96586
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIProgressBar.prefab
-      Value: 96744
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab
-      Value: 96730
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab
-      Value: 96604
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab
-      Value: 96714
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab
-      Value: 96620
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
-      Value: 96596
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValuePersistent.prefab
-      Value: 99270
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab
-      Value: 96752
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab
-      Value: 96690
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab
-      Value: 96666
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector3.prefab
-      Value: 96674
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
-      Value: 96682
-    - Key: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
-      Value: 99298
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/BodyTitleContentElement.prefab
-      Value: 46084
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ContentElement.prefab
-      Value: 46092
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/MainBodyExtension.prefab
-      Value: 46090
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ObjectiveContentElement.prefab
-      Value: 46088
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScoringContentElement.prefab
-      Value: 46094
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScrollButton.prefab
-      Value: 46080
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/SessionOverview.prefab
-      Value: 42016
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/TitleContentElement.prefab
-      Value: 46082
-    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/UploadingUI.prefab
-      Value: 46086
-    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileNavigation.prefab
-      Value: 49090
-    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileRig.prefab
-      Value: 49092
-    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/XRRig.prefab
-      Value: 49074
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Danger.prefab
-      Value: 49100
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Icon.Text.prefab
-      Value: 49098
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Primary.prefab
-      Value: 49108
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Secondary.prefab
-      Value: 49102
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Canvas.prefab
-      Value: 49104
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Panel.prefab
-      Value: 49110
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Profile.Square.Rounded.prefab
-      Value: 49112
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Rating.Star.prefab
-      Value: 49106
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Sample.prefab
-      Value: 49114
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Slider.prefab
-      Value: 49116
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Spatial/Spatial.LoadingDialog.prefab
-      Value: 49118
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/FadeCamera/CameraFadeEffect.prefab
-      Value: 46070
-    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/Style/Prefabs/ArrowGuide.prefab
-      Value: 46076
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/Avatars/Avatar_Female.fbx
-      Value: 100920
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/Avatars/Avatar_Male.fbx
-      Value: 101020
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/hand.fbx
-      Value: 101124
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar.prefab
-      Value: 42022
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Female.prefab
-      Value: 49132
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Male.prefab
-      Value: 49134
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultReticle.prefab
-      Value: 42024
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultTeleportReticle.prefab
-      Value: 49130
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorL.prefab
-      Value: 42018
-    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorR.prefab
-      Value: 42020
-    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/MessageHandler.prefab
       Value: 48290
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIBitField.prefab
+      Value: 96382
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIButton.prefab
+      Value: 96320
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIColor.prefab
+      Value: 96334
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
+      Value: 96312
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumHistory.prefab
+      Value: 96398
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
+      Value: 96304
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFoldout.prefab
+      Value: 96326
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIGroup.prefab
+      Value: 96374
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab
+      Value: 96370
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIIntField.prefab
+      Value: 96288
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab
+      Value: 96414
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObject.prefab
+      Value: 96436
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectList.prefab
+      Value: 96444
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIObjectPopupField.prefab
+      Value: 96452
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab
+      Value: 96262
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIProgressBar.prefab
+      Value: 96420
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab
+      Value: 96406
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab
+      Value: 96280
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab
+      Value: 96390
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab
+      Value: 96296
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
+      Value: 96272
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValuePersistent.prefab
+      Value: 98946
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValueTuple.prefab
+      Value: 96428
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab
+      Value: 96366
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab
+      Value: 96342
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector3.prefab
+      Value: 96350
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
+      Value: 96358
+    - Key: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+      Value: 98974
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/BodyTitleContentElement.prefab
+      Value: 46076
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ContentElement.prefab
+      Value: 46084
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/MainBodyExtension.prefab
+      Value: 46082
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ObjectiveContentElement.prefab
+      Value: 46080
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScoringContentElement.prefab
+      Value: 46086
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/ScrollButton.prefab
+      Value: 46072
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/SessionOverview.prefab
+      Value: 42008
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/TitleContentElement.prefab
+      Value: 46074
+    - Key: Packages/com.oramavr.mages.core/Analytics/Resources/UploadingUI.prefab
+      Value: 46078
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileNavigation.prefab
+      Value: 49082
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/MobileRig.prefab
+      Value: 49084
+    - Key: Packages/com.oramavr.mages.core/DeviceManager/Resources/XRRig.prefab
+      Value: 49066
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Danger.prefab
+      Value: 49092
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Icon.Text.prefab
+      Value: 49090
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Primary.prefab
+      Value: 49100
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Button.Secondary.prefab
+      Value: 49094
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Canvas.prefab
+      Value: 49096
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Panel.prefab
+      Value: 49102
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Profile.Square.Rounded.prefab
+      Value: 49104
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Rating.Star.prefab
+      Value: 49098
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Sample.prefab
+      Value: 49106
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Slider.prefab
+      Value: 49108
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Components/UI/Resources/MAGES.ComponentLibrary.UI/Spatial/Spatial.LoadingDialog.prefab
+      Value: 49110
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/FadeCamera/CameraFadeEffect.prefab
+      Value: 46062
+    - Key: Packages/com.oramavr.mages.core/Hub/Runtime/Resources/Style/Prefabs/ArrowGuide.prefab
+      Value: 46068
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/Avatars/Avatar_Female.fbx
+      Value: 100596
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/Avatars/Avatar_Male.fbx
+      Value: 100696
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Models/hand.fbx
+      Value: 100800
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar.prefab
+      Value: 42014
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Female.prefab
+      Value: 49124
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/Avatars/Avatar_Male.prefab
+      Value: 49126
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultReticle.prefab
+      Value: 42016
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/DefaultTeleportReticle.prefab
+      Value: 49122
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorL.prefab
+      Value: 42010
+    - Key: Packages/com.oramavr.mages.core/Interaction/Runtime/Resources/Prefabs/HandInteractorR.prefab
+      Value: 42012
+    - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/MessageHandler.prefab
+      Value: 48282
     - Key: Packages/com.oramavr.mages.core/Networking/Runtime/Resources/Session Progress
         UI.prefab
-      Value: 48292
+      Value: 48284
     - Key: Packages/com.oramavr.mages.core/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerSelectionUI.prefab
-      Value: 49138
+      Value: 49130
     - Key: Packages/com.oramavr.mages.core/Recorder/Runtime/Resources/MAGES.Recorder/UI/PlayerUI.prefab
-      Value: 49136
+      Value: 49128
     - Key: Packages/com.oramavr.mages.core/Recorder/Runtime/Resources/MAGES.Recorder/UI/RecordingEndUI.prefab
-      Value: 49140
+      Value: 49132
     - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/QuestionAction/QuestionTemplate.prefab
-      Value: 49124
+      Value: 49116
     - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryLine.prefab
-      Value: 49122
+      Value: 49114
     - Key: Packages/com.oramavr.mages.core/SceneGraph/Runtime/Resources/ActionPatterns/TrajectoryAction/TrajectoryPoint.prefab
-      Value: 49120
+      Value: 49112
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/CharacterCustomizationCanvas.prefab
-      Value: 48272
+      Value: 48264
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NetworkingUI.prefab
-      Value: 48288
+      Value: 48280
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/AchievementUI.prefab
-      Value: 47996
+      Value: 47988
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/ErrorUI.prefab
-      Value: 48178
+      Value: 48170
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/InfoUI.prefab
-      Value: 48140
+      Value: 48132
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/NotificationUIs/WarningUI.prefab
-      Value: 48278
+      Value: 48270
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationExit.prefab
-      Value: 48042
+      Value: 48034
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OperationStart.prefab
-      Value: 48204
+      Value: 48196
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/OptionsMenu.prefab
-      Value: 42026
+      Value: 42018
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/SessionButton.prefab
-      Value: 48146
+      Value: 48138
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICreateSession.prefab
-      Value: 48246
+      Value: 48238
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UICriticalError.prefab
-      Value: 48214
+      Value: 48206
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIError.prefab
-      Value: 48168
+      Value: 48160
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UILicenseRequest.prefab
-      Value: 48118
+      Value: 48110
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UINotification.prefab
-      Value: 48076
+      Value: 48068
     - Key: Packages/com.oramavr.mages.core/UIs/Resources/Prefabs/UIWarning.prefab
-      Value: 48232
+      Value: 48224
     - Key: Packages/com.meta.xr.sdk.voice/Features/Dictation/source/Prefabs/DictationService.prefab
-      Value: 107060
+      Value: 106844
     - Key: Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Prefabs/Wit.prefab
-      Value: 107068
+      Value: 106852
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/FindSpawnPositionsTile.prefab
-      Value: 69180
+      Value: 49336
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/OTHER.prefab
-      Value: 69136
+      Value: 49292
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/PTRLGlobalMesh.prefab
-      Value: 107076
+      Value: 106860
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/PTRLScenePlane.prefab
-      Value: 107094
+      Value: 106878
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/PTRLSceneVolume.prefab
-      Value: 107112
+      Value: 106896
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Prefabs/WALL.prefab
-      Value: 69134
+      Value: 49290
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom00.prefab
-      Value: 69198
+      Value: 49354
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom01.prefab
-      Value: 107134
+      Value: 106918
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom02.prefab
-      Value: 107292
+      Value: 107076
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom03.prefab
-      Value: 69204
+      Value: 49360
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom04.prefab
-      Value: 107458
+      Value: 107242
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom05.prefab
-      Value: 107616
+      Value: 107400
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom06.prefab
-      Value: 69210
+      Value: 49366
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom07.prefab
-      Value: 107782
+      Value: 107566
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom08.prefab
-      Value: 107924
+      Value: 107708
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom09.prefab
-      Value: 108074
+      Value: 107858
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom00.prefab
-      Value: 108240
+      Value: 108024
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom01.prefab
-      Value: 69200
+      Value: 49356
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom02.prefab
-      Value: 69202
+      Value: 49358
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom03.prefab
-      Value: 108350
+      Value: 108134
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom04.prefab
-      Value: 108524
+      Value: 108308
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom05.prefab
-      Value: 69208
+      Value: 49364
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom06.prefab
-      Value: 108738
+      Value: 108522
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom07.prefab
-      Value: 69212
+      Value: 49368
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom08.prefab
-      Value: 108864
+      Value: 108648
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom09.prefab
-      Value: 109078
+      Value: 108862
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office00.prefab
-      Value: 109348
+      Value: 109132
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office01.prefab
-      Value: 109506
+      Value: 109290
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office02.prefab
-      Value: 109688
+      Value: 109472
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office03.prefab
-      Value: 109910
+      Value: 109694
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office04.prefab
-      Value: 110092
+      Value: 109876
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office05.prefab
-      Value: 110282
+      Value: 110066
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office06.prefab
-      Value: 110432
+      Value: 110216
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office07.prefab
-      Value: 110654
+      Value: 110438
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office08.prefab
-      Value: 69214
+      Value: 49370
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office09.prefab
-      Value: 69216
+      Value: 49372
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom00_TrippingHazard.prefab
-      Value: 110916
+      Value: 110700
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom01_ExtraWide.prefab
-      Value: 110994
+      Value: 110778
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom02_RecRoom.prefab
-      Value: 111144
+      Value: 110928
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom03_EmptySplit.prefab
-      Value: 111270
+      Value: 111054
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom04_empty.prefab
-      Value: 69206
+      Value: 49362
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom05_HardAngles.prefab
-      Value: 111372
+      Value: 111156
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom06_Triangular.prefab
-      Value: 111458
+      Value: 111242
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom07_Cluttered.prefab
-      Value: 111512
+      Value: 111296
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom08_Garage.prefab
-      Value: 111718
+      Value: 111502
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom09_LargeSpace.prefab
-      Value: 111900
+      Value: 111684
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/AnchorPrefabSpawner.prefab
-      Value: 69126
+      Value: 49282
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/EffectMesh.prefab
-      Value: 69162
+      Value: 49318
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/FindSpawnPositions.prefab
-      Value: 69172
+      Value: 49328
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/MRUK.prefab
-      Value: 69190
+      Value: 49346
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/RoomGuardian.prefab
-      Value: 70700
+      Value: 50856
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/SceneDebugger.prefab
-      Value: 70712
+      Value: 50868
     - Key: Packages/com.meta.xr.mrutilitykit/Core/Tools/SpaceMap.prefab
-      Value: 112266
+      Value: 112050
     - Key: Packages/com.meta.xr.mrutilitykit/Tests/Meshes/bevelcube.fbx
-      Value: 112284
+      Value: 112068
     - Key: Packages/com.meta.xr.mrutilitykit/Tests/PlayMode/Prefabs/UnitTestRoom.prefab
-      Value: 112296
+      Value: 112080
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/AlertViewHUD/Prefabs/HUD.prefab
-      Value: 71928
+      Value: 52084
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/CameraRig/Prefabs/OVRCameraRigBuildingBlock.prefab
-      Value: 72010
+      Value: 52166
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/ControllerButtonsMapper/Prefabs/ControllerButtonsMapper.prefab
-      Value: 72068
+      Value: 52224
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/Cube/Prefabs/[BB]
         Cube.prefab
-      Value: 73176
+      Value: 53332
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/EyeGaze/Prefabs/bb_prefab_eyegaze.prefab
-      Value: 73190
+      Value: 53346
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Prefabs/OVRHandPrefabBuildingBlock.prefab
-      Value: 73200
+      Value: 53356
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/AutoMatchmaking/Prefabs/AutoMatchmakingNGO.prefab
-      Value: 112462
+      Value: 112246
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkedAvatar/Prefabs/NetworkedAvatarNGO.prefab
-      Value: 112470
+      Value: 112254
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/NetworkManager/Prefabs/NetworkManager.prefab
-      Value: 112542
+      Value: 112326
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/NGO/PlayerNameTag/Prefabs/PlayerNameTagSpawnerNGO.prefab
-      Value: 112556
+      Value: 112340
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/AutoMatchmaking/Prefabs/AutoMatchmakingFusion.prefab
-      Value: 112568
+      Value: 112352
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/NetworkedAvatar/Prefabs/NetworkedAvatarFusion.prefab
-      Value: 112582
+      Value: 112366
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/NetworkRunner/Prefabs/NetworkRunner.prefab
-      Value: 112622
+      Value: 112406
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerNameTag/Prefabs/PlayerNameTagSpawnerFusion.prefab
-      Value: 112640
+      Value: 112424
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/PhotonFusion/PlayerVoiceChat/Prefabs/PlayerVoiceChat.prefab
-      Value: 112650
+      Value: 112434
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/Shared/ControllerTeleporter/Prefabs/ControllerTeleporter.prefab
-      Value: 73222
+      Value: 53378
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/MultiplayerBlocks/Shared/PlatformInit/Prefabs/PlatformInit.prefab
-      Value: 73280
+      Value: 53436
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/Passthrough/Prefabs/PassthroughUnderlay.prefab
-      Value: 73290
+      Value: 53446
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/PassthroughWindow/Prefabs/PassthroughWindow.prefab
-      Value: 73300
+      Value: 53456
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomMesh/Prefabs/MeshVolume.prefab
-      Value: 73340
+      Value: 53496
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomMesh/Prefabs/RoomMeshBuildingBlock.prefab
-      Value: 73318
+      Value: 53474
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Prefabs/PlaneMesh.prefab
-      Value: 73408
+      Value: 53564
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Prefabs/SceneManagerBuildingBlock.prefab
-      Value: 73358
+      Value: 53514
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Prefabs/Volume.prefab
-      Value: 73426
+      Value: 53582
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Meshs/AnchorModel.fbx
-      Value: 112662
+      Value: 112446
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Prefabs/DemoAnchorPlacementBuildingBlock.prefab
-      Value: 73582
+      Value: 53738
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Prefabs/SampleSpatialAnchorController.prefab
-      Value: 73570
+      Value: 53726
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SharedSpatialAnchorCore/Prefabs/SharedSpatialAnchorCore.prefab
-      Value: 73634
+      Value: 53790
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SpatialAnchorCore/Prefabs/SpatialAnchorCoreBuildingBlock.prefab
-      Value: 73646
+      Value: 53802
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SurfaceProjectedPassthrough/Prefabs/PassthroughOverlay.prefab
-      Value: 73654
+      Value: 53810
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SurfaceProjectedPassthrough/Prefabs/Surface-projectedPTplane.prefab
-      Value: 73664
+      Value: 53820
     - Key: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/VirtualKeyboard/Prefabs/OVRVirtualKeyboardBuildingBlock.prefab
-      Value: 73682
+      Value: 53838
     - Key: Packages/com.meta.xr.sdk.core/Meshes/Cone.obj
-      Value: 112714
+      Value: 112498
     - Key: Packages/com.meta.xr.sdk.core/Meshes/HandTracking/OculusHand_L.fbx
-      Value: 112734
+      Value: 112518
     - Key: Packages/com.meta.xr.sdk.core/Meshes/HandTracking/OculusHand_R.fbx
-      Value: 113062
+      Value: 112846
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusLeft_Material.fbx
-      Value: 113390
+      Value: 113174
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusRight_Material.fbx
-      Value: 113402
+      Value: 113186
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/MetaQuestTouchPlus_Left.fbx
-      Value: 72250
+      Value: 52406
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/MetaQuestTouchPlus_Right.fbx
-      Value: 72194
+      Value: 52350
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProLeft_Material.fbx
-      Value: 113494
+      Value: 113278
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.fbx
-      Value: 113506
+      Value: 113290
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/MetaQuestTouchPro_Left.fbx
-      Value: 72198
+      Value: 52354
     - Key: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/MetaQuestTouchPro_Right.fbx
-      Value: 72126
+      Value: 52282
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.fbx
-      Value: 113598
+      Value: 113382
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx
-      Value: 72214
+      Value: 52370
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
-      Value: 72190
+      Value: 52346
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.fbx
-      Value: 113690
+      Value: 113474
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
-      Value: 72166
+      Value: 52322
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
-      Value: 72142
+      Value: 52298
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
-      Value: 72262
+      Value: 52418
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.fbx
-      Value: 113824
+      Value: 113608
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/Materials/pasted_touchPBS_MAT.fbx
-      Value: 113836
+      Value: 113620
     - Key: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
-      Value: 72246
+      Value: 52402
     - Key: Packages/com.meta.xr.sdk.core/Meshes/Ray.obj
-      Value: 113888
+      Value: 113672
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/Cursor_Timer.prefab
-      Value: 113902
+      Value: 113686
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVR Sample Canvas.prefab
-      Value: 113912
+      Value: 113696
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRCameraRig.prefab
-      Value: 114010
+      Value: 113794
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRControllerPrefab.prefab
-      Value: 72078
+      Value: 52234
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRCubemapCaptureProbe.prefab
-      Value: 114066
+      Value: 113850
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRCustomHandPrefab_L.prefab
-      Value: 114074
+      Value: 113858
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRCustomHandPrefab_R.prefab
-      Value: 114408
+      Value: 114192
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRHandPrefab.prefab
-      Value: 114742
+      Value: 114526
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRPlayerController.prefab
-      Value: 114760
+      Value: 114544
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRRayHelper.prefab
-      Value: 70842
+      Value: 50998
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRRuntimeControllerPrefab.prefab
-      Value: 114836
+      Value: 114620
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRSceneManager.prefab
-      Value: 114844
+      Value: 114628
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRTrackedKeyboard/OVRHandMask_L.prefab
-      Value: 114854
+      Value: 114638
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRTrackedKeyboard/OVRHandMask_R.prefab
-      Value: 115332
+      Value: 115116
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRTrackedKeyboard/OVRTrackedKeyboard.prefab
-      Value: 115810
+      Value: 115594
     - Key: Packages/com.meta.xr.sdk.core/Prefabs/OVRVirtualKeyboard.prefab
-      Value: 115836
+      Value: 115620
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/NGO/Colocation/Prefabs/NGOColocationDriver.prefab
-      Value: 115846
+      Value: 115630
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/NGO/NetworkedAvatar/Prefabs/AvatarNGO.prefab
-      Value: 115862
+      Value: 115646
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/NGO/PlayerNameTag/Prefabs/PlayerNameTagNGO.prefab
-      Value: 115874
+      Value: 115658
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/PhotonFusion/Colocation/Prefabs/FusionColocationDriver.prefab
-      Value: 115924
+      Value: 115708
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/PhotonFusion/NetworkedAvatar/Prefabs/FusionAvatar.prefab
-      Value: 115942
+      Value: 115726
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/PhotonFusion/PlayerNameTag/Prefabs/NetworkedRig.prefab
-      Value: 115956
+      Value: 115740
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Prefabs/AnchorDebugVisual.prefab
-      Value: 116006
+      Value: 115790
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Prefabs/AutomaticAnchorAlignmentManager.prefab
-      Value: 116036
+      Value: 115820
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Colocation/ColocationPackage/Prefabs/SpatialAnchor.prefab
-      Value: 116044
+      Value: 115828
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/Locomotion/Model/Teleporter.obj
-      Value: 73262
+      Value: 53418
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Prefabs/AvatarSDK.prefab
-      Value: 112500
+      Value: 112284
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Prefabs/LipSyncInput.prefab
-      Value: 112514
+      Value: 112298
     - Key: Packages/com.meta.xr.sdk.core/Scripts/BuildingBlocks/MultiplayerBlocks/Shared/NetworkedAvatar/AvatarSDK/Prefabs/Rendering/AVATAR_LOD_DEBUG_CANVAS.prefab
-      Value: 116098
+      Value: 115882
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_ControllerDistanceGrabInteractor.prefab
-      Value: 116122
+      Value: 115906
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_ControllerGrabInteractor.prefab
-      Value: 116188
+      Value: 115972
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_ControllerPokeInteractor.prefab
-      Value: 116234
+      Value: 116018
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_ControllerRayInteractor.prefab
-      Value: 116256
+      Value: 116040
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_DistanceGrabInteraction_AnchorAtHand.prefab
-      Value: 116316
+      Value: 116100
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_DistanceGrabInteraction_HandToInteractable.prefab
-      Value: 116334
+      Value: 116118
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_DistanceGrabInteraction_InteractableToHand.prefab
-      Value: 116352
+      Value: 116136
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_DistanceGrabSnapZone.prefab
-      Value: 116372
+      Value: 116156
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandDistanceGrabInteractor.prefab
-      Value: 116382
+      Value: 116166
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandGrabInteraction.prefab
-      Value: 116518
+      Value: 116302
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandGrabInteractor.prefab
-      Value: 116530
+      Value: 116314
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandPokeInteractor.prefab
-      Value: 116616
+      Value: 116400
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_HandRayInteractor.prefab
-      Value: 116650
+      Value: 116434
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_PokeInteraction.prefab
-      Value: 116730
+      Value: 116514
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_RayGrabInteraction.prefab
-      Value: 116754
+      Value: 116538
     - Key: Packages/com.meta.xr.sdk.interaction/Editor/QuickActions/Templates/Template_RayInteraction.prefab
-      Value: 116766
+      Value: 116550
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/Locomotion/LocomotionCross.fbx
-      Value: 116790
+      Value: 116574
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/Locomotion/LocomotionLocation.fbx
-      Value: 116806
+      Value: 116590
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/Locomotion/LocomotionPointer.fbx
-      Value: 116836
+      Value: 116620
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/OculusHandPinchArrowBlended.fbx
-      Value: 116860
+      Value: 116644
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Body/Body.prefab
-      Value: 116868
+      Value: 116652
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/ControllerHands.prefab
-      Value: 116876
+      Value: 116660
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Controllers.prefab
-      Value: 116922
+      Value: 116706
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/ActiveStateDebugTree.prefab
-      Value: 116956
+      Value: 116740
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/ActiveStateDebugTreeNodeHorizontal.prefab
-      Value: 116984
+      Value: 116768
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/ActiveStateDebugTreeNodeVertical.prefab
-      Value: 117060
+      Value: 116844
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/FingerFeatureDebugVisual.prefab
-      Value: 117134
+      Value: 116918
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/FingerFeatureSkeletalDebugVisual.prefab
-      Value: 117158
+      Value: 116942
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/HandShapeDebugVisual.prefab
-      Value: 117168
+      Value: 116952
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/HandShapeSkeletalDebugVisual.prefab
-      Value: 117198
+      Value: 116982
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/InteractableDebugVisual.prefab
-      Value: 117206
+      Value: 116990
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/InteractorDebugTree.prefab
-      Value: 117218
+      Value: 117002
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/InteractorDebugVisual.prefab
-      Value: 117324
+      Value: 117108
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/InteractorGroupDebugTreeNode.prefab
-      Value: 117258
+      Value: 117042
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/PointableDebugVisual.prefab
-      Value: 117336
+      Value: 117120
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/SelectorDebugVisual.prefab
-      Value: 117348
+      Value: 117132
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/TransformFeatureDebugVisual.prefab
-      Value: 117360
+      Value: 117144
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/TransformFeatureVectorDebugParentVisual.prefab
-      Value: 117380
+      Value: 117164
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/TransformFeatureVectorDebugVisual.prefab
-      Value: 117388
+      Value: 117172
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Debug/TransformRecognizerDebugVisual.prefab
-      Value: 117398
+      Value: 117182
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/ControllerDistanceGrabInteractor.prefab
-      Value: 117426
+      Value: 117210
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/DistanceHandGrabInteractor.prefab
-      Value: 117456
+      Value: 117240
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/ReticleIcon.prefab
-      Value: 117558
+      Value: 117342
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/ReticleLine.prefab
-      Value: 117570
+      Value: 117354
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/DistanceHandGrab/Reticles/ReticleMesh.prefab
-      Value: 117584
+      Value: 117368
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Grab/ControllerGrabInteractor.prefab
-      Value: 117596
+      Value: 117380
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Grab/GrabInteractable.prefab
-      Value: 117642
+      Value: 117426
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractable.prefab
-      Value: 117670
+      Value: 117454
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab
-      Value: 117680
+      Value: 117464
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/LeftHandSynthetic.prefab
-      Value: 117764
+      Value: 117548
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/LeftHandVisual.prefab
-      Value: 117780
+      Value: 117564
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/RightHandSynthetic.prefab
-      Value: 117792
+      Value: 117576
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands/RightHandVisual.prefab
-      Value: 117808
+      Value: 117592
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hands.prefab
-      Value: 117820
+      Value: 117604
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Hmd.prefab
-      Value: 117890
+      Value: 117674
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/ArcVisual.prefab
-      Value: 117898
+      Value: 117682
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/ControllerTurnerInteractor.prefab
-      Value: 117940
+      Value: 117724
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/HandTurnerInteractor.prefab
-      Value: 117952
+      Value: 117736
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/LocomotionControllerInteractorGroup.prefab
-      Value: 118062
+      Value: 117846
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/LocomotionHandInteractorGroup.prefab
-      Value: 118290
+      Value: 118074
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportControllerInteractor.prefab
-      Value: 118154
+      Value: 117938
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHandInteractor.prefab
-      Value: 118376
+      Value: 118160
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot
         with ViewPoint.prefab
-      Value: 118650
+      Value: 118434
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Locomotion/TeleportHotspot.prefab
-      Value: 118652
+      Value: 118436
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Poke/ControllerPokeInteractor.prefab
-      Value: 118726
+      Value: 118510
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Poke/HandPokeInteractor.prefab
-      Value: 118748
+      Value: 118532
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Poke/PokeInteractable.prefab
-      Value: 118782
+      Value: 118566
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Ray/ControllerRayInteractor.prefab
-      Value: 118824
+      Value: 118608
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Ray/HandRayInteractor.prefab
-      Value: 118884
+      Value: 118668
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Ray/RayInteractable.prefab
-      Value: 118964
+      Value: 118748
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/UseGrab/HandGrabUseInteractor.prefab
-      Value: 118994
+      Value: 118778
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/ControllerRANSACVelocityCalculator.prefab
-      Value: 119018
+      Value: 118802
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/ControllerVelocityCalculator.prefab
-      Value: 119030
+      Value: 118814
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/HandRANSACVelocityCalculator.prefab
-      Value: 119040
+      Value: 118824
     - Key: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/VelocityCalculators/HandVelocityCalculator.prefab
-      Value: 119052
+      Value: 118836
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Prefabs/[BB]
         Controllers.prefab
-      Value: 73690
+      Value: 53846
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/HandTracking/Prefabs/[BB]
         Hands.prefab
-      Value: 73756
+      Value: 53912
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB]
         Grabbable Cube.prefab
-      Value: 73830
+      Value: 53986
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB]
         Pointable Cube.prefab
-      Value: 73850
+      Value: 54006
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB]
         Pokeable Plane.prefab
-      Value: 73874
+      Value: 54030
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/InteractableItems/Prefabs/[BB]
         Throwable Cube.prefab
-      Value: 73918
+      Value: 54074
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Prefabs/Template_TouchHandGrabInteraction.prefab
-      Value: 119062
+      Value: 118846
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactables/Prefabs/Template_TouchHandGrabInteractor.prefab
-      Value: 119072
+      Value: 118856
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactions/Prefabs/[BB]
         Interactions.prefab
-      Value: 73944
+      Value: 54100
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Prefabs/[BB]
         Grab Interactor.prefab
-      Value: 73980
+      Value: 54136
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Prefabs/[BB]
         Hand Physics.prefab
-      Value: 74064
+      Value: 54220
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Prefabs/[BB]
         Hand Poke.prefab
-      Value: 74074
+      Value: 54230
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/Interactors/Prefabs/[BB]
         Hand Ray.prefab
-      Value: 74108
+      Value: 54264
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/RealHands/Prefabs/RealHands.prefab
-      Value: 74196
+      Value: 54352
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Prefabs/[BB]
         Left Hand Synthetic.prefab
-      Value: 74206
+      Value: 54362
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/SyntheticHands/Prefabs/[BB]
         Right Hand Synthetic.prefab
-      Value: 74208
+      Value: 54364
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Body/OVRBody.prefab
-      Value: 120236
+      Value: 120020
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Controller/OVRLeftControllerSynthetic.prefab
-      Value: 120254
+      Value: 120038
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Controller/OVRRightControllerSynthetic.prefab
-      Value: 120774
+      Value: 120558
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/DistanceHandGrab/Reticles/OVRLeftHandReticle.prefab
-      Value: 121294
+      Value: 121078
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/DistanceHandGrab/Reticles/OVRRightHandReticle.prefab
-      Value: 121982
+      Value: 121766
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/HandGrab/Ghost-LeftHand.prefab
-      Value: 122670
+      Value: 122454
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab
-      Value: 123002
+      Value: 122786
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromLeftHandPrefab.prefab
-      Value: 123334
+      Value: 123118
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRFromRightHandPrefab.prefab
-      Value: 123672
+      Value: 123456
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRLeftHandSynthetic.prefab
-      Value: 121316
+      Value: 121100
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRLeftHandVisual.prefab
-      Value: 124018
+      Value: 123802
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRRightHandSynthetic.prefab
-      Value: 122004
+      Value: 121788
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Hands/OVRRightHandVisual.prefab
-      Value: 124356
+      Value: 124140
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/Legacy/InteractionRigOVR.prefab
-      Value: 124686
+      Value: 124470
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRCameraRigInteraction.prefab
-      Value: 124806
+      Value: 124590
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllerDrivenHands.prefab
-      Value: 137426
+      Value: 137210
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllerHands.prefab
-      Value: 139222
+      Value: 139006
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllers.prefab
-      Value: 140620
+      Value: 140404
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllerVisual.prefab
-      Value: 140706
+      Value: 140490
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRHands.prefab
-      Value: 142212
+      Value: 141996
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRHmd.prefab
-      Value: 73968
+      Value: 54124
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRInteraction.prefab
-      Value: 124716
+      Value: 124500
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRInteractionComprehensive.prefab
-      Value: 124916
+      Value: 124700
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/TouchHandGrab/OVRHandSphereMap.prefab
-      Value: 119114
+      Value: 118898
     - Key: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/TouchHandGrab/OVRTouchHandGrabInteractor.prefab
-      Value: 143040
+      Value: 142824
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicGesturesSwipeAudio.prefab
-      Value: 143654
+      Value: 143438
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicGrabPickupAudio.prefab
-      Value: 143666
+      Value: 143450
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicGrabReleaseAudio.prefab
-      Value: 143686
+      Value: 143470
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeButtonPressAudio.prefab
-      Value: 143706
+      Value: 143490
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeButtonReleaseAudio.prefab
-      Value: 143716
+      Value: 143500
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeCanvasNoOpAudio.prefab
-      Value: 45398
+      Value: 45108
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeCanvasPressAudio.prefab
-      Value: 45386
+      Value: 45096
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeCanvasReleaseAudio.prefab
-      Value: 143732
+      Value: 143516
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeKeypadPressAudio.prefab
-      Value: 143742
+      Value: 143526
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeKeypadReleaseAudio.prefab
-      Value: 143770
+      Value: 143554
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeToyButtonPressAudio.prefab
-      Value: 143780
+      Value: 143564
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicPokeToyButtonReleaseAudio.prefab
-      Value: 143796
+      Value: 143580
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicRayBackAudio.prefab
-      Value: 143812
+      Value: 143596
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicRayHoverAudio.prefab
-      Value: 143824
+      Value: 143608
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicRayPressAudio.prefab
-      Value: 143836
+      Value: 143620
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BasicRayReleaseAudio.prefab
-      Value: 143846
+      Value: 143630
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/BodyCaptureTimerTick.prefab
-      Value: 143858
+      Value: 143642
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabBoxCloseAudio.prefab
-      Value: 143870
+      Value: 143654
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabBoxGrabAudio.prefab
-      Value: 143886
+      Value: 143670
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabBoxOpenAudio.prefab
-      Value: 143896
+      Value: 143680
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabBoxOpenClose.prefab
-      Value: 143912
+      Value: 143696
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabBoxReleaseAudio.prefab
-      Value: 143940
+      Value: 143724
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabDollGrabAudio.prefab
-      Value: 143950
+      Value: 143734
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabDollReleaseAudio.prefab
-      Value: 143960
+      Value: 143744
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabPinGrabAudio.prefab
-      Value: 143970
+      Value: 143754
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabPinReleaseAudio.prefab
-      Value: 143980
+      Value: 143764
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabStoneGrabAudio.prefab
-      Value: 143990
+      Value: 143774
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabStoneReleaseAudio.prefab
-      Value: 144000
+      Value: 143784
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ComplexGrabStoneResize.prefab
-      Value: 144010
+      Value: 143794
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/DistanceGrabHoverAudio.prefab
-      Value: 144056
+      Value: 143840
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/DistanceGrabPullAudio.prefab
-      Value: 144068
+      Value: 143852
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/DistanceGrabUnhoverAudio.prefab
-      Value: 144080
+      Value: 143864
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ObjectPhysicsImpactHard.prefab
-      Value: 144092
+      Value: 143876
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ObjectPhysicsImpactSoft.prefab
-      Value: 144124
+      Value: 143908
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ObjectReappearAudio.prefab
-      Value: 144134
+      Value: 143918
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ObjectResizeDownAudio.prefab
-      Value: 144044
+      Value: 143828
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/ObjectResizeUpAudio.prefab
-      Value: 144048
+      Value: 143832
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionPaperAudio.prefab
-      Value: 144150
+      Value: 143934
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionRockAudio.prefab
-      Value: 144166
+      Value: 143950
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionScissorsAudio.prefab
-      Value: 144182
+      Value: 143966
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionStopAudio.prefab
-      Value: 144198
+      Value: 143982
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionThumbsDownAudio.prefab
-      Value: 144214
+      Value: 143998
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Audio/Prefabs/PoseDetectionThumbsUpAudio.prefab
-      Value: 144230
+      Value: 144014
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Materials/DebugBody.fbx
-      Value: 144246
+      Value: 144030
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Materials/Moon.fbx
-      Value: 144260
+      Value: 144044
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Materials/Planet.fbx
-      Value: 144274
+      Value: 144058
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/BowlCollider.fbx
-      Value: 144288
+      Value: 144072
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/capsule_affordance.fbx
-      Value: 144300
+      Value: 144084
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/debug_full_body.fbx
-      Value: 144334
+      Value: 144118
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/scale_affordance.fbx
-      Value: 144816
+      Value: 144600
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/skinned_articulated_arc.fbx
-      Value: 144852
+      Value: 144636
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Meshes/skinned_rounded_rectangle.fbx
-      Value: 145020
+      Value: 144804
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/BasicGrabInfoFrames.prefab
-      Value: 145070
+      Value: 144854
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/BasicPokeInfoFrames.prefab
-      Value: 145336
+      Value: 145120
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/BasicPoseDetectionPoses.prefab
-      Value: 145550
+      Value: 145334
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/BasicPoseExamples.prefab
-      Value: 146080
+      Value: 145864
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/ComplexGrabInfoFrames.prefab
-      Value: 148354
+      Value: 148138
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/DistanceGrabInfoCards.prefab
-      Value: 148688
+      Value: 148472
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/InfoFrame.prefab
-      Value: 145146
+      Value: 144930
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/BackgroundSkydome.fbx
-      Value: 148912
+      Value: 148696
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Materials/LocomotionWaterMat.fbx
-      Value: 148926
+      Value: 148710
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocamotionBedroom.fbx
-      Value: 148940
+      Value: 148724
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionBalcony.fbx
-      Value: 148966
+      Value: 148750
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionBench.fbx
-      Value: 149022
+      Value: 148806
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionDoors.fbx
-      Value: 149058
+      Value: 148842
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionGarden.fbx
-      Value: 149148
+      Value: 148932
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionGround.fbx
-      Value: 149164
+      Value: 148948
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionInteriorDoors.fbx
-      Value: 149220
+      Value: 149004
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionRoom.fbx
-      Value: 149264
+      Value: 149048
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionStairs.fbx
-      Value: 149300
+      Value: 149084
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Models/Meta_LocomotionStools.fbx
-      Value: 149312
+      Value: 149096
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Locomotion/Prefabs/LocomotionEnvironment.prefab
-      Value: 149348
+      Value: 149132
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Screen/DebugScreen.prefab
-      Value: 148396
+      Value: 148180
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Screen/Materials/FrameMaterial.fbx
-      Value: 152826
+      Value: 152610
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Screen/Materials/ScreenMaterial.fbx
-      Value: 152840
+      Value: 152624
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Screen/Models/ScreenMesh.fbx
-      Value: 152850
+      Value: 152634
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Screen/Screen.prefab
-      Value: 152862
+      Value: 152646
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Environment/Tooltips/NearSwipe/SwipeInstructions.prefab
-      Value: 152882
+      Value: 152666
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/LargeRoom.prefab
-      Value: 152942
+      Value: 152726
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/BigRedButton/BigRedButton.prefab
-      Value: 154704
+      Value: 154488
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/BigStone/BigStone.prefab
-      Value: 154800
+      Value: 154584
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/BigStone/Materials/BigStoneMat.fbx
-      Value: 154920
+      Value: 154704
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Box/Box.prefab
-      Value: 154932
+      Value: 154716
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ChessPiece/ChessPiece.prefab
-      Value: 155048
+      Value: 154832
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.fbx
-      Value: 155142
+      Value: 154926
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ChessPiece/Models/simpleGrabKnight.fbx
-      Value: 155154
+      Value: 154938
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ChessPiece/Models/simpleGrabKnightConvexHulls.fbx
-      Value: 155164
+      Value: 154948
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/CoffeeCup/CoffeeCup.fbx
-      Value: 155202
+      Value: 154986
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/CoffeeCup/CoffeeCupFractured.fbx
-      Value: 155216
+      Value: 155000
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/CoffeeCup/CoffeeCupHulls.fbx
-      Value: 155382
+      Value: 155166
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/CoffeeCup/CoffeeCupMat.fbx
-      Value: 155520
+      Value: 155304
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Cube/Models/CubeMesh.fbx
-      Value: 155534
+      Value: 155318
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/CurvedUnityCanvas.prefab
-      Value: 155548
+      Value: 155332
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Doll/Doll.prefab
-      Value: 156168
+      Value: 155952
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/FlatUnityCanvas.prefab
-      Value: 41614
+      Value: 41606
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/HoverButtons.prefab
-      Value: 156278
+      Value: 156062
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/IconBox/IconBox.prefab
-      Value: 156732
+      Value: 156516
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/IconBox/Models/iconBoxMesh.fbx
-      Value: 156804
+      Value: 156588
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Key/Key.prefab
-      Value: 156816
+      Value: 156600
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Keypad/Keypad.prefab
-      Value: 156930
+      Value: 156714
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Keypad/KeypadButton.prefab
-      Value: 157060
+      Value: 156844
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Locomotion/LocomotionTurorialUI.fbx
-      Value: 157590
+      Value: 157374
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Locomotion/Materials/MetaLocoTutorialUIMat.fbx
-      Value: 157642
+      Value: 157426
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/MapWithPins.prefab
-      Value: 157656
+      Value: 157440
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Materials/MapFrameMat.fbx
-      Value: 157942
+      Value: 157726
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Materials/MapMat.fbx
-      Value: 157954
+      Value: 157738
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Materials/MapPointerMat.fbx
-      Value: 157966
+      Value: 157750
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Models/Map.fbx
-      Value: 157978
+      Value: 157762
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Models/MapFrame.fbx
-      Value: 157988
+      Value: 157772
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Models/MapPointer.fbx
-      Value: 157998
+      Value: 157782
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/MapWithPins/Pin.prefab
-      Value: 157712
+      Value: 157496
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Materials/CubeMaterialBlue.fbx
-      Value: 158026
+      Value: 157810
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Materials/CubeMaterialGreen.fbx
-      Value: 158040
+      Value: 157824
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Mug/Mug.prefab
-      Value: 158054
+      Value: 157838
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PictureFrame/Picture.prefab
-      Value: 158288
+      Value: 158072
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PictureFrame/PictureFrame.prefab
-      Value: 158304
+      Value: 158088
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PingPong/PingPngBall.fbx
-      Value: 158528
+      Value: 158312
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PingPong/PingPngPaddle.fbx
-      Value: 158542
+      Value: 158326
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PingPong/PingPongBall.prefab
-      Value: 158556
+      Value: 158340
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/PlasticCup/PlasticCup.fbx
-      Value: 158704
+      Value: 158488
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/SampleCanvas.prefab
-      Value: 158718
+      Value: 158502
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Slingshot/Slingshot.fbx
-      Value: 158966
+      Value: 158750
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/SprayBottle/Materials/SprayBottleMat.fbx
-      Value: 159006
+      Value: 158790
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/SprayBottle/SprayBottle.fbx
-      Value: 159020
+      Value: 158804
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StoneCube.prefab
-      Value: 159076
+      Value: 158860
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StoneDodecahedron.prefab
-      Value: 159312
+      Value: 159096
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StoneIcosahedron.prefab
-      Value: 159430
+      Value: 159214
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StoneOctahedron.prefab
-      Value: 159550
+      Value: 159334
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StonePolyhedron.prefab
-      Value: 159078
+      Value: 158862
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/StonePolyhedra/StoneTetrahedron.prefab
-      Value: 159684
+      Value: 159468
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/TennisBall/TennisBall.fbx
-      Value: 159804
+      Value: 159588
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/TennisBall/TennisBallMat.fbx
-      Value: 159816
+      Value: 159600
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/Torch/Torch.prefab
-      Value: 159830
+      Value: 159614
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ToyBox/ToyBoxes.fbx
-      Value: 159982
+      Value: 159766
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/ToyBox/ToyBoxesMat.fbx
-      Value: 160030
+      Value: 159814
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/Props/WaterParticles/BubblePopParticle.fbx
-      Value: 160044
+      Value: 159828
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Objects/SmallRoom.prefab
-      Value: 160058
+      Value: 159842
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/Body/Capturer.prefab
-      Value: 160300
+      Value: 160084
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/Body/OVRBodyFromPose.prefab
-      Value: 160470
+      Value: 160254
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/CircularButton.prefab
-      Value: 161512
+      Value: 161296
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/CircularUIToggle.prefab
-      Value: 161540
+      Value: 161324
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/DeprecatedSceneInfo.prefab
-      Value: 161576
+      Value: 161360
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandGesture/SwipeForwardGesture.prefab
-      Value: 161612
+      Value: 161396
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/FramePoseTwoHanded.prefab
-      Value: 161688
+      Value: 161472
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/LPose.prefab
-      Value: 161742
+      Value: 161526
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/PaperPose.prefab
-      Value: 145736
+      Value: 145520
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/RockPose.prefab
-      Value: 145774
+      Value: 145558
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/ScissorsPose.prefab
-      Value: 145694
+      Value: 145478
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/StopPose.prefab
-      Value: 145812
+      Value: 145596
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/ThumbsDownPose.prefab
-      Value: 145722
+      Value: 145506
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/HandPose/ThumbsUpPose.prefab
-      Value: 145708
+      Value: 145492
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/InteractableObjectLabel.prefab
-      Value: 161776
+      Value: 161560
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/LibraryPage.prefab
-      Value: 161832
+      Value: 161616
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/MenuButton.prefab
-      Value: 162990
+      Value: 162774
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OculusInteractionSamplePokeButton.prefab
-      Value: 163046
+      Value: 162830
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OculusInteractionSamplesButtonMenu.prefab
-      Value: 149796
+      Value: 149580
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OculusInteractionSamplesRayCanvas.prefab
-      Value: 163162
+      Value: 162946
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-Basic.prefab
-      Value: 163540
+      Value: 163324
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-FullSynthetic.prefab
-      Value: 165568
+      Value: 165352
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OVRIntegration/Legacy/InteractionRigOVR-Hybrid.prefab
-      Value: 165578
+      Value: 165362
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/OVRIntegration/Legacy/OculusInteractionSampleRig.prefab
-      Value: 171822
+      Value: 171606
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/PalmMenu.prefab
-      Value: 173830
+      Value: 173614
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/PanelWithManipulators.prefab
-      Value: 174240
+      Value: 174024
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/PanelWithManipulators_UIExample.prefab
-      Value: 175580
+      Value: 175364
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/RoundedBoxToggle.prefab
-      Value: 162154
+      Value: 161938
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/Slider.prefab
-      Value: 180826
+      Value: 180610
     - Key: Packages/com.meta.xr.sdk.interaction.ovr.samples/Runtime/Prefabs/SmallRoundedBoxToggle.prefab
-      Value: 177434
+      Value: 177218
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/2D/Interface/InstructionsPanel/InstructionsPanel.prefab
-      Value: 180882
+      Value: 180666
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/ArmChair/Armchair.fbx
-      Value: 180960
+      Value: 180744
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/ArmChair/Armchair.prefab
-      Value: 180972
+      Value: 180756
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Bed/Bed.fbx
-      Value: 180982
+      Value: 180766
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Bed/Bed.prefab
-      Value: 181006
+      Value: 180790
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Bed/DownConforterMat.fbx
-      Value: 181024
+      Value: 180808
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Bed/SingleBed/SingleBed.fbx
-      Value: 181036
+      Value: 180820
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Bed/SingleBed/SingleBed.prefab
-      Value: 181048
+      Value: 180832
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/BookCase/BookCaseFilled.fbx
-      Value: 181058
+      Value: 180842
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/BookCase/BookCaseFilled.prefab
-      Value: 181070
+      Value: 180854
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Book.001.prefab
-      Value: 181080
+      Value: 180864
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Book.002.prefab
-      Value: 181094
+      Value: 180878
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Book.003.prefab
-      Value: 181106
+      Value: 180890
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Book.prefab
-      Value: 181118
+      Value: 180902
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Books.fbx
-      Value: 181130
+      Value: 180914
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Materials/BooksMat.fbx
-      Value: 181170
+      Value: 180954
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Books/Models/Books.fbx
-      Value: 181182
+      Value: 180966
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Box/Box.prefab
-      Value: 181228
+      Value: 181012
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Chair/Chair.fbx
-      Value: 181266
+      Value: 181050
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Chair/Chair.prefab
-      Value: 181278
+      Value: 181062
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/CoffeTable/CoffeeTable.fbx
-      Value: 181288
+      Value: 181072
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/CoffeTable/CoffeeTable.prefab
-      Value: 181304
+      Value: 181088
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Couch/Couch.fbx
-      Value: 181314
+      Value: 181098
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Couch/Couch.prefab
-      Value: 181326
+      Value: 181110
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Curtains/Curtains.fbx
-      Value: 181336
+      Value: 181120
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Curtains/Curtains.prefab
-      Value: 181348
+      Value: 181132
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/Desk.prefab
-      Value: 181358
+      Value: 181142
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/Desk_standardLit/Desk_standardLit.prefab
-      Value: 181384
+      Value: 181168
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/Desk_standardLit/Desk_standardLitMat.fbx
-      Value: 181414
+      Value: 181198
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/Desk_standardLit/MRDeskStandardLit.fbx
-      Value: 181426
+      Value: 181210
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/DeskWithLegs/DeskWithLegs.fbx
-      Value: 181438
+      Value: 181222
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Desk/DeskWithLegs/DeskWithLegs.prefab
-      Value: 181450
+      Value: 181234
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/bevelCube.prefab
-      Value: 181460
+      Value: 181244
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/dodecahedron.prefab
-      Value: 181470
+      Value: 181254
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/icosahedron.prefab
-      Value: 181480
+      Value: 181264
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/octahedron.prefab
-      Value: 181490
+      Value: 181274
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/tetrahedron.prefab
-      Value: 181500
+      Value: 181284
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Dice/trapezohedron.prefab
-      Value: 181510
+      Value: 181294
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Doll/Doll.prefab
-      Value: 181520
+      Value: 181304
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Door/Door.fbx
-      Value: 181542
+      Value: 181326
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Door/Door.prefab
-      Value: 181566
+      Value: 181350
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GamingChair/GamingChair.fbx
-      Value: 181584
+      Value: 181368
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GamingChair/GamingChair.prefab
-      Value: 181676
+      Value: 181460
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/CarpetTiling/CarpetTilingMat.fbx
-      Value: 181750
+      Value: 181534
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/ChromeTiling/ChromeTilingMat.fbx
-      Value: 181764
+      Value: 181548
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/FabricTiling/FabricTilingMat.fbx
-      Value: 181778
+      Value: 181562
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/Gold/GoldMat.fbx
-      Value: 181792
+      Value: 181576
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/ParquetteTiling/ParquetteTilingMat.fbx
-      Value: 181806
+      Value: 181590
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/PlasticBlackGlossyTiling/PlasticBlackGlossyMat.fbx
-      Value: 181820
+      Value: 181604
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/PlasticBlackRoughTiling/PlasticBlackRoughMat.fbx
-      Value: 181834
+      Value: 181618
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/PlasticWhiteGlossyTiling/PlasticWhiteGlossyMat.fbx
-      Value: 181848
+      Value: 181632
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/PlasticWhiteRoughTiling/PlasticWhiteRoughMat.fbx
-      Value: 181862
+      Value: 181646
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GenericMaterials/PlyWoodTiling/PlyWoodTilingMat.fbx
-      Value: 181872
+      Value: 181656
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GrandPiano/GrandPiano_LOD0.fbx
-      Value: 181886
+      Value: 181670
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GrandPiano/GrandPiano_LOD0.prefab
-      Value: 181898
+      Value: 181682
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GrandPiano/GrandPianoStool_LOD0.fbx
-      Value: 181908
+      Value: 181692
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/GrandPiano/GrandPianoStool_LOD0.prefab
-      Value: 181932
+      Value: 181716
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Guitar/Guitar.prefab
-      Value: 181952
+      Value: 181736
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Guitar/Materials/GuitarMat.fbx
-      Value: 181966
+      Value: 181750
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Guitar/Models/Guitar.fbx
-      Value: 181978
+      Value: 181762
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Key/key.prefab
-      Value: 181988
+      Value: 181772
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lamp/LampHorizontalPlane.prefab
-      Value: 181998
+      Value: 181782
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lamp/LampVerticalPlane.prefab
-      Value: 182012
+      Value: 181796
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lamp/Materials/LampMat.fbx
-      Value: 182024
+      Value: 181808
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lamp/Models/LampHorizontalPlane.fbx
-      Value: 182036
+      Value: 181820
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lamp/Models/LampVerticalPlane.fbx
-      Value: 182046
+      Value: 181830
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/LampCeilingHangingBulbs/LampCeilingHangingBulbs.fbx
-      Value: 182056
+      Value: 181840
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/LampCeilingHangingBulbs/LampCeilingHangingBulbs.prefab
-      Value: 182078
+      Value: 181862
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/LampCeilingOffice/LampCeilingOffice.fbx
-      Value: 182096
+      Value: 181880
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/LampCeilingOffice/LampCeilingOffice.prefab
-      Value: 182110
+      Value: 181894
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lantern/Lantern.prefab
-      Value: 182120
+      Value: 181904
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lantern/Materials/LanternMat.fbx
-      Value: 182214
+      Value: 181998
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Lantern/Models/Lantern.fbx
-      Value: 182226
+      Value: 182010
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Mug/Mug.prefab
-      Value: 182256
+      Value: 182040
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/NightTable/NightTable.fbx
-      Value: 182266
+      Value: 182050
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/NightTable/NightTable.prefab
-      Value: 182280
+      Value: 182064
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Paintings/Painiting.fbx
-      Value: 182290
+      Value: 182074
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Paintings/Painiting.prefab
-      Value: 182302
+      Value: 182086
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Paintings/PainitingMat.fbx
-      Value: 182312
+      Value: 182096
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pillows/Materials/PillowsMat.fbx
-      Value: 182326
+      Value: 182110
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pillows/Models/Pillows.fbx
-      Value: 182340
+      Value: 182124
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pillows/Pillow1.prefab
-      Value: 182368
+      Value: 182152
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pillows/Pillow2.prefab
-      Value: 182378
+      Value: 182162
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Planes/Plane1x1.prefab
-      Value: 182388
+      Value: 182172
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Planes/Plane2x1.prefab
-      Value: 182400
+      Value: 182184
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Planes/Planes.fbx
-      Value: 182412
+      Value: 182196
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/PlantSmall_wideLeaves/PlantSmall_wideLeaves.fbx
-      Value: 182434
+      Value: 182218
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/PlantSmall_wideLeaves/PlantSmall_wideLeaves.prefab
-      Value: 182446
+      Value: 182230
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/PlantUmbrella/PlantUmbrella.prefab
-      Value: 182456
+      Value: 182240
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pouffe/Pouffe.fbx
-      Value: 182488
+      Value: 182272
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Pouffe/Pouffe.prefab
-      Value: 182500
+      Value: 182284
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Room/backgroundSkyDome.prefab
-      Value: 182510
+      Value: 182294
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Speaker/SpeakerSmall_LOD0.fbx
-      Value: 182520
+      Value: 182304
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Speaker/SpeakerSmall_LOD0.prefab
-      Value: 182554
+      Value: 182338
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Speaker/SpeakerTall_LOD0.fbx
-      Value: 182582
+      Value: 182366
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Speaker/SpeakerTall_LOD0.prefab
-      Value: 182616
+      Value: 182400
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SpotLight/SportLight.fbx
-      Value: 182644
+      Value: 182428
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SpotLight/SportLight.prefab
-      Value: 182676
+      Value: 182460
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SwtichesAndPlugs/Models/ModernSwitchesAndPlugs.fbx
-      Value: 182702
+      Value: 182486
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SwtichesAndPlugs/MultiSwitch_modern.prefab
-      Value: 182748
+      Value: 182532
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SwtichesAndPlugs/PowePlug_modern.prefab
-      Value: 182758
+      Value: 182542
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SwtichesAndPlugs/SwitchShades.prefab
-      Value: 182768
+      Value: 182552
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/SwtichesAndPlugs/SwtichLight.prefab
-      Value: 182778
+      Value: 182562
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Table/Table.fbx
-      Value: 182788
+      Value: 182572
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Table/Table.prefab
-      Value: 182814
+      Value: 182598
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Torch/torchMesh.prefab
-      Value: 182836
+      Value: 182620
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/TripodLamp/TripodLamp.fbx
-      Value: 182846
+      Value: 182630
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/TripodLamp/TripodLamp.prefab
-      Value: 182858
+      Value: 182642
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Tv/Models/TvHorizontalPlane.fbx
-      Value: 182868
+      Value: 182652
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Tv/Models/TvVerticalPlane.fbx
-      Value: 182880
+      Value: 182664
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Tv/TvHorizontalPlane.prefab
-      Value: 182892
+      Value: 182676
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Tv/TvVerticalPlane.prefab
-      Value: 182902
+      Value: 182686
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Window/Window.fbx
-      Value: 182912
+      Value: 182696
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/Window/Window.prefab
-      Value: 182944
+      Value: 182728
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/WindowNoHandle/WindowNoHandle.fbx
-      Value: 182970
+      Value: 182754
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/3D/Environment/WindowNoHandle/WindowNoHandle.prefab
-      Value: 182982
+      Value: 182766
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/MRDesk/Desk.prefab
-      Value: 182992
+      Value: 182776
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/MRDesk/Models/MRDesk.fbx
-      Value: 183018
+      Value: 182802
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/MRDesk/Models/MRDeskShadow.fbx
-      Value: 183030
+      Value: 182814
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/Room/Models/backgroundSkyDome.fbx
-      Value: 183042
+      Value: 182826
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/Room/Models/SmallRoom.fbx
-      Value: 149654
+      Value: 149438
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/Room/RoomEnvironment.prefab
-      Value: 153024
+      Value: 152808
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx
-      Value: 183066
+      Value: 182850
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/SmallRoom/SmallRoomEnvironment.prefab
-      Value: 160098
+      Value: 159882
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Environment/Tooltips/Dialog.prefab
-      Value: 183138
+      Value: 182922
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/BigRedButton/Materials/PodiumMat.fbx
-      Value: 183208
+      Value: 182992
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/BigRedButton/Models/BigRedButton.fbx
-      Value: 183220
+      Value: 183004
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Box/Materials/BoxMat.fbx
-      Value: 183250
+      Value: 183034
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Box/Models/Box.fbx
-      Value: 183262
+      Value: 183046
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Doll/Materials/DollMat.fbx
-      Value: 183300
+      Value: 183084
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Doll/Models/Doll.fbx
-      Value: 183312
+      Value: 183096
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Key/Materials/keyMaterial.fbx
-      Value: 183336
+      Value: 183120
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Key/Models/keyMesh.fbx
-      Value: 183348
+      Value: 183132
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Mug/Materials/mugMaterial.fbx
-      Value: 183358
+      Value: 183142
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Mug/Models/mugMesh.fbx
-      Value: 183370
+      Value: 183154
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Mug/Models/mugMeshConvexHulls.fbx
-      Value: 183380
+      Value: 183164
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Plants/PlantPot.fbx
-      Value: 182476
+      Value: 182260
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Plants/PlantUmbrella.fbx
-      Value: 183518
+      Value: 183302
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/StonePolyhedra/Materials/StonePolyhedraMat.fbx
-      Value: 183528
+      Value: 183312
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/StonePolyhedra/Models/StonePolyhedra.fbx
-      Value: 183540
+      Value: 183324
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Torch/Materials/torchMaterial.fbx
-      Value: 183594
+      Value: 183378
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Shared/Samples/Objects/Props/Torch/Models/torchMesh.fbx
-      Value: 183606
+      Value: 183390
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Vfx/BlobShadow/BlobShadow_Dynamic.prefab
-      Value: 183616
+      Value: 183400
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Vfx/BlobShadow/BlobShadow_static.prefab
-      Value: 183628
+      Value: 183412
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Vfx/Portal/Portal.prefab
-      Value: 183638
+      Value: 183422
     - Key: Packages/com.meta.xr.sdk.sharedassets/Runtime/Vfx/Portal/PortalFunnelTwist.fbx
-      Value: 183666
+      Value: 183450
     - Key: Packages/com.unity.cloud.gltfast/Runtime/Prefabs/glTF-FastestLoading.prefab
-      Value: 183698
+      Value: 183482
     - Key: Packages/com.unity.cloud.gltfast/Runtime/Prefabs/glTF-StableFramerate.prefab
-      Value: 183708
+      Value: 183492
     - Key: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
-      Value: 183720
+      Value: 183504

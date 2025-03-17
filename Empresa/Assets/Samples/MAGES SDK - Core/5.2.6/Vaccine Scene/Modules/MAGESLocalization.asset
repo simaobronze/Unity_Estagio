@@ -1,0 +1,573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1611503683, guid: 991b33c16bb4576007d155f2ae572765, type: 3}
+  m_Name: MAGESLocalization
+  m_EditorClassIdentifier: 
+  languages:
+  - en
+  - fr
+  languageChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  textEntries:
+  - key: The wrong answer was chosen in the Injection Question
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: The wrong answer was chosen in the Injection Question
+      - Key: fr
+        Value: "La mauvaise r\xE9ponse a \xE9t\xE9 choisie dans la question sur l'injection"
+  - key: 'In which part of the body should the injection be given? '
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'In which part of the body should the injection be given? '
+      - Key: fr
+        Value: "Dans quelle partie du corps l'injection doit-elle \xEAtre faite? "
+  - key: Arm
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Arm
+      - Key: fr
+        Value: Bras
+  - key: Leg
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Leg
+      - Key: fr
+        Value: Jambes
+  - key: Neck
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Neck
+      - Key: fr
+        Value: Cou
+  - key: Waist
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Waist
+      - Key: fr
+        Value: Taille
+  - key: Pour Alcohol here!
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Pour Alcohol here!
+      - Key: fr
+        Value: Versez de l'alcool ici!
+  - key: Sterilize the cut
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Sterilize the cut
+      - Key: fr
+        Value: "St\xE9riliser la coupe"
+  - key: Place here
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Place here
+      - Key: fr
+        Value: Placer ici
+  - key: Dispose me on the bin.
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Dispose me on the bin.
+      - Key: fr
+        Value: "Jetez-moi \xE0 la poubelle."
+  - key: Target
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Target
+      - Key: fr
+        Value: Cible
+  - key: Press trigger button to administer
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Press trigger button to administer
+      - Key: fr
+        Value: "Appuyer sur le bouton de d\xE9clenchement pour administrer"
+  - key: Remove the syringe
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Remove the syringe
+      - Key: fr
+        Value: Retirer la seringue
+  - key: Dispose it on the bin
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Dispose it on the bin
+      - Key: fr
+        Value: Jeter dans la poubelle
+  - key: Take the swab
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Take the swab
+      - Key: fr
+        Value: "Pr\xE9lever l'\xE9couvillon"
+  - key: "Establishing connection \nto main server"
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Establishing connection to main server
+      - Key: fr
+        Value: "\xC9tablissement de la connexion avec le serveur principal"
+  - key: Sessions
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Sessions
+      - Key: fr
+        Value: "S\xE9ances"
+  - key: Joined Users
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Joined Users
+      - Key: fr
+        Value: Utilisateurs inscrits
+  - key: What do you want to do next?
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: What do you want to do next?
+      - Key: fr
+        Value: Que voulez-vous faire ensuite?
+  - key: Sterilize the cut with the alcohol solution
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Sterilize the cut with the alcohol solution
+      - Key: fr
+        Value: "St\xE9riliser la coupure avec la solution d'alcool"
+  - key: Place the scalpel in the tray
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Place the scalpel in the tray
+      - Key: fr
+        Value: Placer le scalpel dans le plateau
+  - key: Please wait for users to join
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Please wait for users to join
+      - Key: fr
+        Value: Veuillez attendre que les utilisateurs se joignent au groupe
+  - key: 'Your Session:'
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Your Session:'
+      - Key: fr
+        Value: 'Votre session:'
+  - key: Welcome to MAGES NXT
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Welcome to MAGES NXT
+      - Key: fr
+        Value: "Bienvenue \xE0 MAGES NXT"
+  - key: Start
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Start '
+      - Key: fr
+        Value: "D\xE9marrage "
+  - key: Solo Session
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Solo Session
+      - Key: fr
+        Value: Session solo
+  - key: Multiplayer
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Multiplayer
+      - Key: fr
+        Value: Multijoueurs
+  - key: Online Session
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Online Session
+      - Key: fr
+        Value: Session en ligne
+  - key: Replay
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Replay
+      - Key: fr
+        Value: Replay
+  - key: Recorded Sessions
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Recorded Sessions
+      - Key: fr
+        Value: "Sessions enregistr\xE9es"
+  - key: Exit App
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Exit App
+      - Key: fr
+        Value: Quitter l'application
+  - key: Edit Avatar
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Edit Avatar
+      - Key: fr
+        Value: Modifier l'avatar
+  - key: Record Session
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Record Session
+      - Key: fr
+        Value: Session d'enregistrement
+  - key: Session End
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Session End
+      - Key: fr
+        Value: Fin de la session
+  - key: Restart
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Restart '
+      - Key: fr
+        Value: "Red\xE9marrage"
+  - key: Back
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Back
+      - Key: fr
+        Value: Retour
+  - key: Create
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Create
+      - Key: fr
+        Value: "Cr\xE9er"
+  - key: Sign in
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Sign in
+      - Key: fr
+        Value: S'inscrire
+  - key: Update Available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Update Available
+      - Key: fr
+        Value: "Mise \xE0 jour disponible"
+  - key: "Please download and\n update to latest version."
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Please download and  update to latest version.
+      - Key: fr
+        Value: "Veuillez t\xE9l\xE9charger et  et mettez \xE0 jour la derni\xE8re
+          version."
+  - key: Remember me
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Remember me
+      - Key: fr
+        Value: Souvenez-vous de moi
+  - key: Username
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Username
+      - Key: fr
+        Value: Nom d'utilisateur
+  - key: Password
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Password
+      - Key: fr
+        Value: Mot de passe
+  - key: Login
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Login
+      - Key: fr
+        Value: Connexion
+  - key: Register
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Register
+      - Key: fr
+        Value: Registre
+  - key: Guest Login
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Guest Login
+      - Key: fr
+        Value: "Connexion de l'invit\xE9"
+  - key: OR
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: OR
+      - Key: fr
+        Value: OU
+  - key: Please navigate to "https://login.oramavr.com/Account/Register" and create
+      an account.
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Please navigate to "https://login.oramavr.com/Account/Register" and
+          create an account.
+      - Key: fr
+        Value: "Veuillez vous rendre sur \"https://login.oramavr.com/Account/Register\"
+          et cr\xE9er un compte."
+  - key: OK
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: OK
+      - Key: fr
+        Value: OK
+  - key: 'Login failed
+
+      incorrect username or password.'
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Login failed incorrect username or password.
+      - Key: fr
+        Value: "\xC9chec de la connexion nom d'utilisateur ou mot de passe incorrect."
+  - key: Authenticating user
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Authenticating user
+      - Key: fr
+        Value: Authentification de l'utilisateur
+  - key: Close Window
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Close Window
+      - Key: fr
+        Value: "Fermer la fen\xEAtre"
+  - key: Session Overview
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Session Overview
+      - Key: fr
+        Value: "Aper\xE7u de la session"
+  - key: 'Events: '
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Events: '
+      - Key: fr
+        Value: "\xC9v\xE9nements : "
+  - key: 'Errors: '
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Errors: '
+      - Key: fr
+        Value: 'Erreurs : '
+  - key: 'Objectives: '
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: 'Objectives: '
+      - Key: fr
+        Value: 'Objectifs : '
+  - key: Report
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Report
+      - Key: fr
+        Value: Rapport
+  - key: Total Score
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Total Score
+      - Key: fr
+        Value: Score total
+  - key: No events available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No events available
+      - Key: fr
+        Value: "Aucun \xE9v\xE9nement disponible"
+  - key: No event information available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No event information available
+      - Key: fr
+        Value: "Aucune information sur l'\xE9v\xE9nement n'est disponible"
+  - key: No errors available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No errors available
+      - Key: fr
+        Value: Aucune erreur disponible
+  - key: No error information available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No error information available
+      - Key: fr
+        Value: Aucune information d'erreur disponible
+  - key: No objectives available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No objectives available
+      - Key: fr
+        Value: Pas d'objectifs disponibles
+  - key: No actions available
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: No actions available
+      - Key: fr
+        Value: Aucune action disponible
+  - key: Join
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Join
+      - Key: fr
+        Value: Rejoindre
+  - key: Language
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Language
+      - Key: fr
+        Value: Langue
+  - key: Select Recording
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Select Recording
+      - Key: fr
+        Value: "S\xE9lectionner l'enregistrement"
+  - key: Replay Session
+    category: 
+    translations:
+      serializedData:
+      - Key: en
+        Value: Replay Session
+      - Key: fr
+        Value: Rejouer la session
+  audioEntries: []
+  currentLanguage: en
