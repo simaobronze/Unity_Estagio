@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: c1068c1b9c30c284284f4e046588340f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _handPhySprefab: {fileID: 1392271881182482010, guid: 3377353ab57d48645b658d891f4538d1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -799046018, guid: 82be76b84a6abcb3b15d046192f6d634, type: 3}
+  m_Name: MAGESInteractionSystemModule
+  m_EditorClassIdentifier: 
+  leftHandPrefab: {fileID: 3286612160006147312, guid: 51a4baae548b0464baa0f1129277aded, type: 3}
+  rightHandPrefab: {fileID: 5573111655215791090, guid: 6950715d74b96464ba9ba0e1939eee0e, type: 3}
+  avatarPrefab: {fileID: 246808970771327733, guid: 26e855b489b0d5a4fb13b5e6e4204072, type: 3}
+  <Interactables>k__BackingField:
+  - <Name>k__BackingField: Grabbable
+    <Type>k__BackingField: MAGES.Interaction.Interactables.Grabbable
+  <Interactors>k__BackingField:
+  - <Name>k__BackingField: HandInteractor
+    <Type>k__BackingField: MAGES.Interaction.Interactors.HandInteractor
+  - <Name>k__BackingField: HandInteractor
+    <Type>k__BackingField: MAGES.Interaction.Interactors.HandInteractor
+  <DefaultHoverEnterSound>k__BackingField: {fileID: 0}
+  <DefaultSelectEnterSound>k__BackingField: {fileID: 0}
+  <DefaultActivateEnterSound>k__BackingField: {fileID: 0}
+  <DefaultUIHoverEnterHapticIntensity>k__BackingField: 0.1
+  <DefaultHoverEnterHapticIntensity>k__BackingField: 0.1
+  <DefaultSelectEnterHapticIntensity>k__BackingField: 0
+  <DefaultActivateEnterHapticIntensity>k__BackingField: 0
+  <AutomaticPlayerRigSetup>k__BackingField: 1
+  defaultHoverMaterial: {fileID: 2100000, guid: 311313efa011949e98b6761d652ad13c, type: 2}
+  defaultReticle: {fileID: 0}
+  defaultTeleportReticle: {fileID: 0}
+  optionsMenu: {fileID: 0}
