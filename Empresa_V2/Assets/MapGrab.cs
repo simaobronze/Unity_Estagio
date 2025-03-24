@@ -25,7 +25,8 @@ public class MapGrab : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_isGrabbed) {
+        if (_isGrabbed)
+        {
             Vector3 movement = transform.position - _lastPosition;
 
             if (movement.z >= _minMovement)
@@ -39,7 +40,8 @@ public class MapGrab : MonoBehaviour
                 _mapController.ChangeMapCoords(_abstractMap.CenterLatitudeLongitude.x, _abstractMap.CenterLatitudeLongitude.y + 0.0001);
 
         }
-        else { 
+        else
+        {
             transform.position = _defaultPosition;
         }
 

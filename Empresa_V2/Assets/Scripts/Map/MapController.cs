@@ -64,14 +64,14 @@ public class MapController : MonoBehaviour
 
     private void _ChangeMapCoords(Mission mission)
     {
-        if(mission == null)
+        if (mission == null)
         {
             return;
         }
 
         //Debug.Log($"Lat: {mission.data_configs.lat} Lon: {mission.data_configs.lon}");
 
-        Vector2d latLon = new Vector2d(mission.data_configs.lat,mission.data_configs.lon);
+        Vector2d latLon = new Vector2d(mission.data_configs.lat, mission.data_configs.lon);
 
         _map.UpdateMap(latLon/*,18.0f*/);
         _ResetHeight();
@@ -92,7 +92,7 @@ public class MapController : MonoBehaviour
 
     public void ChangeMapCoords(float lat, float lon)
     {
-        Vector2d latLon = new Vector2d(lat,lon);
+        Vector2d latLon = new Vector2d(lat, lon);
         _map.UpdateMap(latLon);
     }
 
@@ -106,7 +106,7 @@ public class MapController : MonoBehaviour
     {
         List<Transform> childrenList = _GetMapTiles();
         float tileScale = 1;
-        for(int tileNumber = 0; tileNumber < 9; tileNumber++)
+        for (int tileNumber = 0; tileNumber < 9; tileNumber++)
         {
             Transform tile = childrenList[tileNumber];
             Vector3 tilePosition = tile.position;
