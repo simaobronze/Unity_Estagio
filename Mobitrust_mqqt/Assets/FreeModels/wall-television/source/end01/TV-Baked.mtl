@@ -1,0 +1,30 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 12.10.2017 04:31:45
+
+newmtl TV_Main01
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka E:\Cad\42-inch-television-wall-mountable-1.snapshot.1\end01\Solid2_albedo.jpg
+	map_Kd E:\Cad\42-inch-television-wall-mountable-1.snapshot.1\end01\Solid2_albedo.jpg
+
+newmtl Screen01
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka D:\Mapmy\Interiorshd\ArchInteriors_17_06_land08.jpg
+	map_Kd D:\Mapmy\Interiorshd\ArchInteriors_17_06_land08.jpg
