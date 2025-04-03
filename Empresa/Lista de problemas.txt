@@ -1,5 +1,0 @@
-Coisas a melhorar: 
-
-Fazer código mais reutilizável, de modo a que a adaptação do projeto seja transicionável mais facilmente de versão para versão
-
-Atualizar as versões de forma a utilizar as mais recentes e melhores versões do Meta SDK
