@@ -1994,6 +1994,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7114770129336771053, guid: df64bf5efda75be4db0c812f9277d678, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1200510940}
+    - targetCorrespondingSourceObject: {fileID: 7114770129336771053, guid: df64bf5efda75be4db0c812f9277d678, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1200510941}
   m_SourcePrefab: {fileID: 100100000, guid: df64bf5efda75be4db0c812f9277d678, type: 3}
 --- !u!4 &1200510936 stripped
 Transform:
@@ -2048,6 +2051,21 @@ MonoBehaviour:
   _selectSurface: {fileID: 0}
   _movementProvider: {fileID: 0}
   _tiebreakerScore: 0
+--- !u!114 &1200510941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200510938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a643057d168595d409011535d3874f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _list: {fileID: 0}
+  _streamGridPrefab: {fileID: 0}
+  _streamsStore: {fileID: 0}
 --- !u!1 &1242205621
 GameObject:
   m_ObjectHideFlags: 0
