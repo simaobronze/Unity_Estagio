@@ -1,0 +1,5 @@
+fazer a ligação à getway
+fazer um array com os id dos drones 997,998,999
+ver como se mete uma stream no unity, passar o id 
+
+

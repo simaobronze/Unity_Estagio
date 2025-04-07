@@ -63,12 +63,14 @@ public class StreamPlane : MonoBehaviour
     {
         if (_streamStore.ActiveStreamId != 0)
         {
+            Debug.Log("Stream id: " + _streamStore.ActiveStreamId);
             janus.StreamId = _streamStore.ActiveStreamId;
         }
         if (_streamStore.ActiveUser != null)
         {
             userName.text = _streamStore.ActiveUser.name;
             streamInfo.SetActive(true);
+            Debug.Log("Stream id: " + _streamStore.ActiveStreamId);
         }
     }
 
