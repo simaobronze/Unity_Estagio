@@ -18,6 +18,7 @@ public class DroneStreamListing : MonoBehaviour
     // Para streams vindos do back-end (já existentes)
     private Dictionary<ulong, User> _listedStreams = new();
 
+    /*
     [System.Serializable]
     public class Drone
     {
@@ -33,6 +34,8 @@ public class DroneStreamListing : MonoBehaviour
         new Drone { nome = "drone3", id = 999 }
     };
 
+    */
+
     private List<GameObject> _droneStreams = new List<GameObject>();
 
     void Start()
@@ -42,8 +45,10 @@ public class DroneStreamListing : MonoBehaviour
         {
             Debug.LogError("MQTTClient not found");
         }
+        /*
         // Chama o método que instancia os botões a partir da array manual
         UpdateDronePanelManual();
+        */
     }
 
     void Update() { }
@@ -109,6 +114,7 @@ public class DroneStreamListing : MonoBehaviour
         }
     }
 
+    /*
     // Novo método para instanciar os botões usando a array manual de drones
     private void UpdateDronePanelManual()
     {
@@ -124,6 +130,10 @@ public class DroneStreamListing : MonoBehaviour
         }
         LayoutRebuilder.ForceRebuildLayoutImmediate(_list.transform as RectTransform);
     }
+    */
+
+    
+    /*
 
     // Novo método para tratar o clique do botão do drone manual
     public void OnDroneClick(ulong droneId)
@@ -158,4 +168,6 @@ public class DroneStreamListing : MonoBehaviour
             Debug.LogError("StreamPlaneDrone not found");
         }
     }
+
+    */
 }

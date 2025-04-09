@@ -9,6 +9,7 @@ using System;
 using System.Collections;
 using Newtonsoft.Json;
 using uPLibrary.Networking.M2Mqtt;
+using System.Runtime.ConstrainedExecution;
 
 public class MQTTClient : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class MQTTClient : MonoBehaviour
             {
                 ConnectMQTTAsync(cert);
             }
-        }));
+        })); 
         //Subscribes the methods to the events from the mqtt client
         _client.Connected += OnConnected;
         _client.ApplicationMessageReceived += OnMessageReceived;
@@ -80,7 +81,7 @@ public class MQTTClient : MonoBehaviour
             .WithTcpServer(mqttURL)
             .WithClientId($"{clientID}-{DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}")
             .WithCredentials(username, password)
-            .WithTls(new MqttClientOptionsBuilderTlsParameters()
+            /*.WithTls(new MqttClientOptionsBuilderTlsParameters()
             {
                 UseTls = true,
                 AllowUntrustedCertificates = true,
@@ -91,7 +92,7 @@ public class MQTTClient : MonoBehaviour
                     certCA.Export(X509ContentType.Cert),
                 },
                 CertificateValidationCallback = delegate { return true; }
-            })
+            }) */
             .WithProtocolVersion(MQTTnet.Serializer.MqttProtocolVersion.V311)
             .WithCleanSession()
             .Build();
