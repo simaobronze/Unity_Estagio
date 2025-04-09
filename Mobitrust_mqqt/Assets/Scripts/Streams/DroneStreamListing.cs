@@ -72,11 +72,13 @@ public class DroneStreamListing : MonoBehaviour
                 continue;
             if (user.Value.streams == null || user.Value.streams.Count <= 0)
                 continue;
-            if (user.Value.streams[0].device_id.ToLower().Contains("drone"))
-            {
-                _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
-                _droneStreams.Add(InstantiateButton(user.Value));
-            }
+            /* if (user.Value.streams[0].device_id.ToLower().Contains("drone"))
+             {
+                 _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
+                 _droneStreams.Add(InstantiateButton(user.Value));
+             }*/
+            _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
+            _droneStreams.Add(InstantiateButton(user.Value));
         }
         LayoutRebuilder.ForceRebuildLayoutImmediate(_list.transform as RectTransform);
     }
