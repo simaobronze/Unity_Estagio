@@ -38,6 +38,10 @@ public class DroneStreamListing : MonoBehaviour
     void Start()
     {
         _mqttClient = FindAnyObjectByType<MQTTClient>();
+        if (_mqttClient == null)
+        {
+            Debug.LogError("MQTTClient not found");
+        }
         // Chama o método que instancia os botões a partir da array manual
         UpdateDronePanelManual();
     }
@@ -133,7 +137,11 @@ public class DroneStreamListing : MonoBehaviour
         string deviceId = "drone" + droneId; // ajuste conforme sua lógica
         string driverDeviceId = "driver" + droneId; // ajuste conforme sua lógica
 
+
+
         _mqttClient.PublishStartStreamMessage(deviceId, driverDeviceId);
+
+
 
         // Se necessário, você pode configurar o stream ativo no _streamsStore para o drone
         // _streamsStore.SetActiveStream(...);
@@ -141,7 +149,13 @@ public class DroneStreamListing : MonoBehaviour
         GameObject streamPlane = GameObject.FindGameObjectWithTag("StreamPlaneDrone");
         if (streamPlane != null)
         {
+            Debug.Log("O problema é aqui?");
             streamPlane.GetComponent<StreamPlane>().StartStream();
+            Debug.Log("Não");
+        }
+        else
+        {
+            Debug.LogError("StreamPlaneDrone not found");
         }
     }
 }

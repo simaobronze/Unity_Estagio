@@ -94,5 +94,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3e7e86ddeb7f54fbdbb031a1037e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 0
-  _streamPlanePrefab: {fileID: 0}
+  gridSize: 9
+  _streamPlanePrefab: {fileID: 4731442585403632816, guid: 0e20786cb10aeb941b4cd6d896e7c40b, type: 3}

@@ -61,16 +61,46 @@ public class StreamPlane : MonoBehaviour
 
     public void StartStream()
     {
+        if (_streamStore == null)
+        {
+            Debug.LogError("_streamStore is not assigned");
+            return;
+        }
+
         if (_streamStore.ActiveStreamId != 0)
         {
-            janus.StreamId = _streamStore.ActiveStreamId;
+            if (janus == null)
+            {
+                Debug.LogError("janus is not assigned");
+            }
+            else
+            {
+                janus.StreamId = _streamStore.ActiveStreamId;
+            }
         }
+
         if (_streamStore.ActiveUser != null)
         {
-            userName.text = _streamStore.ActiveUser.name;
-            streamInfo.SetActive(true);
+            if (userName == null)
+            {
+                Debug.LogError("userName is not assigned");
+            }
+            else
+            {
+                userName.text = _streamStore.ActiveUser.name;
+            }
+
+            if (streamInfo == null)
+            {
+                Debug.LogError("streamInfo is not assigned");
+            }
+            else
+            {
+                streamInfo.SetActive(true);
+            }
         }
     }
+
 
     public void ShowInfo()
     {

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7328743127333899736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8900596507947661786}
+  - component: {fileID: 5593739483155953094}
+  - component: {fileID: -4672168245133827786}
+  - component: {fileID: 2329493631229143013}
+  - component: {fileID: 7622030433095557729}
+  - component: {fileID: 1611987909218570407}
+  m_Layer: 0
+  m_Name: SessionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8900596507947661786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0629563, y: 0.92621565, z: 3.0621834}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5593739483155953094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70bff7dd8b78d845b94facd32af5ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiUrl: https://mt-gateway.mobitrust.org/api
+  _usersStore: {fileID: 11400000, guid: abe48574d96aeb944be7594032c69571, type: 2}
+  _missionsStore: {fileID: 11400000, guid: d0018df68e6e03b45a873ee0eae733b4, type: 2}
+  _streamsStore: {fileID: 11400000, guid: f3145f2fb82f4514f8926f58faeca972, type: 2}
+  map: {fileID: 0}
+--- !u!114 &-4672168245133827786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e3b7fc71f081f4d8de567ebf6db334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _usersStore: {fileID: 11400000, guid: abe48574d96aeb944be7594032c69571, type: 2}
+  email: admin@onesource.pt
+  password: Hc2TGB2EAF
+--- !u!114 &2329493631229143013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4bf9363442cf94ab1530e6b77b6db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _usersStore: {fileID: 11400000, guid: abe48574d96aeb944be7594032c69571, type: 2}
+  _missionsStore: {fileID: 11400000, guid: d0018df68e6e03b45a873ee0eae733b4, type: 2}
+--- !u!114 &7622030433095557729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348b20e5f14908c45937739c7ba7dd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mqttURL: message-broker.mobitrust.org
+  clientID: bk_k8s
+  username: admin@onesource.pt
+  password: Hc2TGB2EAF
+  _usersStore: {fileID: 11400000, guid: abe48574d96aeb944be7594032c69571, type: 2}
+  _imagesStore: {fileID: 11400000, guid: 48c3079d84c0a4d4b9ba6aff062218f2, type: 2}
+  _missionsStore: {fileID: 11400000, guid: d0018df68e6e03b45a873ee0eae733b4, type: 2}
+  _sessionManager: {fileID: 0}
+--- !u!114 &1611987909218570407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328743127333899736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39d0d57a739b69469620f081585e593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _usersStore: {fileID: 11400000, guid: abe48574d96aeb944be7594032c69571, type: 2}
+  _streamsStore: {fileID: 11400000, guid: f3145f2fb82f4514f8926f58faeca972, type: 2}

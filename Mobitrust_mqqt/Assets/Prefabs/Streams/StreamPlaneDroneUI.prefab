@@ -108,15 +108,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -347,15 +349,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -812,7 +816,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4731442585403632816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fce8993af76279c4cbb20b759c0a1956, type: 3}
+  m_Script: {fileID: 11500000, guid: 55591357055a41c4498cb3a99af514c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   streamId: 0
@@ -827,7 +831,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4731442585403632816}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca67554fc9dd4544c8154c1e3229753b, type: 3}
+  m_Script: {fileID: 11500000, guid: f26a38c289f3e4044acf8e022ed52ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   streamPlane: {fileID: 627746916994741692, guid: c945a411f125e5d4ba9d5a0e73a22fdd, type: 3}
@@ -835,7 +839,7 @@ MonoBehaviour:
   streamInfo: {fileID: 3199230362599910959}
   _pfp: {fileID: 0}
   userName: {fileID: 8119966724355761536}
-  _streamStore: {fileID: 11400000, guid: b77cbb3254816ce41b323d60abdb2e8b, type: 2}
+  _streamStore: {fileID: 11400000, guid: f3145f2fb82f4514f8926f58faeca972, type: 2}
 --- !u!114 &8721159854148125560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,15 +1097,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
