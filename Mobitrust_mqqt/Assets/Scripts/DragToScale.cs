@@ -1,99 +1,72 @@
 using UnityEngine;
 
-public class DragToScaleOVR : MonoBehaviour
+public class DragToScale : MonoBehaviour
 {
-    // Objeto que será escalado (atribua via Inspetor)
-    [SerializeField] private Transform objetoASerEscalado;
+    [SerializeField] private GameObject targetObject;
+    [SerializeField] private float scaleSpeed = 0.1f;
 
-    // Sensibilidade que define o quanto o movimento do controlador influencia a escala
-    [SerializeField] private float scaleSensitivity = 0.005f;
+    // Armazena a posição do handler no frame anterior para detectar o movimento
+    private Vector3 previousPosition;
+    // Define se o handler está sendo arrastado
+    private bool isDragging = false;
+    // Calcula e mantém o offset inicial entre o handler e o targetObject
+    private Vector3 initialOffset;
 
-    // Escala mínima para o objeto que será escalado, evitando escalas menores que o desejado
-    [SerializeField] private float minScale = 0.1f;
-
-    // Componente que permite o grab via OVR
-    private OVRGrabbable ovrGrabbable;
-
-    // Flag que indica se o scaling já iniciou
-    private bool isScaling = false;
-
-    // Posição do controlador no momento inicial do grab
-    private Vector3 initialControllerPos;
-
-    // Escala inicial do objeto que será escalado no início do grab
-    private Vector3 initialScale;
-
-    // Armazena a posição e rotação iniciais do handle (quadrado) para que este não se mova
-    private Vector3 initialHandlePos;
-    private Quaternion initialHandleRot;
-
-    void Awake()
+    private void Start()
     {
-        // Obtém o componente OVRGrabbable deste objeto
-        ovrGrabbable = GetComponent<OVRGrabbable>();
-        if (ovrGrabbable == null)
+        if (targetObject == null)
         {
-            Debug.LogError("OVRGrabbable não foi encontrado! Adicione-o ao handle (quadrado).");
-        }
-        // Salva a posição e rotação iniciais do handle
-        initialHandlePos = transform.position;
-        initialHandleRot = transform.rotation;
-    }
-
-    void Update()
-    {
-        // Se o objeto não estiver mais sendo agarrado, reseta o scaling e reposiciona o handle
-        if (!ovrGrabbable.isGrabbed)
-        {
-            isScaling = false;
-            transform.position = initialHandlePos;
-            transform.rotation = initialHandleRot;
+            Debug.LogError("Target object não foi atribuído.");
             return;
         }
+        // Calcula o offset inicial a partir das posições atuais
+        initialOffset = transform.position - targetObject.transform.position;
+    }
 
-        // Verifica se existe um controlador que está agarrando o objeto via OVR
-        if (ovrGrabbable.isGrabbed && ovrGrabbable.grabbedBy != null)
+    private void Update()
+    {
+        // Exemplo de detecção de input VR para arraste
+        if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
-            var grabber = ovrGrabbable.grabbedBy;
-
-            if (!isScaling)
+            if (!isDragging)
             {
-                isScaling = true;
-                // Registra a posição do controlador quando o grab inicia
-                initialControllerPos = grabber.transform.position;
-                // Registra a escala atual do objeto que será escalado
-                if (objetoASerEscalado != null)
-                {
-                    initialScale = objetoASerEscalado.localScale;
-                }
-                else
-                {
-                    Debug.LogError("Objeto a ser escalado não foi atribuído!");
-                }
+                isDragging = true;
+                previousPosition = transform.position;
             }
             else
             {
-                // Calcula a variação do movimento do controlador (usando o eixo X neste exemplo)
-                Vector3 currentControllerPos = grabber.transform.position;
-                Vector3 delta = currentControllerPos - initialControllerPos;
-                float scaleDelta = delta.x * scaleSensitivity;
+                Vector3 currentPosition = transform.position;
+                Vector3 delta = currentPosition - previousPosition;
 
-                if (objetoASerEscalado != null)
+                // Se o movimento for para a direita e para baixo, aumenta a escala
+                if (delta.x > 0 && delta.y < 0)
                 {
-                    // Calcula a nova escala somando a variação (para todos os eixos, de forma uniforme)
-                    Vector3 newScale = initialScale + new Vector3(scaleDelta, scaleDelta, scaleDelta);
-                    // Garante que a escala não seja menor que o valor mínimo estabelecido
-                    newScale.x = Mathf.Max(newScale.x, minScale);
-                    newScale.y = Mathf.Max(newScale.y, minScale);
-                    newScale.z = Mathf.Max(newScale.z, minScale);
-
-                    objetoASerEscalado.localScale = newScale;
+                    targetObject.transform.localScale += Vector3.one * scaleSpeed;
+                    Debug.Log("Aumentando escala.");
                 }
+                // Se o movimento for para a esquerda e para cima, diminui a escala
+                else if (delta.x < 0 && delta.y > 0)
+                {
+                    targetObject.transform.localScale -= Vector3.one * scaleSpeed;
+                    Debug.Log("Diminuindo escala.");
+                }
+
+                previousPosition = currentPosition;
             }
         }
+        else
+        {
+            // Quando deixar de arrastar, reseta a flag
+            isDragging = false;
+        }
+    }
 
-        // Redefine a posição e a rotação do handle para que ele não se desloque mesmo sendo agarrado
-        transform.position = initialHandlePos;
-        transform.rotation = initialHandleRot;
+    private void LateUpdate()
+    {
+        // Se o handler não estiver sendo arrastado, garante que ele fique próximo ao target
+        if (!isDragging && targetObject != null)
+        {
+            transform.position = targetObject.transform.position + initialOffset;
+        }
     }
 }
