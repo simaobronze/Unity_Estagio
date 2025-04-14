@@ -2253,6 +2253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vida e Pontos
       objectReference: {fileID: 0}
+    - target: {fileID: 5627687210263237757, guid: 29025a92b88d6c1409e42d84216e529c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6641370908636111952, guid: 29025a92b88d6c1409e42d84216e529c, type: 3}
       propertyPath: m_Sprite
       value: 

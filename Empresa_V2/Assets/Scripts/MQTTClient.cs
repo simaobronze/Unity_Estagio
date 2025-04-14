@@ -8,6 +8,7 @@ using UnityEngine.Networking;
 using System;
 using System.Collections;
 using Newtonsoft.Json;
+using System.Runtime.ConstrainedExecution;
 
 public class MQTTClient : MonoBehaviour
 {
@@ -79,7 +80,7 @@ public class MQTTClient : MonoBehaviour
             .WithTcpServer(mqttURL)
             .WithClientId($"{clientID}-{DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}")
             .WithCredentials(username, password)
-            .WithTls(new MqttClientOptionsBuilderTlsParameters()
+            /*.WithTls(new MqttClientOptionsBuilderTlsParameters()
             {
                 UseTls = true,
                 AllowUntrustedCertificates = true,
@@ -90,13 +91,14 @@ public class MQTTClient : MonoBehaviour
                     certCA.Export(X509ContentType.Cert),
                 },
                 CertificateValidationCallback = delegate { return true; }
-            })
+            }) */
             .WithProtocolVersion(MQTTnet.Serializer.MqttProtocolVersion.V311)
             .WithCleanSession()
             .Build();
 
             await _client.ConnectAsync(options);
-        } catch (System.Exception ex)
+        }
+        catch (System.Exception ex)
         {
             Debug.LogError(ex);
         }
@@ -122,7 +124,7 @@ public class MQTTClient : MonoBehaviour
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("notifications/control_all_ccc").Build());
 
 
-        
+
 
         //await client.SubscribeAsync(new TopicFilterBuilder().WithTopic("monitor").Build());
         //await client.SubscribeAsync(new TopicFilterBuilder().WithTopic("orchestrator/response").Build());
@@ -135,7 +137,8 @@ public class MQTTClient : MonoBehaviour
         try
         {
             data = JsonUtility.FromJson<MQTTPayloadGeneric>(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));
-        } catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             Debug.LogError(ex);
             return;
@@ -145,13 +148,13 @@ public class MQTTClient : MonoBehaviour
             if (data != null && data.info != null)
             {
                 if (data.type == "3d_object")
-				{
+                {
                     _missionsStore.UpdateFlightPlans(data.mission_id);
                     return;
                 }
-				//Debug.Log($"USER: {data.device_id}, VALUE_TYPE: {data.info.value_type}");
+                //Debug.Log($"USER: {data.device_id}, VALUE_TYPE: {data.info.value_type}");
 
-                if(data.type == "device_connection" || data.type == "start_stream_response")
+                if (data.type == "device_connection" || data.type == "start_stream_response")
                 {
                     Debug.Log("USERS debug -> new device connected updating users");
                     _sessionManager.UpdateUsers();
@@ -194,8 +197,8 @@ public class MQTTClient : MonoBehaviour
                                 return;
                             }
                             double[] location = { dataGeo.info.value.lat, dataGeo.info.value.lon, dataGeo.info.value.alt };
-                            userSensor = new UserSensor(dataGeo.device_id, dataGeo.type, null,location, false);
-                       
+                            userSensor = new UserSensor(dataGeo.device_id, dataGeo.type, null, location, false);
+
                         }
                         else
                         {
@@ -211,7 +214,8 @@ public class MQTTClient : MonoBehaviour
                     _usersStore.UpdateUserSensor(user);
                 }
             }
-        } catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             Debug.LogError($"MQTT ERROR - {data.driver_device_id} - {data.type} - {data.info.value_type} - {ex}");
         }

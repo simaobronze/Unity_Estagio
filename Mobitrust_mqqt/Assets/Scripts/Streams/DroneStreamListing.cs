@@ -63,25 +63,35 @@ public class DroneStreamListing : MonoBehaviour
         _streamsStore.streamsFetchedEvent.RemoveListener(UpdateList);
     }
 
-    // Método existente para atualizar a lista de streams (back-end)
     private void UpdateList(Dictionary<int, User> users)
     {
-        foreach (KeyValuePair<int, User> user in users)
+        // Para cada usuário recebido
+        foreach (KeyValuePair<int, User> kvp in users)
         {
-            if (_listedStreams.ContainsKey(user.Value.streams[0].stream_id))
+            User user = kvp.Value;
+            // Verifica se o usuário tem pelo menos uma stream (se isso for necessário)
+            if (user.streams == null || user.streams.Count <= 0)
                 continue;
-            if (user.Value.streams == null || user.Value.streams.Count <= 0)
+
+            // Verifica se já foi adicionado (usando a primeira stream como chave)
+            ulong streamId = user.streams[0].stream_id;
+            if (_listedStreams.ContainsKey(streamId))
                 continue;
+
             /* if (user.Value.streams[0].device_id.ToLower().Contains("drone"))
              {
                  _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
                  _droneStreams.Add(InstantiateButton(user.Value));
              }*/
-            _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
-            _droneStreams.Add(InstantiateButton(user.Value));
+
+            // Adiciona o usuário ao dicionário e instancia o botão
+            _listedStreams.Add(streamId, user);
+            _droneStreams.Add(InstantiateButton(user));
         }
+        // Atualiza o layout para garantir que os botões apareçam corretamente
         LayoutRebuilder.ForceRebuildLayoutImmediate(_list.transform as RectTransform);
     }
+
 
     // Método já existente para instanciar botões para usuários vindos do back-end
     private GameObject InstantiateButton(User user)

@@ -18,6 +18,7 @@ public class DroneStreamListing : MonoBehaviour
     // Para streams vindos do back-end (já existentes)
     private Dictionary<ulong, User> _listedStreams = new();
 
+    /*
     [System.Serializable]
     public class Drone
     {
@@ -33,13 +34,21 @@ public class DroneStreamListing : MonoBehaviour
         new Drone { nome = "drone3", id = 999 }
     };
 
+    */
+
     private List<GameObject> _droneStreams = new List<GameObject>();
 
     void Start()
     {
         _mqttClient = FindAnyObjectByType<MQTTClient>();
+        if (_mqttClient == null)
+        {
+            Debug.LogError("MQTTClient not found");
+        }
+        /*
         // Chama o método que instancia os botões a partir da array manual
         UpdateDronePanelManual();
+        */
     }
 
     void Update() { }
@@ -63,11 +72,13 @@ public class DroneStreamListing : MonoBehaviour
                 continue;
             if (user.Value.streams == null || user.Value.streams.Count <= 0)
                 continue;
-            if (user.Value.streams[0].device_id.ToLower().Contains("drone"))
-            {
-                _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
-                _droneStreams.Add(InstantiateButton(user.Value));
-            }
+            /* if (user.Value.streams[0].device_id.ToLower().Contains("drone"))
+             {
+                 _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
+                 _droneStreams.Add(InstantiateButton(user.Value));
+             }*/
+            _listedStreams.Add(user.Value.streams[0].stream_id, user.Value);
+            _droneStreams.Add(InstantiateButton(user.Value));
         }
         LayoutRebuilder.ForceRebuildLayoutImmediate(_list.transform as RectTransform);
     }
@@ -105,6 +116,7 @@ public class DroneStreamListing : MonoBehaviour
         }
     }
 
+    /*
     // Novo método para instanciar os botões usando a array manual de drones
     private void UpdateDronePanelManual()
     {
@@ -120,6 +132,10 @@ public class DroneStreamListing : MonoBehaviour
         }
         LayoutRebuilder.ForceRebuildLayoutImmediate(_list.transform as RectTransform);
     }
+    */
+
+
+    /*
 
     // Novo método para tratar o clique do botão do drone manual
     public void OnDroneClick(ulong droneId)
@@ -133,7 +149,11 @@ public class DroneStreamListing : MonoBehaviour
         string deviceId = "drone" + droneId; // ajuste conforme sua lógica
         string driverDeviceId = "driver" + droneId; // ajuste conforme sua lógica
 
+
+
         _mqttClient.PublishStartStreamMessage(deviceId, driverDeviceId);
+
+
 
         // Se necessário, você pode configurar o stream ativo no _streamsStore para o drone
         // _streamsStore.SetActiveStream(...);
@@ -141,16 +161,15 @@ public class DroneStreamListing : MonoBehaviour
         GameObject streamPlane = GameObject.FindGameObjectWithTag("StreamPlaneDrone");
         if (streamPlane != null)
         {
-            Debug.Log("Objeto streamPlane encontrado: " + streamPlane.name +
-                      "\nPosição: " + streamPlane.transform.position +
-                      "\nRotação: " + streamPlane.transform.rotation);
+            Debug.Log("O problema é aqui?");
             streamPlane.GetComponent<StreamPlane>().StartStream();
-            Debug.Log("Stream started for drone with id: " + droneId);
+            Debug.Log("Não");
         }
         else
         {
             Debug.LogError("StreamPlaneDrone not found");
         }
-
     }
+
+    */
 }
