@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using MQTTnet.Client;
 using MQTTnet;
@@ -10,10 +10,13 @@ using System.Collections;
 using Newtonsoft.Json;
 using uPLibrary.Networking.M2Mqtt;
 using System.Runtime.ConstrainedExecution;
+using System.Threading.Tasks;
+using System.Threading;
 
 public class MQTTClient : MonoBehaviour
 {
     private IMqttClient _client;
+    [SerializeField] private MQTTDataUIUpdater uiUpdater; 
     [SerializeField] private string mqttURL;
     [SerializeField] private string clientID;
     [SerializeField] private string username;
@@ -22,6 +25,9 @@ public class MQTTClient : MonoBehaviour
     [SerializeField] private ImagesScriptableObject _imagesStore;
     [SerializeField] private MissionsScriptableObject _missionsStore;
     [SerializeField] private SessionManager _sessionManager;
+
+    private readonly Queue<string> _pendingJson = new Queue<string>();
+    private readonly object _lock = new object();
 
 
 
@@ -40,7 +46,11 @@ public class MQTTClient : MonoBehaviour
             {
                 ConnectMQTTAsync(cert);
             }
-        })); 
+        }));
+
+        if (uiUpdater == null)
+            Debug.LogError("Não encontrou o MQTTDataUIUpdater na cena!");
+
         //Subscribes the methods to the events from the mqtt client
         _client.Connected += OnConnected;
         _client.ApplicationMessageReceived += OnMessageReceived;
@@ -49,6 +59,31 @@ public class MQTTClient : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /* var message = new MqttApplicationMessageBuilder()
+             .WithTopic("devices/" + "bronze" + "/data")
+             .WithPayload("estou a testar")
+             .WithExactlyOnceQoS()
+             .WithRetainFlag()
+             .Build();
+
+         await _client.PublishAsync(message);
+        */
+
+        // Processa todos os payloads que chegaram
+        while (true)
+        {
+            string json = null;
+            lock (_lock)
+            {
+                if (_pendingJson.Count > 0)
+                    json = _pendingJson.Dequeue();
+            }
+            if (json == null) break;
+
+            // Aqui já estamos no Main Thread: podemos tocar na UI
+            Debug.Log($"[MQTT DATA MAIN THREAD] {json}");
+            uiUpdater.UpdateUIFromJson(json);
+        }
     }
 
     void OnDestroy()
@@ -120,6 +155,7 @@ public class MQTTClient : MonoBehaviour
 
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("drone_images").Build());
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("devices/+/data").Build());
+        Debug.Log("MQTT -> Subscribed to devices/+/data");
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("devices/+/control_all_device").Build());
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("devices/+/control_device_ccc").Build());
         await _client.SubscribeAsync(new TopicFilterBuilder().WithTopic("notifications/control_all_ccc").Build());
@@ -134,6 +170,22 @@ public class MQTTClient : MonoBehaviour
     //Callback called when message is received via MQTT to process payload
     private void OnMessageReceived(object sender, MqttApplicationMessageReceivedEventArgs e)
     {
+
+        // Deserializa só para o Debug
+        string topic = e.ApplicationMessage.Topic;
+        if (topic.StartsWith("devices/") && topic.EndsWith("/data"))
+        {
+            string payload = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
+            Debug.Log($"[MQTT DATA CALLBACK] Recebido em '{topic}' → {payload}");
+
+            // Empurra para o buffer
+            lock (_lock)
+            {
+                _pendingJson.Enqueue(payload);
+            }
+        }
+
+
         MQTTPayloadGeneric data = null;
         try
         {
@@ -289,5 +341,17 @@ public class MQTTClient : MonoBehaviour
             .Build();
 
         await _client.PublishAsync(message);
+    }
+
+    public IMqttClient GetClient() { 
+        if (_client != null)
+        {
+            return _client;
+        }
+        else
+        {
+            Debug.LogError("MQTT Client is null");
+            return null;
+        }
     }
 }
