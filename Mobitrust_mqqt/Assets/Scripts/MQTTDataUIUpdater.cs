@@ -39,46 +39,34 @@ public class MQTTDataUIUpdater : MonoBehaviour
 {
     [Header("Minimap")]
     public RawImage minimapImage;
+    public Mapbox mapboxScript;
 
-    [Header("Feed de Vídeo Principal")]
-    public RawImage videoFeedImage;
+    [Header("UI Data")]
+    public TMP_Text altitudeText;
+    public TMP_Text homeDistanceText;
+    public TMP_Text droneBatteryText;
+    public TMP_Text remoteBatteryText;
+    public TMP_Text horizontalSpeedText;
+    public TMP_Text verticalSpeedText;
+    public TMP_Text speedXLessText;
+    public TMP_Text speedXPlusText;
+    public TMP_Text speedYMinusText;
+    public TMP_Text speedYPlusText;
 
-    [Header("Barra Inferior")]
-    public TMP_Text altitudeText;            
-    public TMP_Text homeDistanceText;  
-    public TMP_Text droneBatteryText;        
-    public TMP_Text remoteBatteryText;       
-    public TMP_Text horizontalSpeedText;     
-    public TMP_Text verticalSpeedText;       
 
-    [Header("Barra Lateral Direita Superior")]
-    public Button helpButton;           
-    public Button detailsButton;        
-    public Button droneCenterButton;    
-    public Toggle mapSizeToggle;        
+    private float currentVerticalSpeed = 0f;
+    private bool homeSet = false;
+    private float homeLat, homeLon;
 
-    [Header("Barra Lateral Direita Inferior")]
-    public TMP_Text esquerdaText;
-    public TMP_Text direitaText;
-    public TMP_Text cimaText;
-    public TMP_Text baixoText;
-
-    private float accumulatedDistance = 0f; // Distância acumulada
-    private float currentVerticalSpeed = 0f; // Velocidade vertical atual
-
-    void Update()
-    {
-        // Calcula distância acumulada: velocidade vertical * deltaTime
-        accumulatedDistance += currentVerticalSpeed * Time.deltaTime;
-        if (homeDistanceText != null)
-            homeDistanceText.text = accumulatedDistance.ToString("F2") + " m";
-    }
     public void UpdateUIFromJson(string jsonPayload)
     {
+        Debug.Log("[MQTTDataUIUpdater] JSON recebido: " + jsonPayload);
         DroneMessage message;
+        JObject jmsg;
         try
         {
             message = JsonConvert.DeserializeObject<DroneMessage>(jsonPayload);
+            jmsg = JObject.Parse(jsonPayload);
         }
         catch (Exception ex)
         {
@@ -86,68 +74,62 @@ public class MQTTDataUIUpdater : MonoBehaviour
             return;
         }
 
-        // Exemplo de atualização de dados da barra inferior, caso existam em info.geo:
-        var altItem = message.info.geo?.Find(x => x.value_type.Equals("altitude", StringComparison.OrdinalIgnoreCase));
+        // ALTITUDE
+        var altItem = message.info.flightControl
+            ?.Find(x => x.value_type.Equals("altitude", StringComparison.OrdinalIgnoreCase));
         if (altItem != null)
             altitudeText.text = altItem.value + " m";
 
-        // Outros campos podem ser atualizados a partir de flightControl e battery
-        SetTextValue(message.info.flightControl, "speed_horizontal", horizontalSpeedText, " m/s");
-        SetTextValue(message.info.flightControl, "speed_vertical", verticalSpeedText, " m/s");
+        // BATTERY
         SetTextValue(message.info.battery, "battery", droneBatteryText, "%");
         SetTextValue(message.info.battery, "controller_battery", remoteBatteryText, "%");
 
-        float speedX = 0f, speedY = 0f;
-        var xItem = message.info.flightControl?.Find(x =>
-            x.value_type.Equals("speed_x", StringComparison.OrdinalIgnoreCase));
-        if (xItem != null && float.TryParse(xItem.value.ToString(), out var parsedX))
-            speedX = parsedX;
+        // SPEED
+        SetTextValue(message.info.flightControl, "speed_horizontal", horizontalSpeedText, " m/s");
+        SetTextValue(message.info.flightControl, "speed_vertical", verticalSpeedText, " m/s");
 
-        var yItem = message.info.flightControl?.Find(x =>
-            x.value_type.Equals("speed_y", StringComparison.OrdinalIgnoreCase));
-        if (yItem != null && float.TryParse(yItem.value.ToString(), out var parsedY))
-            speedY = parsedY;
+        // Directions
+        float speedX = ParseValue(message.info.flightControl, "speed_x");
+        float speedY = ParseValue(message.info.flightControl, "speed_y");
+        UpdateDirectionUI(speedX, speedXPlusText, speedXLessText);
+        UpdateDirectionUI(speedY, speedYPlusText, speedYMinusText);
 
-        // 2. Atualizar esquerda/direita
-        if (speedX > 0f)
+        // GEO: drone_geo + home distance + map
+        try
         {
-            direitaText.text = speedX.ToString("F2") + " m/s";
-            esquerdaText.text = "N/A";
-        }
-        else if (speedX < 0f)
-        {
-            esquerdaText.text = Mathf.Abs(speedX).ToString("F2") + " m/s";
-            direitaText.text = "N/A";
-        }
-        else
-        {
-            // sem movimento horizontal
-            esquerdaText.text = direitaText.text = "0 m/s";
-        }
+            var geoArray = jmsg["info"]?["geo"] as JArray;
+            if (geoArray != null)
+            {
+                foreach (var elem in geoArray)
+                {
+                    if (elem["value_type"]?.ToString().Equals("drone_geo", StringComparison.OrdinalIgnoreCase) == true)
+                    {
+                        float lat = elem["lat"].ToObject<float>();
+                        float lon = elem["lon"].ToObject<float>();
+                        Debug.Log($"[MQTTDataUIUpdater] drone_geo: lat={lat}, lon={lon}");
 
-        // 3. Atualizar cima/baixo
-        if (speedY > 0f)
-        {
-            cimaText.text = speedY.ToString("F2") + " m/s";
-            baixoText.text = "N/A";
-        }
-        else if (speedY < 0f)
-        {
-            baixoText.text = Mathf.Abs(speedY).ToString("F2") + " m/s";
-            cimaText.text = "N/A";
-        }
-        else
-        {
-            // sem movimento vertical
-            cimaText.text = baixoText.text = "0 m/s";
-        }
+                        if (!homeSet)
+                        {
+                            homeLat = lat;
+                            homeLon = lon;
+                            homeSet = true;
+                        }
 
-        // Ações de botões podem ser configuradas no Inspector ou via código:
-        mapSizeToggle.onValueChanged.AddListener(isSmall =>
+                        double distHome = HaversineDistance(homeLat, homeLon, lat, lon);
+                        homeDistanceText.text = distHome.ToString("F2") + " m";
+
+                        if (mapboxScript != null)
+                            mapboxScript.SetDronePosition(lat, lon);
+
+                        break;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
         {
-            // Lógica para alternar tamanho do minimapa
-            minimapImage.rectTransform.sizeDelta = isSmall ? new Vector2(150, 150) : new Vector2(300, 300);
-        });
+            Debug.LogError("Error processing drone_geo: " + ex);
+        }
     }
 
     private void SetTextValue(List<DataItem> list, string key, TMP_Text target, string suffix = "")
@@ -155,5 +137,46 @@ public class MQTTDataUIUpdater : MonoBehaviour
         if (target == null || list == null) return;
         var item = list.Find(x => x.value_type.Equals(key, StringComparison.OrdinalIgnoreCase));
         target.text = item != null ? item.value + suffix : "N/A";
+    }
+
+    private float ParseValue(List<DataItem> list, string key)
+    {
+        var item = list?.Find(x => x.value_type.Equals(key, StringComparison.OrdinalIgnoreCase));
+        if (item != null && float.TryParse(item.value.ToString(), out var val))
+        {
+            currentVerticalSpeed = key.Equals("speed_vertical", StringComparison.OrdinalIgnoreCase) ? val : currentVerticalSpeed;
+            return val;
+        }
+        return 0f;
+    }
+
+    private void UpdateDirectionUI(float value, TMP_Text positive, TMP_Text negative)
+    {
+        if (value > 0f)
+        {
+            positive.text = value.ToString("F2") + " m/s";
+            negative.text = "N/A";
+        }
+        else if (value < 0f)
+        {
+            negative.text = Mathf.Abs(value).ToString("F2") + " m/s";
+            positive.text = "N/A";
+        }
+        else
+        {
+            positive.text = negative.text = "0 m/s";
+        }
+    }
+
+    private double HaversineDistance(double lat1, double lon1, double lat2, double lon2)
+    {
+        const double R = 6371000;
+        double dLat = (lat2 - lat1) * Math.PI / 180.0;
+        double dLon = (lon2 - lon1) * Math.PI / 180.0;
+        double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2)
+                 + Math.Cos(lat1 * Math.PI / 180.0) * Math.Cos(lat2 * Math.PI / 180.0)
+                 * Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+        double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+        return R * c;
     }
 }

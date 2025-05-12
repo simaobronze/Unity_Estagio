@@ -1,100 +1,168 @@
+using System;
 using System.Collections;
 using System.Globalization;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
+[RequireComponent(typeof(RawImage))]
 public class Mapbox : MonoBehaviour
 {
+    [Header("Mapbox Token")]
     public string token;
-    public float centerLongitude;
-    public float centerLatitude;
+
+    [Header("Map Settings")]
     public float zoom = 12f;
     public int bearing = 0;
     public int pitch = 0;
-    public enum style { Light, Dark, Streets, Outdoors, Satallite, SatelliteStreets};
-    public style mapStyle = style.Streets;
-    public enum resolution { low = 1, high = 2 };
-    public resolution mapResolution = resolution.high;
 
-    private int mapWidth = 800;
-    private int mapHeight = 600;
-    private string[] styleStr = new string[] { "light-v10", "dark-v10", "streets-v11", "outdoors-v11", "satellite-v9", "satellite-streets-v11" };
-    private string url = "";
-    private bool mapIsLoading = false; 
-    private Rect mapRect;
-    private bool updateMap = true;
+    public enum Style { Light, Dark, Streets, Outdoors, Satellite, SatelliteStreets }
+    public Style mapStyle = Style.Streets;
 
+    public enum CenterOn { Drone, VR }
+    [Header("Map Center")]
+    public CenterOn centerOn = CenterOn.Drone;
+
+    [Header("Map Resolution")]
+    public int scale = 1; // 1 or 2 for @2x
+
+    // Internal positions
+    private float droneLat, droneLon;
+    private float vrLat, vrLon;
+
+    // Cached values for changes
     private string tokenLast;
-    private float centerLatitudeLast;
-    private float centerLongitudeLast;
-    private float zoomLast = 12f;
-    private int bearingLast = 0;
-    private int pitchLast = 0;
-    private style mapStyleLast = style.Streets;
-    private resolution mapResolutionLast = resolution.high;
+    private float zoomLast;
+    private int bearingLast;
+    private int pitchLast;
+    private Style mapStyleLast;
+    private int scaleLast;
+    private float droneLatLast, droneLonLast;
+    private float vrLatLast, vrLonLast;
+    private CenterOn centerOnLast;
 
+    private RawImage rawImage;
+    private int mapWidth;
+    private int mapHeight;
 
+    private readonly string[] styleStrings = { "light-v10", "dark-v10", "streets-v11", "outdoors-v11", "satellite-v9", "satellite-streets-v11" };
+    private bool needsUpdate = true;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Awake()
+    {
+        rawImage = GetComponent<RawImage>();
+    }
+
     void Start()
     {
-        StartCoroutine(GetMapbox());
-        mapRect = gameObject.GetComponent<RawImage>().rectTransform.rect;
-        mapWidth = (int)Mathf.Round(mapRect.width);
-        mapHeight = (int)Mathf.Round(mapRect.height);
-
+        UpdateDimensions();
+        // Inicializa VR coordinates
+        InputDevice head = InputDevices.GetDeviceAtXRNode(XRNode.Head);
+        if (head.TryGetFeatureValue(CommonUsages.devicePosition, out Vector3 pos))
+            SetVRPosition(pos.x, pos.z);
+        StartCoroutine(UpdateMapTexture());
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (updateMap && (tokenLast != token || !Mathf.Approximately(centerLongitudeLast, centerLatitude) || Mathf.Approximately(centerLongitudeLast, centerLongitude) || zoomLast != zoom ||
-            bearingLast != bearing || pitchLast != pitch || mapStyleLast != mapStyle || mapResolutionLast != mapResolution)) {
-            
-            mapRect = gameObject.GetComponent<RawImage>().rectTransform.rect;
-            mapWidth = (int)Mathf.Round(mapRect.width);
-            mapHeight = (int)Mathf.Round(mapRect.height);
-            StartCoroutine(GetMapbox());
-            updateMap = false;
-        }        
+        if (needsUpdate || tokenLast != token ||
+            !Mathf.Approximately(zoomLast, zoom) || bearingLast != bearing || pitchLast != pitch ||
+            mapStyleLast != mapStyle || scaleLast != scale ||
+            centerOnLast != centerOn ||
+            !Mathf.Approximately(droneLatLast, droneLat) || !Mathf.Approximately(droneLonLast, droneLon) ||
+            !Mathf.Approximately(vrLatLast, vrLat) || !Mathf.Approximately(vrLonLast, vrLon))
+        {
+            needsUpdate = false;
+            UpdateDimensions();
+            StartCoroutine(UpdateMapTexture());
+        }
     }
 
-    IEnumerator GetMapbox()
+    void UpdateDimensions()
     {
-        string lon = centerLongitude.ToString(CultureInfo.InvariantCulture);
-        string lat = centerLatitude.ToString(CultureInfo.InvariantCulture);
-        string zm = zoom.ToString(CultureInfo.InvariantCulture);
-        string brg = bearing.ToString(CultureInfo.InvariantCulture);
-        string ptc = pitch.ToString(CultureInfo.InvariantCulture);
+        var rect = rawImage.rectTransform.rect;
+        mapWidth = Mathf.RoundToInt(rect.width);
+        mapHeight = Mathf.RoundToInt(rect.height);
+    }
 
-        url = $"https://api.mapbox.com/styles/v1/mapbox/{styleStr[(int)mapStyle]}/static/"
-            + $"{lon},{lat},{zm},{brg},{ptc}/"
-            + $"{mapWidth}x{mapHeight}"
-            + $"?access_token={token}";
+    public void SetDronePosition(float lat, float lon)
+    {
+        droneLat = lat;
+        droneLon = lon;
+        needsUpdate = true;
+    }
 
-        //Debug.Log ("O url é: " + url);
-        mapIsLoading = true;
-        UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
-        yield return www.SendWebRequest();
-        if(www.result != UnityWebRequest.Result.Success)
-            {
-            Debug.Log("Error: " + www.error);
-        }
-            else
+    public void SetVRPosition(float lat, float lon)
+    {
+        vrLat = lat;
+        vrLon = lon;
+        needsUpdate = true;
+    }
+
+    public void ForceUpdate() => needsUpdate = true;
+
+    private IEnumerator UpdateMapTexture()
+    {
+        if (string.IsNullOrEmpty(token))
         {
-            mapIsLoading = false;
-            gameObject.GetComponent<RawImage>().texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+            Debug.LogError("[Mapbox] Access token is empty.");
+            yield break;
+        }
+
+        string styleStr = styleStrings[(int)mapStyle];
+
+        // Selects the center based on the selected option
+        float centerLat = (centerOn == CenterOn.Drone) ? droneLat : vrLat;
+        float centerLon = (centerOn == CenterOn.Drone) ? droneLon : vrLon;
+
+        string lonD = droneLon.ToString(CultureInfo.InvariantCulture);
+        string latD = droneLat.ToString(CultureInfo.InvariantCulture);
+        string lonV = vrLon.ToString(CultureInfo.InvariantCulture);
+        string latV = vrLat.ToString(CultureInfo.InvariantCulture);
+        string lonC = centerLon.ToString(CultureInfo.InvariantCulture);
+        string latC = centerLat.ToString(CultureInfo.InvariantCulture);
+        string zoomStr = zoom.ToString(CultureInfo.InvariantCulture);
+        string bearingStr = bearing.ToString(CultureInfo.InvariantCulture);
+        string pitchStr = pitch.ToString(CultureInfo.InvariantCulture);
+        string scaleSuffix = scale > 1 ? $"@{scale}x" : string.Empty;
+
+        // Markers
+        string droneMarker = $"pin-l+ff0000({lonD},{latD})";
+        string vrMarker = $"pin-s+0000ff({lonV},{latV})";
+        string overlay = $"{droneMarker},{vrMarker}";
+
+        // URL with dynamic center
+        string url = $"https://api.mapbox.com/styles/v1/mapbox/{styleStr}/static/"
+                   + $"{overlay}/"
+                   + $"{lonC},{latC},{zoomStr},{bearingStr},{pitchStr}/"
+                   + $"{mapWidth}x{mapHeight}{scaleSuffix}?access_token={token}";
+
+        Debug.Log("[Mapbox] Fetching map: " + url);
+
+        using var request = UnityWebRequestTexture.GetTexture(url);
+        yield return request.SendWebRequest();
+
+        if (request.result != UnityWebRequest.Result.Success)
+            Debug.LogError($"[Mapbox] Error fetching map: {request.error}");
+        else
+        {
+            var tex = ((DownloadHandlerTexture)request.downloadHandler).texture;
+            rawImage.texture = tex;
+            Debug.Log("[Mapbox] Map updated successfully.");
+
+            // Cache
             tokenLast = token;
-            centerLatitudeLast = centerLatitude;
-            centerLongitudeLast = centerLongitude;
             zoomLast = zoom;
             bearingLast = bearing;
             pitchLast = pitch;
             mapStyleLast = mapStyle;
-            mapResolutionLast = mapResolution;
-            updateMap = true;
+            scaleLast = scale;
+            droneLatLast = droneLat;
+            droneLonLast = droneLon;
+            vrLatLast = vrLat;
+            vrLonLast = vrLon;
+            centerOnLast = centerOn;
         }
     }
 }

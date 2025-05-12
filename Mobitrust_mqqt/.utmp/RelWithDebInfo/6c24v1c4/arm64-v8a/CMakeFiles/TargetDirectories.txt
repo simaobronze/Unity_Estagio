@@ -1,0 +1,5 @@
+C:/Users/xbbro/Desktop/24_25/Estagio/Unity_Estagio/vr-drone/.utmp/RelWithDebInfo/6c24v1c4/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/xbbro/Desktop/24_25/Estagio/Unity_Estagio/vr-drone/.utmp/RelWithDebInfo/6c24v1c4/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/xbbro/Desktop/24_25/Estagio/Unity_Estagio/vr-drone/.utmp/RelWithDebInfo/6c24v1c4/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/xbbro/Desktop/24_25/Estagio/Unity_Estagio/vr-drone/.utmp/RelWithDebInfo/6c24v1c4/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/xbbro/Desktop/24_25/Estagio/Unity_Estagio/vr-drone/.utmp/RelWithDebInfo/6c24v1c4/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
