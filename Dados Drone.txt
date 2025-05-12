@@ -1,8 +1,0 @@
-	
-Agora é usar os dados que o drone manda pelo mqtt e mostá los na ui
-
-ele manda para o tópico "devices/+/data"
-
-
-
-Tu tens isso numa sala, com a televisão e tal mas acho que também podias fazer um modo diferente em que a ui aparece à frente do user
