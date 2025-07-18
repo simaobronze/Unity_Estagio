@@ -16,7 +16,7 @@ public class CoinSpawner : MonoBehaviour
     private int _maxCoinsInScene;
 
     [SerializeField]
-    private float _spawnInterval = 1.0f; // Intervalo de tempo entre spawns
+    private float _spawnInterval = 1.0f; 
 
     private void Start()
     {

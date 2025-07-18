@@ -13,7 +13,6 @@ public class CoinCollection : MonoBehaviour
         {
             Coin++;
             coinText.text = "Coins Collected: " + Coin.ToString();
-            Debug.Log("Coin collected: " + Coin);
             Destroy(other.gameObject);
         }
     }

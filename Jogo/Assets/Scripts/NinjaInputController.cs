@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 
 public class NinjaInputController : MonoBehaviour
 {
-
     public Vector2 MoveInputVector { get; private set; }
 
     public event Action OnJumpButtonPressed;

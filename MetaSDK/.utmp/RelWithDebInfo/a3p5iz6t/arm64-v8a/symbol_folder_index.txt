@@ -1,0 +1,1 @@
+C:\Users\xbbro\Desktop\24_25\Estagio\Unity_Estagio\MetaSDK\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\a3p5iz6t\obj\arm64-v8a
