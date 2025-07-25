@@ -1,1 +1,0 @@
-C:\Users\xbbro\Desktop\24_25\Estagio\Unity_Estagio\vr-drone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\106c3m6e\obj\arm64-v8a
